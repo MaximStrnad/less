@@ -1,0 +1,6 @@
+﻿.image-hover span {
+	color: #5e410d;
+}
+.image-hover:before {
+	background: #fdca00;
+}

@@ -1,0 +1,58 @@
+{block content}
+<section class="top-section top-small">
+    <div class="container-fluid">
+        <div class="headline-box">
+            <div class="filter-top-text-toggle">
+                <div n:if="$filter == ''">
+                    <h1 n:block=title>{_translation.naseprace.all.headline}</h1>
+                    <p>{_translation.naseprace.all.text|noescape}</p>
+                </div>
+                <div n:if="$filter == 'logo'">
+                    <h1>{_translation.naseprace.logo.headline}</h1>
+                    <p>{_translation.naseprace.logo.text|noescape}</p>
+                </div>
+                <div n:if="$filter == 'web'">
+                    <h1>{_translation.naseprace.web.headline}</h1>
+                    <p>{_translation.naseprace.web.text|noescape}</p>
+                </div>
+                <div n:if="$filter == 'obal'">
+                    <h1>{_translation.naseprace.obal.headline}</h1>
+                    <p>{_translation.naseprace.obal.text|noescape}</p>
+                </div>
+                <div n:if="$filter == 'others'">
+                    <h1>{_translation.naseprace.rest.headline}</h1>
+                    <p>{_translation.naseprace.rest.text|noescape}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="portfolio">
+    <div class="container-fluid">
+        <div class="filter">
+            <div class="type">
+                <a n:href="Page:seznamStudii">{_translation.naseprace.filter.type.t7}</a>
+                <a n:href="Page:nasePrace, 'filter' => 'logo'" n:class="$presenter->linkCurrent?active:inactive">{_translation.naseprace.filter.type.t2}</a>
+                <a n:href="Page:nasePrace, 'filter' => 'web'" n:class="$presenter->linkCurrent?active:inactive">{_translation.naseprace.filter.type.t3}</a>
+                <a n:href="Page:nasePrace, 'filter' => 'obal'" n:class="$presenter->linkCurrent?active:inactive">{_translation.naseprace.filter.type.t4}</a>
+                <a n:href="Page:nasePrace, 'filter' => 'others', 'others' => 'logo;web;obal'" n:class="$presenter->linkCurrent?active:inactive">{_translation.naseprace.filter.type.t6}</a>
+                <a n:href="Page:nasePrace, 'filter' => ''" n:class="$presenter->linkCurrent?active:inactive">{_translation.naseprace.filter.type.t1}</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="result">
+        {foreach $prace as $praca}
+            <div class="box" data-id="{$praca->getId()}">
+                <div class="image-wrap">
+                    <img src="/gfx/portfolio/{$praca->getSoubor()}.jpg" alt="">
+                </div>
+                <div class="info"></div>
+            </div>
+        {/foreach}
+    </div>
+</section>
+
+{/block}
+
+{block afterFooter}

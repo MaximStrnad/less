@@ -1,0 +1,29 @@
+{block content}
+<section class="news-list">
+    {foreach $novinky as $novinka}
+        <div class="news text-center">
+            <span class="time">{$novinka->getDatum()|date:'j. n. Y'}</span>
+            <h2>{$locale == 'cs' ? $novinka->getTitulek() : $novinka->getTitulekEn()|noescape}</h2>
+            <p>{$locale == 'cs' ? $novinka->getText() : $novinka->getTextEn()|noescape}</p>
+            {if '' !== $novinka->getSoubor()}
+                <img src="" data-src="/gfx/novinky/{$novinka->getSoubor()}" alt="{$locale == 'cs' ? $novinka->getTitulek() : $novinka->getTitulekEn()}">
+            {/if}
+            {if '' !== $novinka->getYoutube()}
+                <div class="yt-container">
+                    <div class="yt-wrapper">
+                        <iframe src="https://www.youtube.com/embed/{$novinka->getYoutube()}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            {/if}
+        </div>
+    {/foreach}
+    {if $showOlder == 1}
+        <div class="container-fluid text-right">
+            <a n:href="Page:novinky" class="arrow-down">{_translation.novinky.older}</a>
+        </div>
+    {/if}
+</section>
+
+{/block}
+
+{block afterFooter}

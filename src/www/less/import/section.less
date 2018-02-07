@@ -1,0 +1,217 @@
+section,
+div{
+    &.text-section{
+        padding-top: 4.21875vw;
+        padding-bottom: 4.947916667vw;
+
+        &.bg-dark-blue{
+            background: #0c3f44;
+
+            p{
+                color: #8ec5cf;
+            }
+        }
+
+        &.bg-destro{
+            background: #5e410d;
+
+            p{
+                color: #fdca00;
+            }
+        }
+
+        &.pb-small{
+            padding-bottom: 2.4vw;
+        }
+
+        .cycle-slideshow &{
+            width: 100%;
+            height: 100%;
+        }
+
+        .upper-headline{
+            text-transform: uppercase;
+            font-size: 0.6571428571rem;
+            display: inline-block;
+            font-family: 'seconda_softdemi', sans-serif;
+            margin-bottom: 6px;
+        }
+
+        &-big{
+            h2{
+                color: #fff;
+                font-size: 2.285714286rem;
+                margin-bottom: 0.1125vw;
+            }
+
+            p{
+                strong{
+                    font-size: 1.428571429rem;
+                }
+
+            }
+        }
+
+        &.bg-secondary-small{
+            padding-top: 3.645833333vw;
+            padding-bottom: 3.28125vw;
+
+            h2{
+                margin-bottom: 7px;
+            }
+
+            p{
+                line-height: normal;
+            }
+        }
+
+        &.show-logos{
+            padding-top: 11.04166667vw;
+            padding-bottom: 6.510416667vw;
+
+            @media (min-width: 1024px){
+                .row.kkz > *{
+                    &:first-child{
+                        img,
+                        span{
+                            margin-left: 5.989583333vw;
+                        }
+                    }
+
+                    &:last-child{
+                        img,
+                        span{
+                            margin-right: 5.989583333vw;
+                        }
+                    }
+                }
+
+                .img-wrap{
+                    min-height: 9.270833333vw;
+                    margin-bottom: 3.385416667vw;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+            span{
+                display: block;
+                font-size: 1.142857143rem;
+                line-height: 1.125;
+
+                @media (max-width: 1023px){
+                    margin-top: 10px;
+                    margin-bottom: 50px;
+                }
+            }
+
+            .brown{
+                span{
+                    color: #5e410d;
+                }
+            }
+        }
+
+        &.obsah-forma{
+            padding: 3.229166667vw 0  4.375vw;
+        }
+
+        &.creating-box{
+            text-align: center;
+            padding-top: 7.11875vw;
+            padding-bottom: 5.647917vw;
+
+            h3{
+                font-size: 2.428571429rem;
+                padding-top: 46px;
+                background: url(../gfx/creating-headline-ico.png) no-repeat center top;
+                margin-bottom: 0.2604166667vw;
+            }
+
+            p{
+                font-size: 1rem;
+                line-height: normal;
+            }
+
+            .btn{
+                margin-top: 4.166666667vw;
+                font-size: 1.571428571rem;
+                padding: 1.020833vw 4.5vw 0.86875vw;
+				
+				@media(max-width: 480px){
+			       	padding: 1.8vw 9.0vw;
+				}
+
+            }
+        }
+    }
+}
+
+
+
+section{
+
+    &.top-section{
+        background: #f4f7f7;
+        padding-top: 15vw;
+        padding-bottom: 6.09375vw;
+
+        &.top-small{
+            padding-bottom: 0.15625vw;
+        }
+
+        &.top-medium{
+            padding-bottom: 3.229166667vw;
+        }
+
+        @media(max-width: 1023px){
+            padding-top: 100px;
+        }
+    }
+
+    &.bg-white{
+        background: #fff;
+    }
+
+    &.bg-primary{
+        padding: 4.166666667vw 0 5.78125vw;
+
+        &-small{
+            padding: 4.583333333vw 0 3.802083333vw;
+
+            h2{
+                margin-bottom: 0.3125vw;
+            }
+
+            p{
+                line-height: 1.214285714;
+            }
+        }
+
+
+
+    }
+
+    &.contact{
+        padding-bottom: 4.427083333vw;
+    }
+
+    .container-fluid{
+        .wideContainer();
+    }
+}
+
+.row{
+    &.valign-center{
+        @media(min-width: 1024px){
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.bg-primary{
+    background: transparent;
+    color: inherit;
+}

@@ -1,0 +1,93 @@
+.content-slide h1,
+.content-slide h2,
+.content-slide h3,
+.content-slide h4,
+.content-slide h5,
+.content-slide h6,
+.content-slide p,
+.content-slide a,
+.content-slide li,
+.content-slide span{
+    color: #fff;
+}
+
+.content-slide .highlight {
+	border-color: #fff;	
+	}
+
+section.bg-primary {
+    background: #00471c;
+}
+section.bg-primary-small {
+    background: #00471c;
+}
+section.bg-secondary-small {
+	background: #00471c;
+}
+
+section.bg-primary-small h1,
+section.bg-primary-small h2,
+section.bg-primary-small h3,
+section.bg-primary-small h4,
+section.bg-primary-small h5,
+section.bg-primary-small h6,
+section.bg-primary-small p,
+section.bg-primary-small a,
+section.bg-primary-small li,
+section.bg-primary-small span {
+    color: #fff;
+}
+section.bg-primary h1,
+section.bg-primary h2,
+section.bg-primary h3,
+section.bg-primary h4,
+section.bg-primary h5,
+section.bg-primary h6,
+section.bg-primary p,
+section.bg-primary a,
+section.bg-primary li,
+section.bg-primary span {
+    color: #fff;
+}
+section.bg-secondary-small h1,
+section.bg-secondary-small h2,
+section.bg-secondary-small h3,
+section.bg-secondary-small h4,
+section.bg-secondary-small h5,
+section.bg-secondary-small h6,
+section.bg-secondary-small p,
+section.bg-secondary-small a,
+section.bg-secondary-small li,
+section.bg-secondary-small span {
+	color: #fff;
+}
+section.bg-secondary-small span {
+	color: #c09953;
+}
+
+.bg-primary .cols-4 span {
+    color: #c09953;
+}
+
+.show-logos span {
+	color: #00471c;
+	}
+
+div.loader-next-page {
+    background: #5e410d;
+}
+
+.loader-next-page .content-slide .overlay{
+    background: rgba(94, 65, 13, 0.8);
+}
+
+.loader-next-page .content-slide h2,
+.loader-next-page .content-slide .percent{
+    color: #5e410d;
+}
+.image-hover span {
+	color: #fff;
+}
+.image-hover:before {
+	background: #00471c;
+}

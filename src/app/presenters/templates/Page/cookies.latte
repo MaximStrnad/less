@@ -1,0 +1,122 @@
+{* This is the welcome page, you can delete it *}
+
+{block content}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUHgSBQfJ0vENgyRIbblzjjrRLI7YnDvU" type="text/javascript"></script>
+<script>
+    var map;
+    function initialize() {
+        var mapOptions = {
+            zoom: 17,
+            center: new google.maps.LatLng(50.143998, 14.099969)
+            , mapTypeControl: false
+            , overviewMapControl: false
+            , streetViewControl: false
+            , rotateControl: false
+            , panControl: false
+            , zoomControl: false
+            , scaleControl: false
+            , draggable: true
+            , scrollwheel: false
+            , styles : [
+                {
+                    "featureType": "all",
+                    "elementType": "all",
+                    "stylers": [
+                        {
+                            "saturation": "-100"
+                        },
+                        {
+                            "lightness": "-53"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                        {
+                            "color": "#174243"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                        {
+                            "color": "#355456"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#305052"
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road",
+                    "elementType": "geometry",
+                    "stylers": [
+                        {
+                            "color": "#003336"
+                        }
+                    ]
+                }
+            ]
+        };
+        map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+
+        var myLatLng = new google.maps.LatLng(50.143998, 14.099969);
+        var icon = "/gfx/map-pointer.png";
+        var beachMarker = new google.maps.Marker({
+            position: myLatLng,
+            icon: icon,
+            map: map
+        });
+    }
+
+    //google.maps.event.addDomListener(window, 'load', initialize);
+    window.setTimeout("initialize()", 500);
+
+</script>
+
+
+<section class="top-section contact">
+    <div class="container-fluid">
+        <div class="headline-box">
+			{_translation.cookies.page|noescape}
+        </div>
+    </div>
+</section>
+<section class="box-present obsah-forma" id="scrollTo">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <img src="/gfx/onas/obsah-forma.png" alt="{_translation.onas.grey.headline}" style="height: 2.291666667vw; max-height: 44px;">
+            </div>
+            <div class="col-md-6 text-right">
+                <div class="inner">
+                    <h2>{_translation.success.grey.headline|noescape}</h2>
+                    <p>{_translation.success.grey.text|noescape}</p>
+                    <a n:href="Page:obsahForma" class="btn btn-grey">
+                        <span class="btn__text">
+                            {_translation.homepage.project.link}
+                        </span>
+                        <svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 39.85 73.57">
+                        <polygon points="4.55 73.57 0 68.78 30.79 36.79 0 4.79 4.55 0 39.85 36.73 39.79 36.79 39.85 36.84 4.55 73.57" style="fill: currentColor;fill-rule: evenodd; stroke: currentColor; stroke-width: 2px"/></svg>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{/block}
+
+{block afterFooter}

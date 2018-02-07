@@ -1,0 +1,32 @@
+.show-website .container-fluid {
+  position: relative;
+}
+.show-website .desktop {
+  background: url(../../gfx/mac.png) no-repeat center top;
+  background-size: 100%;
+  width: 100%;
+  max-width: 1080px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -540px;
+}
+.show-website .desktop .website {
+  margin: 24px 51px 200px;
+  height: 500px;
+}
+.show-website .phone {
+  background: url(../../gfx/iphone.png) no-repeat center top;
+  background-size: 100%;
+  width: 100%;
+  max-width: 171px;
+}
+.show-website .phone .website {
+  margin: 24px 51px 200px;
+  height: 500px;
+}
+.show-website .link {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

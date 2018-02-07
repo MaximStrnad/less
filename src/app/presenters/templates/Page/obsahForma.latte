@@ -1,0 +1,129 @@
+{* This is the welcome page, you can delete it *}
+
+{block content}
+
+<section class="content-slide box-grey logo-absolute" style="background-image: url(../gfx/backgrounds/bg-grey.jpg);">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                            {if $locale == 'cs'}
+                            <img src="/gfx/obsahforma/obsahforma-logo.png" alt="Obsah+Forma" style="height: 3.333333333vw; max-height: 44px;">
+                            {/if}
+                            {if $locale == 'en'}
+                            <img src="/gfx/obsahforma/obsahforma-logo_en.png" alt="Content+Form" style="height: 3.333333333vw; max-height: 44px;">
+                            {/if}			
+            </div>
+            <div class="col-md-6 text-right highlight-white">
+                <h1 n:block=title>{_translation.obsahforma.slide.headline|noescape}</h1>
+                <p>{_translation.obsahforma.slide.text|noescape}</p>
+                <span class="highlight">{_translation.obsahforma.slide.highlight.hig1}</span><span class="highlight">{_translation.obsahforma.slide.highlight.hig2}</span><span class="highlight">{_translation.obsahforma.slide.highlight.hig3}</span><span class="highlight">{_translation.obsahforma.slide.highlight.hig4}</span><br><span class="highlight">{_translation.obsahforma.slide.highlight.hig5}</span><span class="highlight">{_translation.obsahforma.slide.highlight.hig6}</span><span class="highlight">{_translation.obsahforma.slide.highlight.hig7}</span>
+            </div>
+        </div>
+        <div class="ddd-logo">
+            <img src="/gfx/ddd-logo.png" alt="Logo">
+        </div>
+        <a href="#fisrt-section" class="scroll-to jumping-arrow kkzpp-arrow"></a>
+    </div>
+</section>
+<section class="text-section obsah-forma" id="fisrt-section">
+    <div class="container-fluid">
+        <div class="box-obsah-forma">
+            <div class="text-center top-text">
+                <p>{_translation.obsahforma.topBox|noescape}</p>
+                <p>{_translation.obsahforma.uxPin|noescape}</p>
+				<a href="http://www.uxpin.com" target="_blank"><img src="/gfx/obsahforma/uxpin.png" alt="Obsah+Forma" style="height: 5vw; max-height: 96px;"></a>
+            </div>
+            <div class="list">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3>{_translation.obsahforma.list.b1.headline}</h3>
+                        <p>{_translation.obsahforma.list.b1.text|noescape}</p>
+                    </div>
+                    <div class="col-sm-6">
+
+                    </div>
+                    <span>1</span>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>{_translation.obsahforma.list.b2.headline}</h3>
+                        <p>{_translation.obsahforma.list.b2.text|noescape}</p>
+                    </div>
+                    <span>2</span>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3>{_translation.obsahforma.list.b3.headline}</h3>
+                        <p>{_translation.obsahforma.list.b3.text|noescape}</p>
+                    </div>
+                    <div class="col-sm-6">
+
+                    </div>
+                    <span>3</span>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>{_translation.obsahforma.list.b4.headline}</h3>
+                        <p>{_translation.obsahforma.list.b4.text|noescape}</p>
+                        <p class="small">{_translation.obsahforma.list.b4.textSmall|noescape}</p>
+                    </div>
+                    <span>4</span>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3>{_translation.obsahforma.list.b5.headline}</h3>
+                        <p>{_translation.obsahforma.list.b5.text|noescape}</p>
+                    </div>
+                    <div class="col-sm-6">
+
+                    </div>
+                    <span>5</span>
+                </div>
+            </div>
+            <p class="text-center">{_translation.obsahforma.list.bottom|noescape}</p>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="image">
+                        <img src="/gfx/obsahforma/1.png" alt="" style="height: 4.84375vw; max-height: 93px; margin-left: 24px;">
+                    </div>
+                    <h3>{_translation.obsahforma.bottomRow.headline1|noescape}</h3>
+                </div>
+                <div class="col-sm-4">
+                    <div class="image">
+                        <img src="/gfx/obsahforma/2.png" alt="" style="height: 4.947916vw; max-height: 95px;  margin-left: 10px;">
+                    </div>
+                    <h3>{_translation.obsahforma.bottomRow.headline2|noescape}</h3>
+                </div>
+                <div class="col-sm-4">
+                    <div class="image">
+                        <img src="/gfx/obsahforma/3.png" alt="" style="height: 4.791666vw; max-height: 92px;  margin-left: 24px;">
+                    </div>
+                    <h3>{_translation.obsahforma.bottomRow.headline3|noescape}</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="box-present blue-info">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-md-push-6 text-right">
+                <div class="inner">
+                    <h2>{_translation.homepage.blue.headline}</h2>
+                    <p>{_translation.homepage.blue.text}</p>
+                    {control contactFormSmall}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{/block}
+
+{block afterFooter}

@@ -1,0 +1,58 @@
+.image-hover span {
+	color: #003c40;
+}
+.image-hover:before {
+	background: #f4f7f7;
+}
+
+/**
+    Change only "max-width" for each breakpoint
+    Leave "min-width" same (769px)
+ */
+
+/*@media (max-width: 1230px) and (min-width: 769px) {
+    .homepage-slide .container-fluid .text h1 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .homepage-slide .container-fluid .text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .homepage-slide .container-fluid .text .btn {
+        font-size: 15px;
+    }
+
+    .homepage-slide .container-fluid .ddd-logo img {
+        max-width: 70%;
+    }
+
+
+    .box-present .container-fluid > .row {
+        height: 50vh;
+    }
+
+    .box-present[class*="project-"] img,
+    .box-present.blue-info img {
+        max-width: 60%;
+    }
+
+    .box-present[class*="project-"] h2,
+    .box-present.blue-info h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .box-present[class*="project-"] p,
+    .box-present.blue-info p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .box-present[class*="project-"] .btn,
+    .box-present.blue-info .btn {
+        font-size: 15px;
+    }
+}*/

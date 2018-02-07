@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="{$locale}">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Grafické studio Dost dobrý design. Vytváříme značky a jejich loga, weby, obaly, prezentace. Připravíme vás na obdiv.">
+	<meta name="keywords" content="grafické studio, grafický design, tvorba, logo, logotyp, web, webové stránky, e-shop, e-commerce, obal, obaly, packaging, prezentace.">
+	<link rel="stylesheet" href="/css/default-bootstrap.css">
+    {if isset($hasSpecialCss) && $hasSpecialCss}
+        <link rel="stylesheet" href="/css/{$hasSpecialCss}.css">
+    {/if}
+
+	<title>Grafické studio Dost dobrý design{ifset title} | {include title|stripHtml}{/ifset}</title>
+	
+<script type="text/javascript">
+    window.smartlook||(function(d) {
+    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+    c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+    })(document);
+    smartlook('init', '86e40a378d751a719a085ce2a0b8a597d012d085');
+</script>
+	
+</head>
+<body>
+<div class="cookies text-right" style="display: none;">
+    <p>{_translation.cookies.text} <a n:href="Page:cookies">{_translation.cookies.info}</a></p>
+    <a href="#" class="btn btn-blue-dark">{_translation.cookies.btn}</a>
+</div>
+
+    <header id="header">
+        <div class="container-fluid">
+            <div class="wrapper">
+                <div class="logo pull-left">
+                    <a n:href="Page:default">Dost dobrý design...</a>
+                </div>
+                <div class="info pull-left">
+                    <span><h1>{_translation.header.info.sect0}. </h1><h2>{_translation.header.info.sect1} <a n:href="Page:vytvarimeLoga">{_translation.header.info.sect2}</a>, <a n:href="Page:vytvarimeWeby">{_translation.header.info.sect3}</a>, <a n:href="Page:vytvarimeObaly">{_translation.header.info.sect6}</a> {_translation.header.info.sect7} <a n:href="Page:vytvarimePrezentace">{_translation.header.info.sect8}</a>.</h2></span>
+                </div>
+                <div class="pull-right responsive-toggle">
+                    <nav>
+                        <ul id="nav">
+                            <li n:class="$presenter->isLinkCurrent('Page:default') ? active"><a n:href="Page:default">{_translation.header.navigation.nav0}</a></li>
+                            <li n:class="$presenter->isLinkCurrent('Page:seznamStudii') ? active"><a n:href="Page:seznamStudii">{_translation.header.navigation.nav1}</a></li>
+                            {if $locale == 'cs'}
+                            <li n:class="$presenter->isLinkCurrent('Page:clanky') ? active"><a n:href="Page:clanky">{_translation.header.navigation.nav3}</a></li>
+                            {/if}
+                            <li n:class="$presenter->isLinkCurrent('Page:onas') ? active"><a n:href="Page:onas">{_translation.header.navigation.nav4}</a></li>
+                            <li n:class="$presenter->isLinkCurrent('Page:kontakt') ? active"><a n:href="Page:kontakt">{_translation.header.navigation.nav5}</a></li>
+                        </ul>
+                    </nav>
+                    <ul id="social">
+                        <li class="instagram"><a href="https://www.instagram.com/zdeneksladek/" target="_blank"></a></li>
+                        <li class="facebook"><a href="https://www.facebook.com/dostdobrydesign/" target="_blank"></a></li>
+                    </ul>
+                    <nav>
+                        <ul id="language">
+                            {if $locale == 'cs'}
+                            <li><a n:href="this, 'locale' => 'en'">english</a></li>
+                            {/if}
+                            {if $locale == 'en'}
+                            <li><a n:href="this, 'locale' => 'cs'">česky</a></li>
+                            {/if}
+                        </ul>
+                    </nav>
+                </div>
+                <span class="nav-toggle">menu</span>
+            </div>
+        </div>
+    </header>
+	<div class="container-fluid flash-messages"><div n:foreach="$flashes as $flash" class="alert alert-{$flash->type}">{$flash->message}</div></div>
+
+
+	{block content}{/block}
+
+    
+    {if isset($hasFooter) && $hasFooter}
+        <footer id="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-6 text-right">
+                        <h2>{_translation.footer.headline|noescape}<a href="https://www.linkedin.com/in/zdeneksladek" class="linkedIn" target="_blank"></a></h2>
+                        <p>{_translation.footer.text}</p>
+                        <a class="news" n:href="Page:clanky">{_translation.footer.newsLink}</a><br>
+                        <a href="tel:00420603323436">+ 420 603 323 436</a><br>
+                        <a href="mailto:zdenek@dostdobrydesign.cz">zdenek@dostdobrydesign.cz</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-8 text-right">
+                        <img src="/gfx/footer/logo-ddd.svg" alt="DDD logo" style="height: 3.90625vw; max-height: 75px;">
+                        <p>{_translation.footer.bottomText}</p>
+                        <img src="/gfx/footer/ugd.png" alt="unie grafického designu" style="height: 1.197916667vw; max-height: 23px;">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    {/if}
+
+    {block afterFooter}{/block}
+
+
+	{block scripts}
+	<script src="https://nette.github.io/resources/js/netteForms.min.js"></script>
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/plugins.js"></script>
+	<script src="/js/init.js"></script>
+	{/block}
+
+
+<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-8038272-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+</script>
+
+<script type="text/javascript">
+	var leady_track_key="Omb6RhJa2YO54Ku4";
+	var leady_track_server=document.location.protocol+"//t.leady.cz/";
+	(function(){
+		var l=document.createElement("script");l.type="text/javascript";l.async=true;
+		l.src=leady_track_server+leady_track_key+"/L.js";
+		var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(l,s);
+	})();
+</script>
+
+<!-- Google Code for kontaktn&iacute; formul&aacute;&#345; Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 849056748;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "dvm5CNCI7XIQ7KfulAM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/849056748/?label=dvm5CNCI7XIQ7KfulAM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://ifirmy.cz/pxstats/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "2561"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+
+
+</body>
+</html>

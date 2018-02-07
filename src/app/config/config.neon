@@ -1,0 +1,58 @@
+extensions:
+    dibi: Dibi\Bridges\Nette\DibiExtension22
+    translation: Kdyby\Translation\DI\TranslationExtension
+
+parameters:
+    contact:
+        mail: "zdenek.sladek@dostdobrydesign.cz"
+
+application:
+    errorPresenter: Error
+    mapping:
+        *: App\*Module\Presenters\*Presenter
+
+session:
+    expiration: 14 days
+
+translation:
+    default: cs
+    fallback: [cs_CZ, cs]
+
+services:
+    router: App\RouterFactory::createRouter
+
+    - App\Model\Helpers
+
+    tracyMailer:
+        class: \App\TracyMailer
+
+    tracy.logger:
+        factory: Tracy\Debugger::getLogger()
+        setup:
+            - $mailer([@tracyMailer, 'send'])
+
+tracy:
+    email: ahoj@ondrejvaclavik.cz
+    strictMode: false
+    showBar: true
+    showLocation: true
+    maxDepth: 3
+    maxLen: 150
+    scream: false
+
+dibi:
+	driver: mysqli
+	host: ::getenv(DB_HOST)
+	username: ::getenv(DB_USER)
+	password: ::getenv(DB_PASS)
+	database: ::getenv(DB_DATABASE)
+	charset: utf8
+	profiler: true
+
+mail:
+    smtp: true
+    host: ::getenv(MAIL_HOST)
+    port: ::getenv(MAIL_PORT)
+    username: ::getenv(MAIL_USER)
+    password: ::getenv(MAIL_PASS)
+    secure: ::getenv(MAIL_SECURE)

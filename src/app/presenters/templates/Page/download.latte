@@ -1,0 +1,46 @@
+{block content}
+
+<section class="top-section top-medium">
+    <div class="container-fluid">
+        <div class="headline-box">
+            <h1>{_translation.download.headline}</h1>
+            <p class="mb-small">{_translation.download.text|noescape}</p>
+        </div>
+        <div class="box-download">
+            <img src="/gfx/download/typokarta.png" alt="">
+            <h2>ddd_typokarta.pdf<span>1,3 MB</span></h2>
+            <a href="/files/ddd_typo.pdf" target="_blank" class="btn btn-orange">
+                <span class="btn__text">
+                    {_translation.download.btn}
+                </span>
+                <svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 39.85 73.57">
+                <polygon points="4.55 73.57 0 68.78 30.79 36.79 0 4.79 4.55 0 39.85 36.73 39.79 36.79 39.85 36.84 4.55 73.57" style="fill: currentColor;fill-rule: evenodd; stroke: currentColor; stroke-width: 2px"/></svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="box-present blue-info">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-md-push-6 text-right">
+                <div class="inner">
+                    <h2>{_translation.homepage.blue.headline}</h2>
+                    <p>{_translation.homepage.blue.text}</p>
+                    <a n:href="Page:lead" class="btn btn-orange btn-big">
+                        <span class="btn__text">
+                            {_translation.homepage.blue.accept}
+                        </span>
+                        <svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 39.85 73.57">
+                        <polygon points="4.55 73.57 0 68.78 30.79 36.79 0 4.79 4.55 0 39.85 36.73 39.79 36.79 39.85 36.84 4.55 73.57" style="fill: currentColor;fill-rule: evenodd; stroke: currentColor; stroke-width: 2px"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{/block}
+
+{block afterFooter}
