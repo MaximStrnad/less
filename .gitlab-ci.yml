@@ -19,7 +19,7 @@ build:
      - master
 
 deploy:
-   image: registry.gitlab.com/dostdobrydesign/server/deploy:master
+   image: registry.gitlab.com/ddd-sites/service-images/deploy:master
    stage: deploy
    variables:
      GIT_STRATEGY: none
