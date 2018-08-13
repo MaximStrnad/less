@@ -2,7 +2,9 @@
 /src/log/*
 !/src/log/.gitignore
 /src/temp/*
-!/src/temp/.gitignore
+!/src/temp/sessions
+/src/temp/sessions/*
+!/src/temp/sessions/.gitignore
 /src/vendor
 /store
 Thumbs.db
