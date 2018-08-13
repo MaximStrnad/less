@@ -33,7 +33,7 @@ build:
    stage: build
    script:
      - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN $CI_REGISTRY
-     - docker build -t $IMAGE_TAG_BRANCH .
+     - docker build --target production -t $IMAGE_TAG_BRANCH .
      - docker push $IMAGE_TAG_BRANCH
    only:
      - master

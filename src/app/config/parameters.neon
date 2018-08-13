@@ -1,3 +1,5 @@
 parameters:
+	contact:
+		mail: "zdenek.sladek@dostdobrydesign.cz"
 	mail:
 		adminEmail: ahoj@ondrejvaclavik.cz

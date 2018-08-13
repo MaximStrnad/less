@@ -3,11 +3,18 @@
 return [
 	'parameters' => [
 		'database' => [
-			'host' => getenv('MYSQL_HOST'),
-			'name' => getenv('MYSQL_NAME'),
-			'user' => getenv('MYSQL_USER'),
-			'port' => getenv('MYSQL_PORT'),
-			'pass' => getenv('MYSQL_PASS'),
+			'host' => getenv('DB_HOST'),
+			'name' => getenv('DB_DATABASE'),
+			'user' => getenv('DB_USER'),
+			'port' => getenv('DB_PORT'),
+			'pass' => getenv('DB_PASS'),
+		],
+		'smtp' => [
+			'host' => getenv('MAIL_HOST'),
+			'port' => getenv('MAIL_PORT'),
+			'username' => getenv('MAIL_USER'),
+			'password' => getenv('MAIL_PASS'),
+			'secure' => getenv('MAIL_SECURE'),
 		],
 	],
 ];

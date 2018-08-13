@@ -14,7 +14,8 @@ services:
         DB_HOST: mysql
         DB_USER: root
         DB_PASS: pass
-        DB_DATABASE: dostdobrydesign
+        DB_DATABASE: proteindesign
+        DB_PORT: 3306
         MAIL_HOST: mail
         MAIL_PORT: 1025
         MAIL_USER:
@@ -37,6 +38,7 @@ services:
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_czech_ci --init-connect='SET NAMES UTF8;' --innodb-flush-log-at-trx-commit=0
     volumes:
       - ./store/mysql:/var/lib/mysql
+      - ./dump.sql:/docker-entrypoint-initdb.d/dump.sql:ro
     ports:
       - 3306:3306
     environment:

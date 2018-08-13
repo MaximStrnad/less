@@ -2,8 +2,6 @@
 
 namespace App\Presenters;
 
-use App\Model\DruhPrace;
-use \App\Model\Helpers;
 use Nette;
 use Nette\Application\UI;
 use Nette\Mail\Message;
