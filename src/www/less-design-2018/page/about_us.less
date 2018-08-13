@@ -1,0 +1,50 @@
+&--about-us {
+	.page__title {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	.page__description {
+		padding-bottom: 2.5rem;
+	}
+
+	.about-us {
+		&__items {
+			.item {
+				padding-top: 1.0rem;
+				background-color: white;
+
+				&__title {
+					.font-weight-extrabold;
+				}
+
+				&__description {
+					line-height: @font-line-height;
+					padding-bottom: 0.75rem;
+				}
+			}
+		}
+
+		&__history {
+			.item {
+				&__title {
+					.font-weight-extrabold;
+					.fontSizeRem(26px);
+					padding-top: 2.55rem;
+					padding-bottom: 0.7rem;
+				}
+
+				&__description {
+					.font-weight-light;
+					.fontSizeRem(20px);
+					line-height: @font-line-height;
+					padding-bottom: 1rem;
+				}
+			}
+		}
+	}
+
+	.footer {
+		padding-top: 5rem;
+	}
+}

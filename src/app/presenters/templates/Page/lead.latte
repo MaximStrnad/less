@@ -1,122 +1,44 @@
-{* This is the welcome page, you can delete it *}
+{block page_style}page--lead{/block}
 
 {block content}
+	<section class="container indent">
+		<h1 class="page__title">
+			{_design_2018.lead.title}
+		</h1>
+		<p class="page__description">
+			{_design_2018.lead.description|noescape}
+		</p>
+	</section>
+	<section class="lead">
+		<p class="lead-prepend indent">
+			{_design_2018.lead.form.title|noescape}
+		</p>
 
-<section class="top-section contact">
-    <div class="container-fluid">
-        <div class="headline-box">
-            <h1>{_translation.lead.white.headline}</h1>
-            <p>{_translation.lead.white.text|noescape}</p>
-        </div>
-    </div>
-</section>
-<section class="lead">
-    <div class="container-fluid">
-        {control leadForm}
-        <h2 class="text-center">{_translation.lead.blue.headline1}</h2>
-        <div class="lead-form">
-            <span class="text">{_translation.lead.form.text1}</span>
-            <input type="text" class="input-inline" placeholder="{_translation.lead.input.name}" data-to-hidden="name">
-            <span class="text">{_translation.lead.form.text2}</span>
-            <input type="text" class="input-inline" placeholder="{_translation.lead.input.company}" data-to-hidden="company">.
-            <span class="text">{_translation.lead.form.text3}</span>
-            <input type="text" class="input-inline wide" placeholder="{_translation.lead.input.contact}" data-to-hidden="contact">.
-            <span class="text">{_translation.lead.form.text4|noescape}</span>
-            <span class="list" data-values='{ "logo": { "cs": "logu", "en": "logo"}, "znacka": { "cs": "značce", "en": "brand"}, "web": { "cs": "webu", "en": "website"}, "obal": { "cs": "obalu", "en": "packaging"}, "prezentace": { "cs": "prezentaci", "en": "presentation"}, "graficky_design": { "cs": "grafickém designu", "en": "graphic design"}}' data-lang="{$locale}" data-to-hidden="product"></span>
-            <span class="text">{_translation.lead.form.text5}</span>
-            <span class="list" data-values='{"nase_spolecnost": { "cs": "naši společnost", "en": "our company"}, "nas_produkt": { "cs": "náš produkt", "en": "our product"}}' data-lang="{$locale}" data-to-hidden="typeProduct"></span>.
-            <span class="text">{_translation.lead.form.text6}</span>.
-        </div>
+		<div class="lead__form text-center">
+			{form leadForm}
+				{input username}
 
-        <h2 class="text-center">{_translation.lead.blue.headline2}</h2>
-        <select id="lead-slider-responsive" class="form-control" data-to-hidden="budget">
-            <option value="1">n/a</option>
-            <option value="2">10 000 Kč</option>
-            <option value="3">30 000 Kč</option>
-            <option value="4">60 000 Kč</option>
-            <option value="5">90 000 Kč</option>
-            <option value="6">120 000 Kč</option>
-            <option value="7">160 000 Kč</option>
-            <option value="8">280 000 Kč</option>
-            <option value="9">420 000 Kč</option>
-        </select>
-        <div id="lead-slider">
-            <div>
-                <div class="text">
-                    {if $locale == 'cs'}
-                    <span class="price">nechci uvést</span>
-                    {/if}
-                    {if $locale == 'en'}
-                    <span class="price">I do not want to tell</span>
-                    {/if}
-                    <span class="info">{_translation.lead.slider.col1|noescape}</span>
-                </div>
-            </div>
-            <div>
-                <div class="text">
-                    <span class="price price-small">10 000 Kč</span>
-                </div>
-            </div>
-            <div>
-                <div class="text">
-                    <span class="price">30 000 Kč</span>
-                    <span class="info">{_translation.lead.slider.col3|noescape}</span>
-                </div>
-            </div>
-            <div>
-                <div class="text">
-                    <span class="price price-small">60 000 Kč</span>
-                </div>
-            </div>
-            <div>
-                <div class="text">
-                    <span class="price">90 000 Kč</span>
-                    <span class="info">{_translation.lead.slider.col5|noescape}</span>
-                </div>
-            </div>
-            <div>
-                <div class="text">
-                    <span class="price price-small">120 000 Kč</span>
-                </div>
-            </div>
-            <div>
-                <div class="text">
-                    <span class="price">160 000 Kč</span>
-                    <span class="info">{_translation.lead.slider.col7|noescape}</span>
-                </div>
-            </div>
-            <div>
-                <div class="text">
-                    <span class="price price-small">280 000 Kč</span>
-                </div>
-            </div>
-            <div>
-                <div class="text">
-                    <span class="price">420 000 Kč</span>
-                    <span class="info">{_translation.lead.slider.col9|noescape}</span>
-                </div>
-            </div>
-        </div>
+				<span>{_design_2018.lead.form.hints.my_name|noescape}</span>
+				<input type="text" class="lazy-value" placeholder="{_design_2018.lead.form.fields.name}" data-to-hidden="name" required data-nette-rules='[{"op":":filled","msg":"Toto pole je povinné!"}]'><span>.</span>
 
-        <div class="text-center">
-            <div class="form-group" style="display: none;">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <label class="text-center">{_translation.lead.blue.moreInfoLabel|noescape}</label>
-                        <textarea class="form-control" id="more-info" rows="4" data-to-hidden="info"></textarea>
-                    </div>
-                </div>
-            </div>
-            <span class="more-info">{_translation.lead.blue.moreInfo|noescape}</span>
-        </div>
-        <div class="text-center">
-            <a class="btn btn-orange" href="#">
-                    {_translation.lead.blue.btn|noescape}
-            </a>
-        </div>
-    </div>
-</section>
+				<span>{_design_2018.lead.form.hints.my_phone|noescape}</span>
+				<input type="text" class="lazy-value" placeholder="{_design_2018.lead.form.fields.contact}" data-to-hidden="contact" required data-nette-rules='[{"op":":filled","msg":"Toto pole je povinné!"}]'><span>.</span>
 
-{/block}
+				<span>{_design_2018.lead.form.hints.my_question|noescape}</span>
+				<span class="list" data-values='{ "logo": { "cs": "skvělém logu", "en": "logo"}, "znacka": { "cs": "značce", "en": "brand"}, "web": { "cs": "webu", "en": "website"}, "obal": { "cs": "obalu", "en": "packaging"}, "prezentace": { "cs": "prezentaci", "en": "presentation"}, "graficky_design": { "cs": "grafickém designu", "en": "graphic design"}}' data-lang="{$locale}" data-to-hidden="product"></span>
 
-{block afterFooter}
+				<span>{_design_2018.lead.form.hints.my_company1|noescape}</span>
+				<span class="list" data-values='{"nase_spolecnost": { "cs": "naši společnost", "en": "our company"}, "nas_produkt": { "cs": "náš produkt", "en": "our product"}}' data-lang="{$locale}" data-to-hidden="typeProduct"></span><span>,</span>
+
+				<span>{_design_2018.lead.form.hints.my_company2|noescape}</span>
+				<input type="text" class="lazy-value" placeholder="{_design_2018.lead.form.fields.company}" data-to-hidden="company" required data-nette-rules='[{"op":":filled","msg":"Toto pole je povinné!"}]'><span>.</span>
+
+
+				<div class="btn-wrapper">
+					<button class="btn" type="submit">
+						<span>{_design_2018.lead.form.fields.submit}</span>
+					</button>
+				</div>
+			{/form}
+		</div>
+	</section>

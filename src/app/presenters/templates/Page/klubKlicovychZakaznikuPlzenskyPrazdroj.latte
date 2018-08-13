@@ -1,221 +1,180 @@
+{block page_style}page--case-study page--kkzpp{/block}
+
 {block content}
-<section class="content-slide logo-absolute" style="background-image: url(../gfx/kkzpp/kkzpp_bg01.jpg);">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 text-center">
-                <img src="/gfx/kkzpp/kkzpp_logo01.png" alt="Logo" style="height: 9.375vw; max-height: 180px;">
-            </div>
-            <div class="col-md-6 text-right">
-                <h1 n:block=title>{_translation.kkzpp.slide.headline}</h1>
-                <p>{_translation.kkzpp.slide.text|noescape}</p>
-                <span class="highlight">{_translation.kkzpp.slide.highlight.hig1}</span><span class="highlight">{_translation.kkzpp.slide.highlight.hig2}</span><span class="highlight">{_translation.kkzpp.slide.highlight.hig3}</span>
-            </div>
-        </div>
-        <div class="ddd-logo">
-            <img src="/gfx/kkzpp/ddd_logo.svg" alt="Logo">
-        </div>
-   <!--     <a href="#fisrt-section" class="scroll-to jumping-arrow kkzpp-arrow"></a>-->
-    </div>
-</section>
-<section class="text-section bg-primary" id="fisrt-section">
-    <div class="container-fluid">
-        <div class="headline-box p-only">
-            <p>{_translation.kkzpp.green.topText|noescape}</p>
-        </div>
-        <div class="row cols-4">
-            <div class="col-md-6 col-md-offset-3">
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span>{_translation.kkzpp.green.row.col1.above}</span>
-                        <h3>{_translation.kkzpp.green.row.col1.headline}</h3>
-                        <p>{_translation.kkzpp.green.row.col1.text|noescape}</p>
+	<section class="container indent">
+		<h1 class="page__title">
+			{_design_2018.kkzpp.title}
+		</h1>
+		<p class="page__description">
+			{_design_2018.kkzpp.description|noescape}
+		</p>
+	</section>
+	<section class="container no-space case-study kkzpp">
+		<div class="slide-wrapper slide-wrapper--case-study-1">
+			<p class="slide-prepend indent color-text-kkzpp font--size-1">
+				{_design_2018.kkzpp.banner.before}
+			</p>
+			<div class="slide">
+				<div class="slide__logo-wrapper slide__logo-wrapper--full">
+					<div class="image--scalable">
+						<img src="{$basePath}/gfx/cases/destro/destro-big.png" alt="{_design_2018.kkzpp.banner.before}">
+					</div>
+				</div>
+				<p class="indent slide__note slide__note--above-bottom">
+					{_design_2018.kkzpp.banner.in|noescape}
+				</p>
+			</div>
+		</div>
+		<div class="column-wrapper no-space">
+			<div class="column column--left no-space">
+				<p class="indent case-study__ceo">
+					{_design_2018.kkzpp.ceo|noescape}
+				</p>
+				<div class="puzzle-indent--right puzzle-indent--top-dbl no-space">
+					<img src="{$basePath}/gfx/cases/destro/destro-notebook.png" alt="{_design_2018.kkzpp.title}">
+				</div>
+				<div class="puzzle-indent--right puzzle-indent--top-dbl no-space">
+					<img src="{$basePath}/gfx/cases/destro/destro-paper.png" alt="{_design_2018.kkzpp.title}">
+				</div>
+			</div>
+			<div class="column column--right no-space">
+				<div class="puzzle-indent--left puzzle-indent--top-dbl no-space">
+					<img src="{$basePath}/gfx/cases/destro/destro-card.png" alt="{_design_2018.kkzpp.title}">
+				</div>
+				<div class="puzzle-indent--left puzzle-indent--top-dbl no-space">
+					<img src="{$basePath}/gfx/cases/destro/destro-triple.png" alt="{_design_2018.kkzpp.title}">
+				</div>
+				<div class="column-wrapper no-space">
+					<div class="column column--left column--kkzpp-1-left no-space puzzle-indent--left puzzle-indent--right puzzle-indent--top-dbl">
+						<img src="{$basePath}/gfx/cases/destro/destro-notebook-small.png" alt="{_design_2018.kkzpp.title}">
+					</div>
+					<div class="column column--right column--kkzpp-1-right no-space puzzle-indent--left puzzle-indent--top-dbl">
+						<div class="image--scalable">
+							<img src="{$basePath}/gfx/cases/destro/destro-cards.png" alt="{_design_2018.kkzpp.title}">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="no-space puzzle-indent--top-dbl slide-wrapper slide-wrapper--case-study-2">
+			<div class="slide no-space slide--parallax">
+				<p class="indent slide__note slide__note--above-slide">
+					{_design_2018.kkzpp.case_studies.title|noescape}
+				</p>
+				<div class="slide__logo-wrapper slide__logo-wrapper--full no-space">
+					<div class="case-study__parallax parallax">
+                        <div class="parallax__desktop-wrapper">
+							<div class="parallax__desktop-bg">
+								<div class="parallax__desktop"></div>
+								<div class="parallax__website" style="background-image: url({$basePath}/gfx/cases/destro/destro_web.jpg)"></div>
+							</div>
+						</div>
+
+                        <div class="parallax__phone-wrapper">
+							<div class="parallax__phone-bg">
+								<div class="parallax__phone">
+									<div class="parallax__website" style="background-image: url({$basePath}/gfx/cases/destro/destro_mobil.jpg)"></div>
+								</div>
+							</div>
+						</div>
                     </div>
-                    <div class="col-md-4">
-                        <span>{_translation.kkzpp.green.row.col2.above}</span>
-                        <h3>{_translation.kkzpp.green.row.col2.headline}</h3>
-                        <p>{_translation.kkzpp.green.row.col2.text|noescape}</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span>{_translation.kkzpp.green.row.col3.above}</span>
-                        <h3>{_translation.kkzpp.green.row.col3.headline}</h3>
-                        <p>{_translation.kkzpp.green.row.col3.text|noescape}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+				</div>
+				<div class="slide__button-wrapper">
+					<div>
+						<span class="go-to-web">
+							<a href="{link Page:klubKlicovychZakaznikuPlzenskyPrazdroj}">{_design_2018.kkzpp.go_to_web|noescape}</a><i class="arrow arrow-right"></i>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column-wrapper">
+			<div class="column column--left no-space">
+			</div>
+			<div class="column column--right no-space">
+				<div class="puzzle-indent--left puzzle-indent--top-dbl no-space">
+					<img src="{$basePath}/gfx/cases/destro/destro-mac-small.png" alt="{_design_2018.kkzpp.title}">
+				</div>
+			</div>
+		</div>
+		<div class="no-space puzzle-indent--top-dbl slide-wrapper slide-wrapper--case-study-3">
+			<div class="slide no-space">
+				<p class="indent slide__note slide__note--above-slide">
+					19<span class="space"></span>%
+				</p>
+				<p class="indent slide__note slide__note--behind-top">
+					{_design_2018.kkzpp.grow_note|noescape}
+				<p>
+				<div class="slide__logo-wrapper slide__logo-wrapper--full no-space">
+					<img src="{$basePath}/gfx/cases/destro/destro_foto01.jpg" alt="{_design_2018.kkzpp.title}">
+				</div>
+			</div>
+		</div>
+		<div class="column-wrapper puzzle-indent--top-dbl">
+			<div class="column column--left no-space case-study__about indent">
+				<h2 class="case-study__about__title">
+					{_design_2018.kkzpp.about.title|noescape}
+				</h2>
+				<p class="case-study__about__description">
+					{_design_2018.kkzpp.about.description|noescape}
+				</p>
+				<img src="{$basePath}/gfx/cases/destro/logo-old.png" class="case-study__about__logo--old" alt="{_design_2018.kkzpp.title}">
+				<div class="column-wrapper case-study__about__link">
+					<div class="column column--left">
+						{_design_2018.kkzpp.about.logo_old|noescape}
+					</div>
+					<div class="column column--right">
+						<a href="{_design_2018.kkzpp.about.link|noescape}">
+							{_design_2018.kkzpp.about.link|noescape}
+						</a>
+					</div>
+				</div>
+				<div class="case-study__about__points">
+					<h2 class="case-study__about__title">
+						{_design_2018.kkzpp.about.points_title}
+					</h2>
+					<ul>
+						<li class="item">
+							<h3 class="title">
+								{_design_2018.kkzpp.about.point1.title}
+							</h3>
+							<span class="description">
+								{_design_2018.kkzpp.about.point1.description|noescape}
+							</span>
+						</li>
+						<li class="item">
+							<h3 class="title">
+								{_design_2018.kkzpp.about.point2.title}
+							</h3>
+							<span class="description">
+								{_design_2018.kkzpp.about.point2.description|noescape}
+							</span>
+						</li>
+						<li class="item">
+							<h3 class="title">
+								{_design_2018.kkzpp.about.point3.title}
+							</h3>
+							<span class="description">
+								{_design_2018.kkzpp.about.point3.description|noescape}
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="column column--right puzzle-indent--left">
+				<div class="case-study__footer">
+					{include ../_partials/footer_case_study.latte}
+				</div>
+			</div>
+		</div>
+	</section>
 
-<section>
-    <div class="cycle-slideshow"
-         data-cycle-fx="scrollHorz"
-         data-swipe="true"
-         data-cycle-swipe-fx="scrollHorz">
-        <img src="/gfx/kkzpp/4.jpg" alt="">
-        <img src="/gfx/kkzpp/5.jpg" alt="">
-        <img src="/gfx/kkzpp/3.jpg" alt="">
-        <img src="/gfx/kkzpp/2.jpg" alt="">
-        <span class="cycle-prev"></span>
-        <span class="cycle-next"></span>
-    </div>
-</section>
-
-<section class="text-section bg-primary-small text-section-big">
-    <div class="container-fluid">
-        <div class="text-right">
-            <h2>{_translation.kkzpp.greenSmall.headline|noescape}</h2>
-            <p><strong>Jan Krátký</strong><br>{_translation.destro.greenSmall.position}, Plzeňský Prazdroj a. s.<br><a href="https://www.linkedin.com/in/jan-kr%C3%A1tk%C3%BD-b4656512/" class="linkedIn" target="_blank"></a></p>
-        </div>
-    </div>
-</section>
-
-
-
-
-<section class="text-section bg-white show-logos">
-    <div class="container-fluid">
-        <div class="row text-center kkz">
-            <div class="col-md-6">
-                <div class="img-wrap">
-                    <img src="/gfx/kkzpp/old-logo.png" alt="" style="height: 3.958333333vw; max-height: 76px;">
-                </div>
-                <span>{_translation.kkzpp.white.logoOld}</span>
-            </div>
-            <div class="col-md-6">
-                <div class="img-wrap">
-                    <img src="/gfx/kkzpp/new-logo.png" alt="" style="height: 9.322916667vw; max-height: 179px;">
-                </div>
-                <span>{_translation.kkzpp.white.logoNew}</span>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-<section class="text-section bg-secondary-small">
-    <div class="container-fluid">
-        <div class="row text-right">
-            <div class="col-md-6 col-md-offset-6">
-                <span class="upper-headline">{_translation.kkzpp.green.above|noescape}</span>
-                <h2>{_translation.kkzpp.green.headline|noescape}</h2>
-                <p>{_translation.kkzpp.green.text|noescape}</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="box-present blue-info">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-md-push-6 text-right">
-                <div class="inner">
-                    <h2>{_translation.homepage.blue.headline}</h2>
-                    <p>{_translation.homepage.blue.text}</p>
-                    <a n:href="Page:lead" class="btn btn-orange btn-big">
-                        <span class="btn__text">
-                            {_translation.homepage.blue.accept}
-                        </span>
-                        <svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 39.85 73.57">
-                        <polygon points="4.55 73.57 0 68.78 30.79 36.79 0 4.79 4.55 0 39.85 36.73 39.79 36.79 39.85 36.84 4.55 73.57" style="fill: currentColor;fill-rule: evenodd; stroke: currentColor; stroke-width: 2px"/></svg>
-
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<!--
-
-<section>
-    <div class="row row-no-gap">
-        <div class="col-md-6">
-            <div class="image-hover">
-                <img src="/gfx/kkzpp/kkzpp-preview-1-2.jpg" alt="">
-                <span>{_translation.kkzpp.imageHover.r2.c1|noescape}</span>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="image-hover">
-                <img src="/gfx/kkzpp/kkzpp-preview-2-2.jpg" alt="">
-                <span>{_translation.kkzpp.imageHover.r2.c2|noescape}</span>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section class="box-present kkzpp-gold" style="background-image: url(../gfx/kkzpp/8.jpg);">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 text-center">
-                <img src="/gfx/kkzpp/ico-gold.png" alt="" style="height: 9.322916667vw; max-height: 179px;">
-            </div>
-            <div class="col-md-6 text-right">
-                <div class="inner">
-                    <h2>{_translation.kkzpp.type.gold}</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="box-present kkzpp-silver" style="background-image: url(../gfx/kkzpp/9.jpg);">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 text-center">
-                <img src="/gfx/kkzpp/ico-silver.png" alt="" style="height: 9.375vw; max-height: 180px;">
-            </div>
-            <div class="col-md-6 text-right">
-                <div class="inner">
-                    <h2>{_translation.kkzpp.type.silver}</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="box-present kkzpp-bronze" style="background-image: url(../gfx/kkzpp/10.jpg);">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 text-center">
-                <img src="/gfx/kkzpp/ico-bronze.png" alt="" style="height: 9.375vw; max-height: 180px;">
-            </div>
-            <div class="col-md-6 text-right">
-                <div class="inner">
-                    <h2>{_translation.kkzpp.type.bronze}</h2>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
--->
-
-
-
-
-{/block}
-
-{block afterFooter}
-
-<div class="loader-next-page">
-    <section class="content-slide slide-dark" style="background-image: url(../gfx/destro/destro_bg01.jpg);" data-next-page="{link Page:destro}">
-        <div class="overlay"></div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 text-center">
-					<img src="/gfx/destro/destro_logo01.svg" alt="Logo" style="height: 4.6875vw; max-height: 90px;">
-                </div>
-                <div class="col-md-6 text-right">
-                    <h2>{_translation.footer.scrollForNext}</h2>
-                    <span class="percent">0</span>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
+	{include
+		../_partials/case_study_loader.latte,
+		url              => "Page:eyren",
+		background_image => false,
+		background_color => "#5d1f1e",
+		color            => "#e7e3db",
+		title            => $presenter->translator->translate('design_2018.eyren.title'),
+		overlay_color    => "white",
+	}

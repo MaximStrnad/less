@@ -1,0 +1,152 @@
+&--contact {
+	.header {
+		min-height: 18.5rem;
+	}
+
+	.page__title {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	.page__description {
+		padding-bottom: 0.75rem;
+
+		&--small {
+			.fontSizeRem(16px);
+
+			a {
+				.font-weight-light;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.contact {
+		&__panel {
+			&-1 {
+				padding-top: 1.6rem;
+			}
+
+			&-2 {
+				background-color: white;
+				text-align: right;
+				.paddingRightRem(112px);
+				padding-top: 6rem;
+				padding-bottom: 1.75rem;
+
+				&__summary {
+					.font-weight-extrabold;
+					.fontSizeRem(26px);
+					line-height: @font-line-height;
+
+					a {
+						.font-weight-extrabold;
+					}
+
+					a.em {
+						text-decoration: underline;
+					}
+				}
+
+				&__note {
+					.fontSizeRem(16px);
+					padding-top: 0.6rem;
+					padding-bottom: 0.6rem;
+					line-height: @font-line-height;
+				}
+
+				&__flags {
+					img {
+						padding-left: 0.1rem;
+						padding-right: 0.1rem;
+					}
+				}
+			}
+		}
+
+		&__rules {
+			padding-top: 0.5rem;
+
+			a {
+				text-decoration: underline;
+			}
+		}
+
+		&__form {
+			padding-top: 3.5rem;
+
+			.title {
+				.font-weight-extrabold;
+				.fontSizeRem(26px);
+				line-height: @font-line-height;
+				.paddingLeftRem(24px);
+			}
+
+			.description {
+				.fontSizeRem(14px);
+				.paddingLeftRem(24px);
+				padding-top: 0.5rem;
+				line-height: @font-line-height;
+			}
+
+			form {
+				padding-top: 1.75rem;
+
+				.form-group {
+					&:after {
+						content: '';
+						display: table;
+						clear: both;
+					}
+
+					label {
+						.fontSizeRem(14px);
+						display: block;
+						padding-top: 1rem;
+						padding-bottom: 0.5rem;
+						.paddingLeftRem(24px);
+						.paddingRightRem(24px);
+					}
+
+					input[type=text], textarea {
+						.fontSizeRem(20px);
+						.font-weight-medium;
+						.color-text-1;
+						width: 100%;
+						border: 0;
+						outline: 0;
+						margin-left: 0.5rem;
+						.paddingLeftRem(16px);
+						.paddingRightRem(24px);
+						padding-top: 0.5rem;
+						padding-bottom: 0.5rem;
+						box-sizing: border-box;
+					}
+
+					textarea {
+						height: 17.5rem;
+					}
+
+					.btn {
+						float: right;
+						margin-top: 1.85rem;
+						margin-right: 3.8rem;
+						padding: 0.6rem 12rem;
+						background-color: @color-be-1;
+					}
+				}
+			}
+		}
+	}
+
+	#map-canvas {
+		.heightVW(600px);
+		width: 100%;
+
+		img[src*='map-pointer-white']{
+			.convertToRem(54px);
+			max-width: @v !important;
+			height: auto !important;
+		}
+	}
+}

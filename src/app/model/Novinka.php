@@ -5,10 +5,8 @@ namespace App\Model;
 use Nette;
 
 
-class Novinka
+class Novinka extends Nette\Object
 {
-	use Nette\SmartObject;
-
     private $id;
     private $datum;
     private $titulek;

@@ -1,58 +1,164 @@
+{block page_style}page--our-work{/block}
+
 {block content}
-<section class="top-section top-small">
-    <div class="container-fluid">
-        <div class="headline-box">
-            <div class="filter-top-text-toggle">
-                <div n:if="$filter == ''">
-                    <h1 n:block=title>{_translation.naseprace.all.headline}</h1>
-                    <p>{_translation.naseprace.all.text|noescape}</p>
-                </div>
-                <div n:if="$filter == 'logo'">
-                    <h1>{_translation.naseprace.logo.headline}</h1>
-                    <p>{_translation.naseprace.logo.text|noescape}</p>
-                </div>
-                <div n:if="$filter == 'web'">
-                    <h1>{_translation.naseprace.web.headline}</h1>
-                    <p>{_translation.naseprace.web.text|noescape}</p>
-                </div>
-                <div n:if="$filter == 'obal'">
-                    <h1>{_translation.naseprace.obal.headline}</h1>
-                    <p>{_translation.naseprace.obal.text|noescape}</p>
-                </div>
-                <div n:if="$filter == 'others'">
-                    <h1>{_translation.naseprace.rest.headline}</h1>
-                    <p>{_translation.naseprace.rest.text|noescape}</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="portfolio">
-    <div class="container-fluid">
-        <div class="filter">
-            <div class="type">
-                <a n:href="Page:seznamStudii">{_translation.naseprace.filter.type.t7}</a>
-                <a n:href="Page:nasePrace, 'filter' => 'logo'" n:class="$presenter->linkCurrent?active:inactive">{_translation.naseprace.filter.type.t2}</a>
-                <a n:href="Page:nasePrace, 'filter' => 'web'" n:class="$presenter->linkCurrent?active:inactive">{_translation.naseprace.filter.type.t3}</a>
-                <a n:href="Page:nasePrace, 'filter' => 'obal'" n:class="$presenter->linkCurrent?active:inactive">{_translation.naseprace.filter.type.t4}</a>
-                <a n:href="Page:nasePrace, 'filter' => 'others', 'others' => 'logo;web;obal'" n:class="$presenter->linkCurrent?active:inactive">{_translation.naseprace.filter.type.t6}</a>
-                <a n:href="Page:nasePrace, 'filter' => ''" n:class="$presenter->linkCurrent?active:inactive">{_translation.naseprace.filter.type.t1}</a>
-            </div>
-        </div>
-    </div>
+	<section>
+		<div class="container column-wrapper our-work">
+			<div class="column column--left no-space">
+				<h1 class="page__title indent">
+					{_design_2018.our_work.title}
+				</h1>
+				<div class="our-work__item no-space puzzle-indent--right puzzle-indent--bottom-dbl">
+					<div class="our-work__item__content">
+						<a href="{link Page:tack}">
+							<img src="{$basePath}/gfx/naseprace/tack.jpg" alt="{_design_2018.our_work.tack.alt}" class="our-work__item-logo">
+							<span class="our-work__item-hover">
+								<p>{_design_2018.our_work.tack.hover_text|noescape}</p>
+							</span>
+						</a>
+					</div>
+				</div>
+				<div class="our-work__item no-space puzzle-indent--right puzzle-indent--bottom-dbl">
+					<div class="our-work__item__content">
+						<a href="{link Page:eyren}">
+							<img src="{$basePath}/gfx/naseprace/eyren.jpg" alt="{_design_2018.our_work.eyren.alt}" class="our-work__item-logo">
+							<span class="our-work__item-hover">
+								<p>{_design_2018.our_work.eyren.hover_text|noescape}</p>
+							</span>
+						</a>
+					</div>
+				</div>
+				<div class="our-work__item no-space puzzle-indent--right puzzle-indent--bottom-dbl">
+					<div class="our-work__item__content">
+						<a href="{link Page:destro}">
+							<img src="{$basePath}/gfx/naseprace/destro.png" alt="{_design_2018.our_work.destro.alt}" class="our-work__item-logo">
+							<span class="our-work__item-hover">
+								<p>{_design_2018.our_work.destro.hover_text|noescape}</p>
+							</span>
+						</a>
+					</div>
+				</div>
+				<div class="our-work__item no-space puzzle-indent--right puzzle-indent--bottom-dbl">
+					<div class="our-work__item__content">
+						<a href="{link Page:stablo}">
+							<img src="{$basePath}/gfx/naseprace/stablo.jpg" alt="{_design_2018.our_work.stablo.alt}" class="our-work__item-logo">
+							<span class="our-work__item-hover">
+								<p>{_design_2018.our_work.stablo.hover_text|noescape}</p>
+							</span>
+						</a>	
+					</div>
+				</div>	
+				<div class="our-work__item no-space puzzle-indent--right puzzle-indent--bottom-dbl">
+					<div class="our-work__item__content">
+						<a href="{link Page:petrackovyHorickeTrubicky}">
+							<img src="{$basePath}/gfx/naseprace/pht.jpg" alt="{_design_2018.our_work.pht.alt}" class="our-work__item-logo">
+							<span class="our-work__item-hover">
+								<p>{_design_2018.our_work.pht.hover_text|noescape}</p>
+							</span>
+						</a>
+					</div>
+				</div>
+				<div class="our-work__item no-space puzzle-indent--right puzzle-indent--bottom-dbl">
+					<div class="our-work__item__content">
+						<a href="{link Page:zGruntu}">
+							<img src="{$basePath}/gfx/naseprace/zgruntu.jpg" alt="{_design_2018.our_work.zgruntu.alt}" class="our-work__item-logo">
+							<span class="our-work__item-hover">
+								<p>{_design_2018.our_work.zgruntu.hover_text|noescape}</p>
+							</span>
+						</a>
+					</div>
+				</div>				
+				<div class="our-work__item no-space puzzle-indent--right puzzle-indent--bottom-dbl">
+					<div class="our-work__item__content">
+						<a href="{link Page:fer}">
+							<img src="{$basePath}/gfx/naseprace/fer.jpg" alt="{_design_2018.our_work.fer.alt}" class="our-work__item-logo">
+							<span class="our-work__item-hover">
+								<p>{_design_2018.our_work.fer.hover_text|noescape}</p>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
 
-    <div class="result">
-        {foreach $prace as $praca}
-            <div class="box" data-id="{$praca->getId()}">
-                <div class="image-wrap">
-                    <img src="/gfx/portfolio/{$praca->getSoubor()}.jpg" alt="">
-                </div>
-                <div class="info"></div>
-            </div>
-        {/foreach}
-    </div>
-</section>
 
-{/block}
+			<div class="column column--right font--size-1">
+				<div class="our-work__item no-space puzzle-indent--left puzzle-indent--bottom-dbl">
+					<div class="our-work__item__content">
+						<a href="{link Page:klubKlicovychZakaznikuPlzenskyPrazdroj}">
+							<img src="{$basePath}/gfx/naseprace/kkzpp.png" alt="{_design_2018.our_work.kkzpp.alt}" class="our-work__item-logo">
+							<span class="our-work__item-hover">
+								<p>{_design_2018.our_work.kkzpp.hover_text|noescape}</p>
+							</span>
+						</a>
+					</div>
+				</div>
+				<div class="our-work__item no-space puzzle-indent--left puzzle-indent--bottom-dbl">
+					<div class="our-work__item__content">
+						<a href="{link Page:partner}">
+							<img src="{$basePath}/gfx/naseprace/partner.jpg" alt="{_design_2018.our_work.partner.alt}" class="our-work__item-logo">
+							<span class="our-work__item-hover">
+								<p>{_design_2018.our_work.partner.hover_text|noescape}</p>
+							</span>
+						</a>
+					</div>
+				</div>
+				<div class="our-work__item no-space puzzle-indent--left puzzle-indent--bottom-dbl">
+					<div class="our-work__item__content">
+						<a href="{link Page:haven}">
+							<img src="{$basePath}/gfx/naseprace/haven.jpg" alt="{_design_2018.our_work.haven.alt}" class="our-work__item-logo">
+							<span class="our-work__item-hover">
+								<p>{_design_2018.our_work.haven.hover_text|noescape}</p>
+							</span>
+						</a>
+					</div>
+				</div>	
+				<div class="our-work__item no-space puzzle-indent--left puzzle-indent--bottom-dbl">
+					<div class="our-work__item__content">
+						<a href="{link Page:arcadehry}">
+							<img src="{$basePath}/gfx/naseprace/arcadehry.jpg" alt="{_design_2018.our_work.arcadehry.alt}" class="our-work__item-logo">
+							<span class="our-work__item-hover">
+								<p>{_design_2018.our_work.arcadehry.hover_text|noescape}</p>
+							</span>
+						</a>
+					</div>
+				</div>
+				<div class="our-work__item no-space puzzle-indent--left puzzle-indent--bottom-dbl">
+					<div class="our-work__item__content">
+						<a href="{link Page:poldi}">
+							<img src="{$basePath}/gfx/naseprace/poldi.jpg" alt="{_design_2018.our_work.poldi.alt}" class="our-work__item-logo">
+							<span class="our-work__item-hover">
+								<p>{_design_2018.our_work.poldi.hover_text|noescape}</p>
+							</span>
+						</a>
+					</div>
+				</div>	
+				<div class="our-work__item no-space puzzle-indent--left puzzle-indent--bottom-dbl">
+					<div class="our-work__item__content">
+						<a href="{link Page:tachtech}">
+							<img src="{$basePath}/gfx/naseprace/tachtech.jpg" alt="{_design_2018.our_work.tachtech.alt}" class="our-work__item-logo">
+							<span class="our-work__item-hover">
+								<p>{_design_2018.our_work.tachtech.hover_text|noescape}</p>
+							</span>
+						</a>
+					</div>
+				</div>
+				<div class="our-work__item no-space puzzle-indent--left puzzle-indent--bottom-dbl">
+					<div class="our-work__item__content">
+						<a href="{link Page:drevosrot}">
+							<img src="{$basePath}/gfx/naseprace/drevosrot.jpg" alt="{_design_2018.our_work.drevosrot.alt}" class="our-work__item-logo">
+							<span class="our-work__item-hover">
+								<p>{_design_2018.our_work.drevosrot.hover_text|noescape}</p>
+							</span>
+						</a>
+					</div>
+				</div>
 
-{block afterFooter}
+							
+				<div class="puzzle-indent--left puzzle-indent--bottom-dbl footer">
+					{include ../_partials/footer_lead.latte}
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer indent">
+		{include ../_partials/footer_sign.latte}
+	</footer>

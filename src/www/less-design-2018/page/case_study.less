@@ -1,0 +1,358 @@
+&--case-study {
+	padding-bottom: 0;
+
+	.page__title {
+		padding-top: 1rem;
+		padding-bottom: 0.85rem;
+	}
+
+	.page__description {
+		padding-bottom: 1rem;
+	}
+
+	.case-study {
+		&__ceo {
+			font-size: 1rem;
+			padding-top: 0.5rem;
+			padding-bottom: 8.1rem;
+		}
+
+		.column {
+			img {
+				width: 100%;
+				max-width: 100%;
+			}
+		}
+
+		.slide-wrapper {
+			&--case-study-1 {
+				margin-top: 2.75rem;
+
+				.slide {
+					.heightVW(850px);
+
+					&__note {
+						.font-weight-light;
+						.fontSizeRem(26px);
+						color: white;
+
+						&--above-bottom {
+							left: -1rem;
+						}
+					}
+				}
+			}
+
+			&--case-study-2 {
+				.slide {
+					.heightVW(850px);
+
+					&__note {
+						top: -1.5rem;
+					}
+
+					&__button-wrapper {
+						justify-content: flex-end;
+						height: auto;
+						top: auto;
+						bottom: 8%;
+						left: auto;
+						right: 4%;
+
+						.go-to-web {
+							.font-weight-light;
+							font-size: 1rem;
+							color: white;
+							text-decoration: none;
+
+							a {
+								text-decoration: underline;
+								color: white;
+							}
+
+							.arrow {
+								border: solid white;
+								border-width: 0 2px 2px 0;
+							}
+						}
+					}
+				}
+			}
+
+			&--case-study-3 {
+				.slide {
+					.heightVW(850px);
+
+					&__note {
+						&--above-slide {
+							.font-weight-extrabold;
+							.fontSizeRem(120px);
+							top: -7.5rem;
+							color: white;
+
+							.space {
+								.paddingLeftRem(16px);
+								.paddingRightRem(16px);
+							}
+						}
+
+						&--behind-top {
+							.font-weight-light;
+							.fontSizeRem(26px);
+							color: white;
+							top: 1.5rem;
+						}
+					}
+				}
+			}
+		}
+
+		&__about {
+			&__title {
+				.font-weight-extrabold;
+				.fontSizeRem(26px);
+				padding-top: 2.75rem;
+				padding-bottom: 0.5rem;
+			}
+
+			&__description {
+                .font-weight-light;
+				font-size: 1rem;
+				line-height: @font-line-height;
+				.paddingRightRem(80px);
+			}
+
+			&__logo {
+				&--old {
+					.convertToRem(175px);
+					width: @v !important;
+					height: auto;
+					padding-top: 3.5rem;
+					padding-bottom: 1.75rem;
+				}
+			}
+
+			&__link {
+				.column {
+					font-size: 1rem;
+
+					&--right {
+						text-align: center;
+					}
+
+					a {
+						text-decoration: underline;
+					}
+				}
+			}
+
+			&__points {
+				.case-study__about__title {
+					padding-top: 3.5rem;
+					padding-bottom: 0.25rem;
+				}
+
+				.item {
+					.title {
+						.font-weight-extrabold;
+						font-size: 1rem;
+						padding-top: 1rem;
+						padding-bottom: 0.5rem;
+					}
+
+					.description {
+                        .font-weight-light;
+						font-size: 1rem;
+					}
+				}
+			}
+		}
+
+		&__footer {
+			font-size: 1rem;
+			text-align: right;
+			background-color: white;
+
+			.footer__cs {
+				padding-top: 3.2rem;
+				padding-bottom: 4rem;
+				.paddingRightRem(69px);
+				line-height: @font-line-height;
+
+				&-title {
+					.font-weight-extrabold;
+					.fontSizeRem(26px);
+					.paddingRightRem(39px);
+				}
+
+				&-note {
+					padding-top: 0.75rem;
+					padding-bottom: 1.25rem;
+					.paddingRightRem(39px);
+				}
+
+				.btn {
+					padding: 0.75rem 13rem;
+				}
+			}
+		}
+
+        .parallax {
+            height: 100%;
+            max-height: 100%;
+            overflow: hidden;
+            position: relative;
+
+            &__website {
+                background-size: 100%;
+				background-repeat: no-repeat;
+            }
+
+            &__desktop {
+				width: 100%;
+				height: 100%;
+                max-height: 100%;
+                background-image: url(../gfx/mac.png);
+				background-repeat: no-repeat;
+                background-size: cover;
+				.convertToVW(25px);
+				background-position: 100% -@v;
+
+				&-wrapper {
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					left: 2vw;
+					right: 0;
+				}
+
+				&-bg {
+					position: relative;
+					max-height: 100%;
+					.widthVW(1072px);
+					.heightVW(850px);
+					margin: auto;
+
+					.parallax__website {
+						position: absolute;
+						top: 1.25vw;
+						bottom: 12vw;
+						left: 3.5vw;
+						right: 4vw;
+					}
+				}
+            }
+
+            &__phone {
+				width: 100%;
+				height: 100%;
+                max-height: 100%;
+                background-image: url(../gfx/iphone.png);
+				background-repeat: no-repeat;
+                background-size: contain;
+				background-position: 100% 0;
+
+				&-wrapper {
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					right: 0;
+					display: flex;
+					align-items: flex-end;
+				}
+
+				&-bg {
+					position: absolute;
+					top: auto;
+					bottom: 0;
+					left: 14%;
+					right: auto;
+					.widthVW(174px);
+					.heightVW(354px);
+
+					.parallax__website {
+						position: absolute;
+						top: 2vw;
+						bottom: 2vw;
+						left: 0.6vw;
+						right: 0.6vw;
+					}
+				}
+            }
+        }
+	}
+
+	.cs-loader {
+		margin-top: @page-padding-bottom;
+
+		&-prepend {
+			margin-bottom: 0.6rem;
+		}
+
+		&__loader {
+			position: relative;
+			height: 100vh;
+		}
+
+		&__wrapper {
+			height: 100%;
+			background-size: cover;
+			background-position: center;
+		}
+
+		&__overlay {
+			position: absolute;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			height: 100%;
+			width: 100%;
+			z-index: 1;
+		}
+
+		&__spacer {
+			.heightRem(336px);
+			max-height: 55%;
+		}
+
+		&__content {
+			height: 100%;
+			box-sizing: border-box;
+		}
+
+		&__case-study {
+			.font-weight-extrabold;
+			.fontSizeRem(40px);
+			width: 70%;
+			vertical-align: top;
+			display: inline-block;
+			box-sizing: border-box;
+			text-align: left;
+			position: relative;
+			z-index: 2;
+		}
+
+		&__progress-bar {
+			width: 30%;
+			vertical-align: top;
+			display: inline-block;
+			box-sizing: border-box;
+			text-align: right;
+			padding-right: 11%;
+			position: relative;
+			z-index: 2;
+
+			.percent {
+				.font-weight-semibold;
+				.fontSizeRem(40px);
+				display: block;
+				line-height: @font-line-height;
+
+				&:after{
+					content: ' %';
+				}
+			}
+		}
+	}
+}

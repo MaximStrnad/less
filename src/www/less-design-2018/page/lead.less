@@ -1,0 +1,75 @@
+&--lead {
+	padding-bottom: 0;
+
+	.header {
+		min-height: 21rem;
+	}
+
+	.page__description {
+		padding-top: 1rem;
+	}
+
+	.lead {
+		margin-top: 7.5rem;
+
+		span, input[type=text] {
+			.font-weight-medium;
+			.fontSizeRem(26px);
+			color: rgb(0,60,64);
+		}
+
+		&-prepend {
+			font-size: 1rem;
+			margin-bottom: 0.7rem;
+		}
+
+		&__form {
+			min-height: calc(~'100vh - 300px');
+			padding-top: 4.25rem;
+			padding-bottom: @page-padding-bottom;
+			background-color: white;
+			line-height: 2.2;
+
+			input[type=text] {
+				width: 41vw;
+				border: 0;
+				outline: 0;
+				border-bottom: 1px solid black;
+			}
+
+			.list {
+				position: relative;
+				.paddingRightRem(40px);
+				color: black;
+
+				&:after {
+					content: '';
+					background: url(../gfx/arrow-switch.png) no-repeat;
+					background-size: 100%;
+					width: 1.1875rem;
+					height: 1.0625rem;
+					position: absolute;
+					right: 1rem;
+					top: 0;
+					cursor: pointer;
+				}
+			}
+
+			.btn {
+                .convertToRem(3px);
+                border: @v solid @color-lead;
+				line-height: 2.2;
+				
+				span {
+					color: @color-lead;
+				}
+
+				&-wrapper {
+					padding-top: 7rem;
+				}
+
+				padding: 0 12rem;
+			}
+		}
+	}
+}

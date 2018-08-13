@@ -1,0 +1,45 @@
+&--articles {
+	.article {
+		&__date {
+			.font-weight-light;
+			.fontSizeRem(16px);
+		}
+
+		&__title {
+			.font-weight-extrabold;
+			.fontSizeRem(26px);
+			padding-top: 0.25rem;
+			padding-bottom: 1rem;
+		}
+
+		&__content {
+			.fontSizeRem(16px);
+		}
+
+        &__media {
+            padding-bottom: 5rem;
+        }
+        
+		&__thumbnail {
+			.heightVW(400px);
+			padding-top: 2rem;
+			width: 52.5%;
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		&__video {
+			.heightVW(400px);
+			padding-top: 2rem;
+			width: 52.5%;
+
+			iframe {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}

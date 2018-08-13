@@ -1,0 +1,77 @@
+.btn {
+	.font-weight-extrabold;
+	.fontSizeRem(18px);
+    & {
+        .convertToRem(3px);
+        border: @v solid black;
+    }
+	padding: 0.5rem 4rem;
+	display: inline-block;
+	color: black;
+	position: relative;
+
+	button& {
+		background-color: transparent;
+		cursor: pointer;
+	}
+
+	&::after {
+		content: " ";
+		position: absolute;
+        .convertToRem(3px);
+		left: -@v;
+		right: -@v;
+		bottom: -@v*2;
+		height: @v;
+		background-color: #dddddd;
+		transition: all 0.5s;
+	}
+
+	span {
+		color: black;
+	}
+
+	span::after {
+		content: '❭';
+		transition: all 0.5s;
+		opacity: 0;
+		position: relative;
+		left: 0;
+		top: -0.15em;
+		font-size: 0.75em;
+	}
+
+	&:hover {
+		&::after {
+			background-color: #cccccc;
+		}
+
+		span::after {
+			opacity: 1;
+			left: 0.5rem;
+		}
+	}
+
+	&--bigger {
+		.convertToVW(128px);
+		padding: 0.8rem @v;
+	}
+
+	&--white {
+		.convertToRem(3px);
+		border: @v solid white;
+
+		span {
+			color: white;
+		}
+	}
+
+	&--color-text-1 {
+		.convertToRem(3px);
+		border: @v solid @color-fe-1;
+
+		span {
+			color: @color-fe-1;
+		}
+	}
+}

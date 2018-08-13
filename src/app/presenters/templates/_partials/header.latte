@@ -1,0 +1,58 @@
+<header class="header">
+	<a href="{link Page:default}">
+		{var $logoPath = (isset($hasWhiteHeader) && $hasWhiteHeader) ? "protein-logo-white.png" : "protein-logo-black.png"}
+		<img src="{$basePath}/gfx/protein/{$logoPath}" class="header__main-logo" alt="{_design_2018.header.logo.alt}"/>
+	</a>
+
+	<div class="navbar no-space {if (isset($hasWhiteHeader) && $hasWhiteHeader)}navbar--white{/if}" id="navbar">
+		<span class="navbar__menu-text font--size-1">
+			menu
+		</span>
+
+		<div class="navbar__menu-button">
+			<svg height="20" width="20" viewbox="0 0 110 100">
+				<rect id="bar1" x="-15" y="10" width="115" height="6" fill="#0c3d43"></rect>
+				<rect id="bar2" x="-15" y="50" width="115" height="6" fill="#0c3d43"></rect>
+				<rect id="bar3" x="-15" y="90" width="115" height="6" fill="#0c3d43"></rect>
+			</svg>
+		</div>
+	</div>
+
+	<nav class="primary-menu">
+		<a href="{link Page:default}">
+			<img src="{$basePath}/gfx/protein/protein-logo-black.png" class="primary-menu__main-logo" alt="{_design_2018.header.logo.alt}"/>
+		</a>
+
+		<ul class="primary-menu__items">
+			<li>
+				<a n:href="Page:default">{_design_2018.navigation.homepage}</a>
+			</li>
+			<li>
+				<a n:href="Page:nase-prace">{_design_2018.navigation.our_work}</a>
+			</li>
+            {if $locale == 'cs'}
+                <li>
+                    <a n:href="Page:clanky">{_design_2018.navigation.articles}</a>
+                </li>
+            {/if}
+			<li>
+				<a n:href="Page:onas">{_design_2018.navigation.about_us}</a>
+			</li>
+			<li>
+				<a n:href="Page:kontakt">{_design_2018.navigation.contact}</a>
+			</li>
+			<li class="item--locale">
+				{if $locale == 'cs'}
+					<a n:href="this, 'locale' => 'en'">english</a>
+				{/if}
+				{if $locale == 'en'}
+					<a n:href="this, 'locale' => 'cs'">česky</a>
+				{/if}
+			</li>
+			<li class="item--social">
+				<a class="facebook" href="https://www.facebook.com/dostdobrydesign/" target="_blank"><img src="{$basePath}/gfx/social/facebook.png" alt="Facebook"></a>
+				<a class="instagram" href="https://www.instagram.com/zdeneksladek/" target="_blank"><img src="{$basePath}/gfx/social/instagram.png" alt="Instagram"></a>
+			</li>
+		</ul>
+	</nav>
+</header>

@@ -1,0 +1,156 @@
+.header {
+	min-height: 10rem;
+	position: relative;
+
+	&__main-logo {
+		display: inline-block;
+		position: fixed;
+		left: 2.6vw;
+		top: 4rem;
+		.widthRem(2*146px);
+		.heightRem(2*46px);
+		z-index: 99;
+	}
+}
+
+.navbar {
+	position: fixed;
+	right: 3.6vw;
+	.topRem(11px);
+	z-index: 10002;
+	cursor: pointer;
+
+	&__menu-text {
+        .font-weight-light;
+		display: inline-block;
+		vertical-align: middle;
+		.paddingRightRem(8px);
+		line-height: 4.375rem;
+		transition: 0.5s;
+	}
+
+	&__menu-button {
+		display: inline-block;
+		vertical-align: middle;
+
+		svg {
+			.widthRem(20px);
+			.heightRem(20px);
+		}
+
+		#bar1,
+		#bar2,
+		#bar3 {
+			transition: 0.5s;
+		}
+	}
+
+	&--white {
+		.navbar__menu-text {
+			color: white;
+		}
+
+		.navbar__menu-button {
+			#bar1,
+			#bar2,
+			#bar3 {
+				fill: white;
+			}
+		}
+	}
+
+	&--opened {
+		.navbar__menu-text {
+			color: @color-fe-1;
+		}
+
+		.navbar__menu-button {
+			#bar1 {
+				fill: #0c3d43;
+				transform: rotate(-45deg);
+				transform-origin: 100px 10px;
+			}
+			#bar2 {
+				fill: #0c3d43;
+				opacity: 0;
+			}
+			#bar3 {
+				fill: #0c3d43;
+				transform: rotate(45deg);
+				transform-origin: 100px 96px;
+			}
+		}
+	}
+}
+
+.primary-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+	right: 0;
+    z-index: 10001;
+	padding-right: @header-padding-right;
+	padding-top: 14vh;
+	display: none;
+	background-color: @color-be-1;
+
+	&__main-logo {
+		display: inline-block;
+		position: fixed;
+		left: 2.6vw;
+		top: 4rem;
+		.widthRem(2*146px);
+		.heightRem(2*46px);
+	}
+
+	&__items {
+		text-align: right;
+
+		> li {
+			padding-bottom: 1.3rem;
+
+			> a {
+				.hover--underline;
+				.font-weight-semibold;
+				font-size: 2.5rem;
+				color: @color-fe-1;
+			}
+
+			&.item--locale {
+				padding-top: 2rem;
+
+				> a {
+					.font-weight-light;
+				}
+			}
+
+			&.item--social {
+				padding-top: 1.05rem;
+				padding-right: 0.3rem;
+
+				> a {
+					> img {
+						.paddingLeftRem(3px);
+						.paddingRightRem(1px);
+					}
+
+					&.facebook img {
+						.widthRem(20px);
+						.heightRem(20px);
+					}
+
+					&.instagram img {
+						.widthRem(18px);
+						.heightRem(18px);
+					}
+				}
+
+				.facebook {
+					position: relative;
+					top: 1px;
+				}
+			}
+		}
+	}
+}

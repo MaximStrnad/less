@@ -1,211 +1,82 @@
-{* This is the welcome page, you can delete it *}
+{block page_style}page--homepage color-background-1{/block}
 
 {block content}
-
-<section class="homepage-slide js-movingGradient">
-	<div class="container-fluid">
-		<div class="inside">
-			<div class="text">
-				<h1 n:block=title>{if $locale == 'cs'}<img src="/gfx/headline.svg" alt="{_translation.homepage.slide.headline|noescape}" style="width: 50vw;">{/if}{if $locale == 'en'}<img src="/gfx/headline_en.svg" alt="{_translation.homepage.slide.headline|noescape}" style="width: 50vw;">{/if}</h1>
-				<p>{_translation.homepage.slide.text|noescape}</p>
-				<a class="btn btn-orange btn-big" n:href="Page:klubKlicovychZakaznikuPlzenskyPrazdroj">
-					<span class="btn__text">{_translation.homepage.slide.link}</span>
-					<svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 39.85 73.57">
-					<polygon points="4.55 73.57 0 68.78 30.79 36.79 0 4.79 4.55 0 39.85 36.73 39.79 36.79 39.85 36.84 4.55 73.57" style="fill: currentColor;fill-rule: evenodd; stroke: currentColor; stroke-width: 2px"/>
-					</svg>
-				</a><br>
-				<!--<a n:href="Page:clanky, '2'">{_translation.homepage.slide.videoLink}</a>-->
-                <p class="responsive-text">
-                    {_translation.header.info.sect1} <a n:href="Page:vytvarimeLoga">{_translation.header.info.sect2}</a>, <a n:href="Page:vytvarimeWeby">{_translation.header.info.sect3}</a> {_translation.header.info.sect4} <a n:href="Page:vytvarimeObaly">{_translation.header.info.sect5}</a>, <a n:href="Page:nasePrace, 'filter' => '4'">{_translation.header.info.sect6}</a> {_translation.header.info.sect7} <a n:href="Page:vytvarimePrezentace">{_translation.header.info.sect8}</a>.
-                </p>
+	<section class="container indent">
+		<h1 class="page__title">
+			{_design_2018.homepage.title}
+		</h1>
+		<p class="page__description">
+			{_design_2018.homepage.description}
+		</p>
+	</section>
+	<section class="container slide-wrapper slide-wrapper--kkzpp">
+		<p class="slide-prepend indent">
+			{_design_2018.homepage.kkzpp.title|noescape}
+		</p>
+		<div class="slide slide--responsive slide--centered">
+			<div class="slide__logo-wrapper">
+				<a href="{link Page:KlubKlicovychZakaznikuPlzenskyPrazdroj}">
+					<img src="{$basePath}/gfx/default/kkzpp_logo01.png" alt="{_design_2018.homepage.kkzpp.alt}">
+				</a>
 			</div>
-			<div class="ddd-logo">
-				<img src="/gfx/logo-ddd.svg" alt="Dost dobrý design - logo">
-			</div>
-		<!--<a href="#first-project" class="scroll-to jumping-arrow-homepage"><span class="casestudies">{_translation.homepage.slide.situation}<span></a>-->
-
-		</div>
-	</div>
-</section>
-
-
-<section>
-    <div class="row row-no-gap">
-        <div class="col-md-4">
-            <div class="image-hover">
-                <img src="/gfx/portfolio/poldi/big_poldi_hutte_logo.jpg" alt="">
-                <span>{_translation.homepage.showcase.pic01|noescape}</span>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="image-hover">
-                 <img src="/gfx/portfolio/zgruntu/big_zgruntu_logo.jpg" alt="">
-                <span>{_translation.homepage.showcase.pic02|noescape}</span>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="image-hover">
-                <img src="/gfx/portfolio/freshdays/big_freshdays_logo.jpg" alt="">
-                <span>{_translation.homepage.showcase.pic03|noescape}</span>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--
-<section>
-    <div class="row row-no-gap">
-        <div class="col-md-4">
-            <div class="image-hover">
-                <img src="/gfx/portfolio/kovona/big_kovona_logo.jpg" alt="">
-                <span>{_translation.homepage.showcase.pic04|noescape}</span>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="image-hover">
-                <img src="/gfx/portfolio/ipo/big_ipo_logo.jpg" alt="">
-               <span>{_translation.homepage.showcase.pic05|noescape}</span>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="image-hover">
-                <img src="/gfx/portfolio/o4e/big_o4e_logo.jpg" alt="">
-                <span>{_translation.homepage.showcase.pic06|noescape}</span>
-            </div>
-        </div>
-    </div>
-</section>
--->
-
-<section class="box-present blue-info">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-md-push-6 text-right">
-                <div class="inner">
-                    <h2>{_translation.homepage.blue.headline}</h2>
-                    <p>{_translation.homepage.blue.text}</p>
-                    <a n:href="Page:lead" class="btn btn-orange btn-big">
-                        <span class="btn__text">
-                            {_translation.homepage.blue.accept}
-                        </span>
-                        <svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 39.85 73.57">
-                        <polygon points="4.55 73.57 0 68.78 30.79 36.79 0 4.79 4.55 0 39.85 36.73 39.79 36.79 39.85 36.84 4.55 73.57" style="fill: currentColor;fill-rule: evenodd; stroke: currentColor; stroke-width: 2px"/></svg>
-
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--
-
-
-<section>
-	<div class="cycle-slideshow arrows-small"
-		 data-cycle-fx="scrollHorz"
-		 data-swipe="true"
-		 data-cycle-swipe-fx="scrollHorz"
-		 data-slides="> div"
-	>
-		<div class="box-present box-present-small project-kkz">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-6 text-center">
-						<div>
-							<a n:href="Page:klubKlicovychZakaznikuPlzenskyPrazdroj"><img src="/gfx/kkzpp/kkzpp_logo01.png" alt="{_translation.homepage.project.kkz.headline}" style="height: 9.375vw; max-height: 180px;"></a>
-						</div>
-					</div>
-					<div class="col-md-6 text-right">
-						<div class="inner">
-							<h2>{_translation.homepage.project.kkz.headline|noescape}</h2>
-							<p>{_translation.homepage.project.kkz.text|noescape}</p>
-							<a n:href="Page:klubKlicovychZakaznikuPlzenskyPrazdroj" class="btn btn-white">
-								<span class="btn__text">{_translation.homepage.project.link}</span>
-								<svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 39.85 73.57">
-								<polygon points="4.55 73.57 0 68.78 30.79 36.79 0 4.79 4.55 0 39.85 36.73 39.79 36.79 39.85 36.84 4.55 73.57" style="fill: currentColor;fill-rule: evenodd; stroke: currentColor; stroke-width: 2px"/></svg>
-							</a>
-						</div>
-					</div>
+			<div class="slide__button-wrapper slide__button-wrapper--animated">
+				<div>
+					<a href="{link Page:KlubKlicovychZakaznikuPlzenskyPrazdroj}" class="btn btn--white">
+						<span>{_design_2018.slide.go_to_button}</span>
+					</a>
 				</div>
 			</div>
 		</div>
-		<div class="box-present box-present-small project-destro">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-6 text-center">
-						<div>
-							<a n:href="Page:destro"><img src="/gfx/destro/destro_logo01.svg" alt="{_translation.homepage.project.destro.headline}" style="height: 3.90625vw; max-height: 75px;"></a>
-						</div>
-					</div>
-					<div class="col-md-6 text-right">
-						<div class="inner">
-							<h2>{_translation.homepage.project.destro.headline|noescape}</h2>
-							<p>{_translation.homepage.project.destro.text|noescape}</p>
-							<a n:href="Page:destro" class="btn btn-brown">
-								<span class="btn__text">{_translation.homepage.project.link}</span>
-								<svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 39.85 73.57">
-								<polygon points="4.55 73.57 0 68.78 30.79 36.79 0 4.79 4.55 0 39.85 36.73 39.79 36.79 39.85 36.84 4.55 73.57" style="fill: currentColor;fill-rule: evenodd; stroke: currentColor; stroke-width: 2px"/></svg>
-							</a>
-						</div>
-					</div>
+	</section>
+	<section class="container slide-wrapper slide-wrapper--destro">
+		<p class="slide-prepend indent">
+			{_design_2018.homepage.destro.title|noescape}
+		</p>
+		<div class="slide slide--responsive slide--centered">
+			<div class="slide__logo-wrapper">
+				<a href="{link Page:destro}">
+					<img src="{$basePath}/gfx/default/logo01.png" alt="{_design_2018.homepage.destro.alt}">
+				</a>
+			</div>
+			<div class="slide__button-wrapper slide__button-wrapper--animated">
+				<div>
+					<a href="{link Page:destro}" class="btn btn--white">
+						<span>{_design_2018.slide.go_to_button}</span>
+					</a>
 				</div>
 			</div>
 		</div>
-		<div class="box-present box-present-small project-hortrub">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-6 text-center">
-						<div>
-							<a n:href="Page:petrackovyHorickeTrubicky"><img src="/gfx/pht/pht-plnene.png" alt="{_translation.homepage.project.hortrub.headline}" style="height: 6.302083333vw; max-height: 121px;"></a>
-						</div>
-					</div>
-					<div class="col-md-6 text-right">
-						<div class="inner">
-							<h2>{_translation.homepage.project.hortrub.headline|noescape}</h2>
-							<p>{_translation.homepage.project.hortrub.text|noescape}</p>
-							<a n:href="Page:petrackovyHorickeTrubicky" class="btn btn-orange-light">
-								<span class="btn__text">{_translation.homepage.project.link}</span>
-								<svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 39.85 73.57">
-								<polygon points="4.55 73.57 0 68.78 30.79 36.79 0 4.79 4.55 0 39.85 36.73 39.79 36.79 39.85 36.84 4.55 73.57" style="fill: currentColor;fill-rule: evenodd; stroke: currentColor; stroke-width: 2px"/></svg>
-							</a>
-						</div>
-					</div>
+	</section>
+	<section class="container slide-wrapper slide-wrapper--tack">
+		<p class="slide-prepend indent">
+			{_design_2018.homepage.tack.title|noescape}
+		</p>
+		<div class="slide slide--responsive">
+            <div class="slide__button-wrapper slide__button-wrapper--animated">
+				<div>
+					<a href="{link Page:tack}" class="btn btn--white">
+						<span>{_design_2018.slide.go_to_button}</span>
+					</a>
 				</div>
 			</div>
 		</div>
-		<div class="box-present box-present-small project-drevosrot">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-6 text-center">
-						<div>
-							<a n:href="Page:drevosrot"><img src="/gfx/drevosrot/ds_logo01.svg" alt="{_translation.homepage.project.drevosrot.headline}" style="height: 3.74999vw; max-height: 72px;"></a>
-						</div>
-					</div>
-					<div class="col-md-6 text-right">
-						<div class="inner">
-							<h2>{_translation.homepage.project.drevosrot.headline|noescape}</h2>
-							<p>{_translation.homepage.project.drevosrot.text|noescape}</p>
-							<a n:href="Page:drevosrot" class="btn btn-white-drevosrot">
-								<span class="btn__text">{_translation.homepage.project.link}</span>
-								<svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 39.85 73.57">
-								<polygon points="4.55 73.57 0 68.78 30.79 36.79 0 4.79 4.55 0 39.85 36.73 39.79 36.79 39.85 36.84 4.55 73.57" style="fill: currentColor;fill-rule: evenodd; stroke: currentColor; stroke-width: 2px"/></svg>
-							</a>
-						</div>
+	</section>
+	<footer class="footer">
+		<div class="container column-wrapper puzzle-indent--top-dbl">
+			<div class="column column--left font--size-1">
+				<div class="our-work-wrapper">
+					<div class="our-work indent">
+						<a href="{link Page:nasePrace}" class="our-work__link">
+							{_design_2018.common.next|noescape}
+						</a>
 					</div>
 				</div>
 			</div>
+			<div class="column column--right puzzle-indent--left font--size-1">
+				{include ../_partials/footer_lead.latte}
+			</div>
 		</div>
-		
-		
-		<span class="cycle-prev"></span>
-		<span class="cycle-next"></span>
-	</div>
-</section>
-
-
--->
-
-{/block}
-
-{block afterFooter}
+		<div class="indent">
+			{include ../_partials/footer_sign.latte}
+		</div>
+	</footer>

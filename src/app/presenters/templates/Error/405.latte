@@ -1,6 +1,31 @@
+{block page_style}page--error-405{/block}
+
 {block content}
-<h1 n:block=title>Method Not Allowed</h1>
+	<section class="container indent">
+		<h1 class="page__title">
+			{_design_2018.error_405.title}
+		</h1>
+		<p class="page__description">
+			{_design_2018.error_405.description}
+		</p>
+	</section>
 
-<p>The requested method is not allowed for the URL.</p>
-
-<p><small>error 405</small></p>
+	<section class="container slide-wrapper slide-wrapper--content-form">
+		<p class="slide-prepend indent">
+			{_design_2018.error_405.slide.title|noescape}
+		</p>
+		<div class="slide slide--responsive slide--centered">
+			<div class="slide__logo-wrapper">
+				<a href="{link Page:obsahForma}">
+					<img src="{$basePath}/gfx/obsahforma/obsahforma-logo{if $locale == 'en'}_en{/if}.png" alt="{_design_2018.error_405.slide.alt}">
+				</a>
+			</div>
+			<div class="slide__button-wrapper slide__button-wrapper--animated">
+				<div>
+					<a href="{link Page:obsahForma}" class="btn btn--white">
+						<span>{_design_2018.slide.go_to_button}</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>

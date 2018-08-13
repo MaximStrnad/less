@@ -40,10 +40,7 @@ class ErrorPresenter implements Nette\Application\IPresenter
 
 	}
 
-    public function beforeRender()
-    {
-        $this->template->locale = 'cz';
-    }
+
 
 
 

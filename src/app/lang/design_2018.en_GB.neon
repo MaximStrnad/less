@@ -1,0 +1,315 @@
+cookies:
+    text: "We'd like to know about your interests. So we use cookies to provide some services and analysis on our site. Just stay to agree."
+    info: "More info."
+    btn: "hide it"
+    title: "We use cookies and various tools"
+    description: "Cookies are small data pieces that the web server stores on your computer. Almost all sites in the world do the same. For instance they can recognize that you have been with us once before. Cookies are temporary or permanent. And they can be deleted, blocked, etc., but they never identify you personally, never. We use common GoogleAnalytics to measure traffic so we can see where you come from and what you are looking for the most. Statisticaly. In addition, we use Smartlook to create heatmaps. That's why we've been able to customize our site so you can use it better. And we also use Leads to know what company you are comming from. But really only companies and not all of them. It doesn't really know your personal data. We would like to hear from you when we see that our website has really caught you. Or ask us straight how to use these things to learn about the visitors of your own."
+    slide:
+        title: "Work concept where form cannot exist without the content <span class='arrow-down'></span>"
+        alt: 
+
+info:
+	phone: "+420 603 323 436"
+	phone_pure: "603 323 436"
+	mail1: "hej@proteinstudio.cz"
+	mail2: "info@proteinstudio.cz"
+	company:
+		name: "Protein studio s.r.o."
+		proof: "ID: 278 76 578, VAT ID: CZ27876578, Case number<br>C 123477 filed at the Registry Court in Prague."
+		address: "Váňová 3180, Kladno"
+		dni: "ID: 278 76 578"
+		vat: "VAT ID: CZ27876578"
+	ceo:
+		name: "Zdeněk Sládek"
+		mail: "zdenek@proteinstudio.cz"
+		note: "designer and executive"
+		cta: "Write me your demand now"
+
+common:
+	next: "next&hellip;"
+	download: "Download"
+	field_required: "This field is required!"
+
+header:
+	logo:
+		alt: "Protein studio"
+
+footer:
+	button: "Hej, I'm interested in"
+	note: "Let's meet. Leave your contact and we will contact you soon."
+	motto: "Protein studio is a founding member"
+	scroll_for_next: "scroll to next case study"
+	case_study:
+		title: "How can we<br>help you?"
+		note: "Press yes and in the next<br>step leave us contact."
+		button: "yes!"
+
+navigation:
+	homepage: "home"
+	our_work: "your work"
+	articles: "articles and appearances"
+	about_us: "about us"
+	contact: "contact"
+
+slide:
+	go_to_button: "I want to see that"
+
+thank_you:
+	title: "We are delighted that you are writing to us"
+	description: "We will contact you soon. Thanks you!"
+	slide:
+		title: "Work concept where form cannot exist without the content <span class='arrow-down'></span>"
+		alt: 
+
+error_sending:
+	title: "Oops, something went wrong"
+	description: "Maybe it's better if you call us straight."
+	slide:
+		title: "Work concept where form cannot exist without the content <span class='arrow-down'></span>"
+		alt: 
+
+error_403:
+	title: "Access Denied"
+	description: "You do not have permission to view this page. Please try contact the web site administrator if you believe you should be able to view this page."
+	slide:
+		title: "Work concept where form cannot exist without the content <span class='arrow-down'></span>"
+		alt: 
+
+error_404:
+	title: "Page Not Found"
+	description: "The page you requested could not be found. It is possible that the address is incorrect, or that the page no longer exists. Please use a search engine to find what you are looking for."
+	slide:
+		title: "Work concept where form cannot exist without the content <span class='arrow-down'></span>"
+		alt: 
+
+error_405:
+	title: "Method Not Allowed"
+	description: "The requested method is not allowed for the URL."
+	slide:
+		title: "Work concept where form cannot exist without the content <span class='arrow-down'></span>"
+		alt: 
+
+error_410:
+	title: "Page Not Found"
+	description: "The page you requested has been taken off the site. We apologize for the inconvenience."
+	slide:
+		title: "Work concept where form cannot exist without the content <span class='arrow-down'></span>"
+		alt: 
+
+error_4xx:
+	title: "Oops, something went wrong"
+	description: "Your browser sent a request that this server could not understand or process."
+	slide:
+		title: "Work concept where form cannot exist without the content <span class='arrow-down'></span>"
+		alt: 
+
+homepage:
+	title: "Yout die with bad design"
+	description: "Digital graphic studio. We create brands and their logos, websites and packaging."
+
+	kkzpp:
+		title: "We designed design for Klub klíčových zákazníků Plzeňského Prazdroje <span class='arrow-down'></span>"
+		alt: "Klub klíčových zákazníků Plzeňského Pivovaru"
+	destro:
+		title: "Since 2005, we have been taking care of the look of Destro <span class='arrow-down'></span>"
+		alt: "Destro"
+	tack:
+		title: "The great taste of potato chickpea has name and packaging <span class='arrow-down'></span>"
+		alt: "Tack"
+
+our_work:
+	title: "Our work"
+	poldi:
+		alt:
+		hover_text:
+	tack:
+		alt:
+		hover_text:
+	destro:
+		alt:
+		hover_text:
+	stablo:
+		alt:
+		hover_text:
+	kkzpp:
+		alt:
+		hover_text:
+	fer:
+		alt:
+		hover_text:
+	drevosrot:
+		alt:
+		hover_text:
+	example:
+		alt:
+		hover_text: "Klub klíčových zákazníků<br/>hover ukázka"
+
+destro:
+	title: "Destro"
+	description: "V Destru vidí užitek v materiálu, který jiní považují za odpad. Už od roku 1991. Třeba z vysokopecní strusky vyrobí kamenivo, betonovou stavebnici Stablo a ještě z ní vyseparují železo pro další využití. Pro ocelárny pak zebezpečí celý cyklus stavebních a odpadních materiálů. Ačkoli samy krásu nepobraly, produkty Destro stojí na začátku vzniku krásných věcí a staveb."
+	banner:
+		before: "Dlouhodobě se staráme o značku. Připravili jsme logo, vizuální styl nebo web s kalkulátory."
+		in: "&bdquo;Design nám pomáhá rozvíjet obchod. Jsme vidět a je to vidět i v číslech.&rdquo;"
+	ceo: "Zbyněk Karas, obchodní ředitel Destro"
+	case_studies:
+		title: "Několik webů pro Destro"
+	grow_note: "O tolik procent ročně roste v&nbsp;průměru obrat Destro, úspěch a&nbsp;design jde ruku v&nbsp;ruce."
+	go_to_web: "přejít na web"
+	about:
+		title: "O klientovi"
+		description: "O sice mezistanice jí druhu během kdyby mozaika hodlá, led přírodní mládě v africkými otevřená právě osobním existuje pavouci, tuto to císařský je mé loď ona. Nevychovávala ruce počest, za nakolik povely jsem zemím, stylu EU mělo čti zůstal. Ovlivňují by větvích břehů, ne 7500 200 vše každý severní množství, kamkoliv vím mohl točil tj. řečení komfort. Komodit té to pravidelně hlavně, brání zdi lyžování dlouhá firmou. Zákonů vodu já hustě, našli gamy matka a dalších slov cílem artefaktů. Nevychovávala ruce počest, za nakolik povely jsem zemím, stylu EU mělo čti zůstal. Ovlivňují by větvích břehů, ne 7500 200 vše každý severní množství, kamkoliv vím mohl točil tj. řečení komfort. Komodit té to pravidelně hlavně, brání zdi lyžování dlouhá firmou. Zákonů vodu já hustě, našli gamy matka a dalších slov cílem artefaktů. Nevychovávala ruce počest, za nakolik povely jsem zemím, stylu EU mělo čti zůstal. Ovlivňují by větvích břehů, ne 7500 200 vše každý severní množství, kamkoliv vím mohl točil tj. řečení komfort. Komodit té to pravidelně hlavně, brání zdi lyžování dlouhá firmou. Zákonů vodu já hustě, našli gamy matka a dalších slov cílem artefaktů."
+		link: "www.destro.cz"
+		logo_old: "původní logo"
+		points_title: "Destro je"
+		point1:
+			title: "Krásné"
+			description: "Destro pomáhá vzniknout krásným věcem."
+		point2:
+			title: "Silné"
+			description: "Nebojí se vzít za těžkou práci."
+		point3:
+			title: "Tvořivé"
+			description: "Vidí užitek ve zdánlivě obyčejném."
+
+kkzpp:
+	title: "Klub klíčových zákazníků"
+	description: "V Destru vidí užitek v materiálu, který jiní považují za odpad. Už od roku 1991. Třeba z vysokopecní strusky vyrobí kamenivo, betonovou stavebnici Stablo a ještě z ní vyseparují železo pro další využití. Pro ocelárny pak zebezpečí celý cyklus stavebních a odpadních materiálů. Ačkoli samy krásu nepobraly, produkty Destro stojí na začátku vzniku krásných věcí a staveb."
+	banner:
+		before: "Dlouhodobě se staráme o značku. Připravili jsme logo, vizuální styl nebo web s kalkulátory."
+		in: "&bdquo;Design nám pomáhá rozvíjet obchod. Jsme vidět a je to vidět i v číslech.&rdquo;"
+	ceo: "Zbyněk Karas, obchodní ředitel Destro"
+	case_studies:
+		title: "Několik webů pro Destro"
+	grow_note: "O tolik procent ročně roste v&nbsp;průměru obrat Destro, úspěch a&nbsp;design jde ruku v&nbsp;ruce."
+	go_to_web: "přejít na web"
+	about:
+		title: "O klientovi"
+		description: "O sice mezistanice jí druhu během kdyby mozaika hodlá, led přírodní mládě v africkými otevřená právě osobním existuje pavouci, tuto to císařský je mé loď ona. Nevychovávala ruce počest, za nakolik povely jsem zemím, stylu EU mělo čti zůstal. Ovlivňují by větvích břehů, ne 7500 200 vše každý severní množství, kamkoliv vím mohl točil tj. řečení komfort. Komodit té to pravidelně hlavně, brání zdi lyžování dlouhá firmou. Zákonů vodu já hustě, našli gamy matka a dalších slov cílem artefaktů. Nevychovávala ruce počest, za nakolik povely jsem zemím, stylu EU mělo čti zůstal. Ovlivňují by větvích břehů, ne 7500 200 vše každý severní množství, kamkoliv vím mohl točil tj. řečení komfort. Komodit té to pravidelně hlavně, brání zdi lyžování dlouhá firmou. Zákonů vodu já hustě, našli gamy matka a dalších slov cílem artefaktů. Nevychovávala ruce počest, za nakolik povely jsem zemím, stylu EU mělo čti zůstal. Ovlivňují by větvích břehů, ne 7500 200 vše každý severní množství, kamkoliv vím mohl točil tj. řečení komfort. Komodit té to pravidelně hlavně, brání zdi lyžování dlouhá firmou. Zákonů vodu já hustě, našli gamy matka a dalších slov cílem artefaktů."
+		link: "www.destro.cz"
+		logo_old: "původní logo"
+		points_title: "Destro je"
+		point1:
+			title: "Krásné"
+			description: "Destro pomáhá vzniknout krásným věcem."
+		point2:
+			title: "Silné"
+			description: "Nebojí se vzít za těžkou práci."
+		point3:
+			title: "Tvořivé"
+			description: "Vidí užitek ve zdánlivě obyčejném."
+
+download:
+	title: "Download our tool into your drawer"
+	description: "Thank you for visiting our website. In return we have a tab with<br>typographic rules and shortcuts for you (czech)."
+	card:
+		alt: "typocard"
+
+lead:
+	title: "I want to show my brand to the world."
+	description: "We will discuss what the possibilities are. Write us your question or just contact us and we'll<br>call back soon. You do not have to worry, our prices are fair."
+
+	form:
+		title: "My message <span class='arrow-down'></span>"
+		fields:
+			name: "John Doe"
+			company: "Company Ltd."
+			contact: "123 456 789"
+			submit: "Send"
+		hints:
+			my_name: "My name is"
+			my_company1: "for"
+			my_company2: "called<br>"
+			my_phone: "Please contact me on<br>phone or e-mail"
+			my_question: "I'd like to talk to you<br>about"
+
+contact:
+	title: "Contact"
+	rules: "General terms and conditions (czech)"
+	form:
+		title: "Let's meet and explore<br>the possibilities of cooperation."
+		description: "Write us your question or just leave your phone or<br>e-mail and we'll contact you soon."
+
+about_us:
+	title: "About us"
+	description: "Form and content make the graphic design different from scribbles just as melodies and lyrics differ singing from shouting. In the form, the details are the most important for us because they help to build brand value. In the content it's the suitable concept because it's the main ingredient that makes the brand relevant. We are looking for soulmates."
+	slide:
+		title: "Work concept where form cannot exist without the content <span class='arrow-down'></span>"
+		alt: "Content + Form"
+		go_to_button: "Explore"
+	services:
+		logotype:
+			title: "The brand and the logo"
+			description: "Building a brand is not just creating a picture called the logo. Brand is a promise to your customers and their expectations at the same time. We'll help you discover what's behind. Of course, logo and the whole corporate indentity is a part of it. We create new logos and brands or redesign the old concepts. We also created a lot of brand names such as Stablo, Care2grow, Z&oacute;na, Naven, Vew&eacute; etc. For practical deployment, an electronic manual will be useful, helping with the creation of all printed and electronic applications."
+		web:
+			title: "Websites and apps"
+			description: "Webdesign evolved very much from &ldquo;how it looks&rdquo; to &ldquo;how it works&rdquo;. We have evolved too. But we still see websites in the context of your company communication. We built websites upon our own content management system called Comet."
+		wrap:
+			title: "Obaly"
+			description: "Obalový design má jen pár slov, aby toho řekl hodně. "
+	history:
+		y2018:
+			title: "2018"
+			description: "Dost dobrý design changes to Protein. Big change for us. And for you as well.<br /><br />Zdeněk is fot thw fourth time chairman of the jury of Calender of the Year 2018 competition. Meeting of the jury took place in Brno thi year.<br /><br />Aplication Partner Prazdroj 2 is used also in Slovakia."
+		y2017:
+			title: "2017"
+			description: "Dost dobr&yacute; design presented their new website and themes. Brand building, sales and other presentations and also the innovated concept of CONTENT+FORM.<br /><br />Zden&ecaron;k has been invited as a member of jury in the competition of the Calendar of 2017. The event took place in the premises of a well known graphic school in Hellichova street in Prague. The May announcement was then held at the Chamber of Deputies of the Parliament of the Czech Republic. Zden&ecaron;k had a short speech as chairman of the jury. We repeatedly supported the Marketer of the Year competition, and Zden&ecaron;k also handed one of the prizes. It's an established tradition."
+		y2016:
+			title: "2016"
+			description: "Another Marketing Mix took place in Brno and Prague. The main theme of this year is &ldquo;how to build a brand as such&rdquo;. The lecture is on the video (Czech).<br /><br />After the statutes were modified, Zden&ecaron;k was elected to the presidency of the Union of Graphic Design.<br /><br />Zden&ecaron;k is leaving to shoot video for a client in Latvia.<br /><br />Zden&ecaron;k has been the chairman of the jury in the competition of the Calendar of the year. As a chairman, Zden&ecaron;k had a short speech during a ceremony at the Chamber of Deputies of the Parliament.<br /><br />Last years lectures on Marketing Mix had two unexpected repeats in Ostrava and Hradec Kr&aacute;lov&eacute;.<br /><br />We have innovated the process towards more intense linking of content and form. We started creating functional web prototypes in UXpin.<br /><br />This year we also supported the Marketer of the Year, just like last year and the year before."
+		y2015:
+			title: "2015"
+			description: "Zden&ecaron;k has been invited to become a member of the jury in the Calendar of 2015 competition. He was immediately elected to be the Chairman of the jury. The event took place in the premises of the National Technical Museum.<br /><br />During the Marketing Mix in Prague and Brno, Zden&ecaron;k gives lectures to the audience on how to spot that their company is using a bad logo. The lecture is on the video."
+		y2014:
+			title: "2014"
+			description: "The first annual of the Marketing Mix, the succesor to the Sv#ecaron;t reklamy (World of Advertising) event, took place during the autumn in Prague and Brno. Zden&ecaron;k had a lecture on &ldquo;how to get the best out of your graphic designer&rdquo;. The lecture is on the video. The Marketing & Comunications, issue 1/2014, and the Typography magazines print other Zden&ecaron;ks articles. The first article is about naming and the other one is comparing websites and prints. Zden&ecaron;k makes his first appearance in the accompanying program of the largest Czech trade fair Polygraf Advertising. You would have find him on the list under the name Sven Ekstr&oslash;m &ndash; the lecture was about naming.<br /><br />The Font magazine evaluates the logos of the kitchen producers. Our ROTO logo is among them and doing well.<br /><br />Dost dobr&yacute; design has moved to new premises in the center of Kladno."
+		y2013:
+			title: "2013"
+			description: "The magazine of the Czech Marketing Company &ndash; Marketing &amp; Communications, issue 1/2013, prints another Zden&ecaron;k&prime;s expert article entitled &ldquo;Assigning a contract to a graphic studio&rdquo;.<br /><br />In its 130th issue, FONT magazine reports an article about our redesign of the POLDI logo. After some time, Zden&ecaron;k also answers several questions from the Typography magazine.<br /><br />Zden&ecaron;k performs a lecture on websites and prints within the accompanying program of the World Advertising Fair in Prague and Brno.<br /><br />Article &ldquo;LOGO&rdquo; is the content of issue 3/2013 of the magazine of Czech Marketing Company Marketing &amp; Communications 1/2013. Zden&ecaron;k, as a representative of Czech Marketing Company participates in the panel discussion of the conference &ldquo;Customer dialogue&rdquo; co-organized by the Czech Marketing Company."
+		y2012:
+			title: "2012"
+			description: "The magazine of the Czech Marketing Company &ndash; Marketing &amp; Communications, issue 1/2012 marks another Zden&ecaron;k s expert article entitled &ldquo;How to choose a graphic designer/studio for cooperation&rdquo;. And in the autumn issue of the same magazine, another article appears. This time on How to evaluate graphic design.<br /><br />Several of our studies are featured in the Union of Graphic Design yearbook.<br /><br />Zden&ecaron;k provides an interview to the Newspapers for the Printing Industry. He also answers twice on a few questions from the Typography magazine. In issue 6/2012 on the issue of printer propagation, in issue 12/2012 on the topic of typography across the media.<br /><br />The lecture and the 26th seminar of the Union of Graphic Design on the subject of communication with the client is this time led by Zden&ecaron;k.<br /><br />Zden&ecaron;k participates in a branding conference with Marty Neumeier as the main guest.<br /><br />Zden&ecaron;k is a part of the CENTRES focus-group project which focuses on creative education.<br /><br />For the first time, we supported the Marketer of the Year 2010 competition. One of the winners got a graphical tablet."
+		y2011:
+			title: "2011"
+			description: "Zden&ecaron;k became a member of the Czech Marketing Company.<br /><br />Together with his father Milan provides a full-page interview with Mlad&aacute; fronta DNES. Zden&ecaron;k&prime;s work for the Kladno based security agency SBS Services appears on the pages of the Font magazine.<br /><br />The magazine of the Czech Marketing Company &ndash; Marketing &amp; Communications prints the first article by Zden&ecaron;k entitled &ldquo;Graphic design and graphic designer&rdquo;. For www.logobox.cz, he writes an article about a good logo.<br /><br />As a part of the accompanying program of the World Advertising Fair in Brno and later in Prague, Zden&ecaron;k lectures on the most common typographical errors.<br /><br />Zden&ecaron;k is a member of the jury of the competition for the new destination logo of Czech republic, which was listed by the Czech Tourism Agency.<br /><br />The logo and the visual style of the Sommer & vnuk labels from our studio is on the shortlist of the creative competition Gold Stone 2011.<br /><br />Milan, as the President of the Union of Graphic Design, participated in a debate on the Radio Leonardo."
+		y2010:
+			title: "2010"
+			description: "Zden&ecaron;k was a member of the commission for the selection of webdesign of the Faculty of Social Sciences of Charles University in Prague.<br /><br />Zden&ecaron;k publishes his &ldquo;Design to sell&rdquo; article in the SOUP mapping publication."
+		y2009:
+			title: "2009"
+			description: "Zden&ecaron;k is a member of the selection committee for the selection of the new corporate identity of the political party TOP09.<br /><br />Three works of Zden&ecaron;k are listed in the LOGO book 1989-2008 published by HRaNA.<br /><br />Zden&ecaron;k is quoted by Hospod&aacute;&rcaron;sk&eacute; noviny and server iPodnikatel.cz.<br /><br />In our studio, we've had a rare guest for a four-week internship. Ji&rcaron;&iacute; Seger, a Czech-American living in New York, and a graphic designer for Ideas on Purpose studio."
+		y2008:
+			title: "2008"
+			description: "Dost dobr&yacute; design is accepted as a member of A&Ccaron;RA. The studio has been in the association for several years.<br /><br />We have won the prize &ldquo;Winner of the year 2008&rdquo; in the print category of ACRA Awards for the DHL Campaign &ldquo;Hive&rdquo;."
+		y2007:
+			title: "2007"
+			description: "Zden&ecaron;k (son) and Milan (father) co-founded the Union of Graphic Design spolu s&nbsp;dalsimi 12 renomovanymi studii. Since then, Milan has served as the President of the Union for almost ten years.<br /><br />Studio Dost dobr&yacute; design transforms into an Inc. Dost dobr&yacute; design&reg; is a trademark. Zden&ecaron;k is a member of the jury of the creative competition iReklama organized by the Union of Publishers, section of publishers of Internet titles.<br /><br />At the Austrian Cultural Forum in Prague, Zden&ecaron;k lectures on the experience of graphic design within small and medium-sized companies at the international workshop EWDS on design support."
+		y2006:
+			title: "2006"
+			description: "After a year of work, the studio has 5 members. Dost dobr&yacute; design focuses on logos, prints, and websites. However, nothing special happened this year."
+		y2005:
+			title: "2005"
+			description: "Zden&ecaron;k graduated from the Czech Technical University in Prague, FSI, Institute of Management and Economics of the Company. He graduates with honors. His diploma thesis deals with the issue of corporate design in the environment of small and medium-sized companies. Diploma thesis supervisor is Doc. Ing. V&aacute;clav Dolansk&yacute;, translator of the marketing bible &ldquo;Marketing Management&rdquo; by Professor Philip Kotler. Right after that he establishes the studio Dost dobr&yacute; design."
+
+content_form:
+	title: "Content + Form"
+	description: "Vytváříme obsah a formu. Zároveň při mluvení jsou obsahem slova, která říkáme. Forma, kterou slovům poskytne tón hlasu či výraz obličeje, může zcela změnit význam obsahu slov. Ve vizuální komunikaci je to obdobné. Grafická forma bez obsahu je jen dekorací. Je to jen samotný škleb."
+	article:
+		title: "titulky a claimy, infografiky, značky, koncepce, podklady, kreativní briefy, prototypy webů"
+		description: "Šablonování se slepým obsahem „Lorem ipsum“ je dokonale ošidné. Návrh může být atraktivní, přesto nefunkční. Vytváří prostor pro obsah, který není možné získat. Když vzniká samotný obsah bez formy, je často nepřehledný nebo nevhodně strukturovaný. Při použití je roztříštěn na části, které nemají logické návaznosti. Řešením je nový způsob designové práce, kdy obsah a&nbsp;jeho vizuální forma vznikají společně. Díky tomu mají příležitost se vzájemně ovlivnit. Komplexní design, který tak vznikne je pro spotřebitele či uživatele více srozumitelný."
+		points:
+			i1:
+				title: "situation"
+				description: "We do research and analysis. We specify customer engagements, customer insight. We are interested in the circulator, the recipient of the visual medium of the environment. The purpose of the first phase is to find possible problems and opportunities."
+			i2:
+				title: "goal"
+				description: "We set the positioning strategy. We do conceptual design. We define creative barriers, brand definition, etc. The purpose of the second phase is to focus on the main tasks."
+			i3:
+				title: "content + form"
+				description: "Initial creative designs are made. This part is usually done without the help of a computer. The third phase is the search for a portfolio of possible solutions."
+			i4:
+				title: "iterations"
+				description: "Determination of the most appropriate direction of the solution. Gradual changes to the design and revision of previous design decisions are caused by changes to the design of other parts of the product or by changing the conditions. The result is both internally and externally consistent, in which there is nothing to add, remove or change."
+			i5:
+				title: "realization"
+				description: "Pre-printing preparation and the print itself. Coding and programming. The purpose of the fifth phase is to fill in the content to the design."
+			appendix: "Each design process has these 5 moments. However, for different products, the importance and the ratio of the moments can be significantly different."

@@ -1,0 +1,135 @@
+&--content-form {
+	background-color: @color-be-2;
+
+	.header {
+		min-height: 17.8rem;
+	}
+
+	.page__title {
+		padding-top: 3.5rem;
+		padding-bottom: 1.2rem;
+
+		img {
+			.widthRem(441px);
+		}
+	}
+
+	.page__description {
+		color: @color-fe-2;
+		padding-bottom: 4.8rem;
+	}
+
+	.content-form {
+		padding-bottom: 5.5rem;
+
+		&__content {
+
+		}
+
+		&__title {
+			.font-weight-extrabold;
+			color: @color-fe-2;
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+		}
+
+		&__description {
+			.font-weight-light;
+			.fontSizeRem(20px);
+			color: @color-fe-2;
+			line-height: @font-line-height;
+		}
+
+		&__points {
+			margin-left: -@section-padding-left*0.35;
+			margin-top: 4.75rem;
+			border-left: 2px solid @color-be-content-form;
+			counter-reset: cpoints;
+
+			.point {
+				padding-bottom: 2.75rem;
+				position: relative;
+				top: -1rem;
+				padding-left: @section-padding-left*0.35;
+
+				&::before {
+					counter-increment: cpoints;
+					content: counter(cpoints);
+					position: absolute;
+					left: calc(~'-0.65rem - 2px');
+					top: 0.25rem;
+					border: 2px solid @color-be-content-form;
+					border-radius: 50%;
+					display: block;
+					width: 1.4rem;
+					height: 1.4rem;
+					line-height: calc(~'1.3rem - 2px');
+					text-align: center;
+					font-size: 0.7rem;
+					background-color: @color-be-2;
+					box-sizing: border-box;
+				}
+
+				&__title {
+					.font-weight-extrabold;
+					.fontSizeRem(26px);
+					padding-bottom: 0.15rem;
+					color: @color-be-content-form;
+				}
+
+				&__description {
+					.font-weight-light;
+					color: @color-fe-2;
+					line-height: @font-line-height;
+				}
+
+				&--appendix {
+					top: auto;
+					padding-bottom: 1.5rem;
+
+					.point__description {
+						.fontSizeRem(20px);
+					}
+
+					&::before {
+						content: ' ';
+						left: calc(~'-0.35rem - 1px');
+						top: auto;
+						bottom: 0;
+						width: 0.7rem;
+						height: 0.7rem;
+						background-color: @color-be-content-form;
+					}
+				}
+			}
+		}
+	}
+
+	.footer {
+		color: @color-fe-content-form;
+
+		&__lead-note {
+			color: @color-fe-content-form;
+		}
+
+		.btn {
+			.convertToRem(3px);
+			border: @v solid @color-fe-content-form;
+		}
+
+		&__sign-info {
+			span, span a {
+				color: @color-fe-content-form;
+			}
+		}
+
+		&__sign-motto {
+			color: @color-fe-content-form;
+		}
+
+		&__sign-logo {
+			-webkit-filter: grayscale(100%);
+			filter: grayscale(100%);
+		}
+	}
+}

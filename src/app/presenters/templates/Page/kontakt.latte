@@ -1,183 +1,197 @@
-{* This is the welcome page, you can delete it *}
+{block page_style}page--contact{/block}
 
 {block content}
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUHgSBQfJ0vENgyRIbblzjjrRLI7YnDvU" type="text/javascript"></script>
-<script>
-    var map;
-    function initialize() {
-        var mapOptions = {
-            zoom: 17,
-            center: new google.maps.LatLng(50.143998, 14.099969)
-            , mapTypeControl: false
-            , overviewMapControl: false
-            , streetViewControl: false
-            , rotateControl: false
-            , panControl: false
-            , zoomControl: false
-            , scaleControl: false
-            , draggable: true
-            , scrollwheel: false
-            , styles : 
-			
-			
-			
-			[
-  {
-    "stylers": [
-      {
-        "saturation": "-100"
-      },
-      {
-        "lightness": "-53"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "landscape",
-    "elementType": "geometry.fill",
-    "stylers": [
-      {
-        "color": "#174243"
-      }
-    ]
-  },
-  {
-    "featureType": "landscape",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      {
-        "color": "#355456"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#305052"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#003336"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "labels",
-    "stylers": [
-      {
-        "color": "#829595"
-      },
-      {
-        "visibility": "simplified"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "labels.icon",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "transit",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  }
-]
-			
-			
-        };
-        map = new google.maps.Map(document.getElementById('map-canvas'),
-            mapOptions);
-
-        var myLatLng = new google.maps.LatLng(50.143998, 14.099969);
-        var icon = "/gfx/map-pointer.png";
-        var beachMarker = new google.maps.Marker({
-            position: myLatLng,
-            icon: icon,
-            map: map
-        });
-    }
-
-    //google.maps.event.addDomListener(window, 'load', initialize);
-    window.setTimeout("initialize()", 500);
-
-</script>
-
-
-<section class="top-section contact">
-    <div class="container-fluid">
-        <div class="box-big">
-            <a href="tel:00420603323436">+420 603 323 436</a>
-            <a href="mailto:zdenek@dostdobrydesign.cz">zdenek@dostdobrydesign.cz</a>
-            <span>{_translation.contact.big|noescape}</span>
-            <span class="add">{_translation.contact.big_add|noescape}</span>
-            <div>
-                <img src="/gfx/flags/cz.png" alt="" style="height: 0.9895833333vw; max-height: 19px;">
-                <img src="/gfx/flags/en.png" alt="" style="height: 0.9895833333vw; max-height: 19px;">
-                <img src="/gfx/flags/de.png" alt="" style="height: 0.9895833333vw; max-height: 19px;">
-            </div>
-        </div>
-        <div class="box-small">
-            <a href="tel:00420737721567">+420 737 721 567</a>
-            <a href="mailto:milan@dostdobrydesign.cz">milan@dostdobrydesign.cz</a>
-            <span>{_translation.contact.small|noescape}</span>
-        </div>
-        <div class="bottom-text">
-            <p>{_translation.contact.bottomText.t1|noescape}</p>
-            <p>{_translation.contact.bottomText.t2|noescape}</p>
-        </div>
-        <div class="text-center">
-            <a href="/files/vop_2012.pdf" target="_blank" class="download-link-pdf">{_translation.contact.bottomText.download}</a>
-        </div>
-    </div>
-</section>
-<section class="map">
-    <div id="map-canvas">
-
-    </div>
-</section>
-<section class="contact-form">
-    <div class="container-fluid">
-        <div class="headline-box">
-            <h1>{_translation.contact.form.headline}</h1>
-            <p>{_translation.contact.form.text}</p>
-        </div>
-        {control contactForm}
-    </div>
-</section>
-
+	<section class="container column-wrapper contact">
+		<div class="column column--left indent contact__panel-1">
+			<h1 class="page__title">
+				{_design_2018.contact.title}
+			</h1>
+			<address>
+				<p class="page__description">
+					{_design_2018.info.company.name}<br>
+					{_design_2018.info.company.address}
+				</p>
+				<p class="page__description page__description--small">
+					{_design_2018.info.company.dni}, {_design_2018.info.company.vat}<br>
+					{_design_2018.info.company.proof|noescape}<br>
+				</p>
+				<p class="page__description page__description--small">
+					<a href="mailto:{_design_2018.info.mail2}">
+						{_design_2018.info.mail2}
+					</a>
+				</p>
+			</address>
+		</div>
+		<div class="column column--right puzzle-indent--left">
+			<div class="contact__panel-2">
+				<div class="contact__panel-2__summary">
+					{_design_2018.info.ceo.name}<br>
+					<a href="tel:{_design_2018.info.phone}">{_design_2018.info.phone}</a><br>
+					<a href="mailto:{_design_2018.info.ceo.mail}" class="em">{_design_2018.info.ceo.mail}</a>
+				</div>
+				<div class="contact__panel-2__note">
+					{_design_2018.info.ceo.note}<br>
+					{_design_2018.info.ceo.cta}
+				</div>
+				<div class="contact__panel-2__flags">
+					<img src="{$basePath}/gfx/flags/cz.png" alt="cz">
+					<img src="{$basePath}/gfx/flags/en.png" alt="en">
+					<img src="{$basePath}/gfx/flags/de.png" alt="de">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container puzzle-indent--top-dbl">
+		<div id="map-canvas"></div>
+	</section>
+	<section class="container column-wrapper">
+		<div class="column column--left font--size-1 indent contact__rules">
+			<a href="/files/vop_2012.pdf" target="_blank" class="">{_design_2018.contact.rules}</a>
+			<span class="icon-pdf"></span>
+		</div>
+		<div class="column column--right font--size-1 contact__form">
+			<h2 class="title">
+				{_design_2018.contact.form.title|noescape}
+			</h2>
+			<p class="description">
+				{_design_2018.contact.form.description|noescape}
+			</p>
+			{control contactForm}
+		</div>
+	</section>
 {/block}
 
-{block afterFooter}
+{block afterFooter}{/block}
+
+{block scripts}
+	{include #parent}
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUHgSBQfJ0vENgyRIbblzjjrRLI7YnDvU" type="text/javascript"></script>
+	<script>
+		$(function() {
+			var map;
+
+			function initialize() {
+				var mapOptions = {
+					zoom: 17,
+					center: new google.maps.LatLng(50.143998, 14.10022)
+					, mapTypeControl: false
+					, overviewMapControl: false
+					, streetViewControl: false
+					, rotateControl: false
+					, panControl: false
+					, zoomControl: false
+					, scaleControl: false
+					, draggable: true
+					, scrollwheel: false
+					, styles:
+					[
+						{
+							"stylers": [
+								{
+									"saturation": "-100"
+								},
+								{
+									"lightness": "-53"
+								}
+							]
+						},
+						{
+							"featureType": "administrative",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "landscape",
+							"elementType": "geometry.fill",
+							"stylers": [
+								{
+									"color": "#174243"
+								}
+							]
+						},
+						{
+							"featureType": "landscape",
+							"elementType": "geometry.stroke",
+							"stylers": [
+								{
+									"color": "#355456"
+								}
+							]
+						},
+						{
+							"featureType": "poi",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "poi",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#305052"
+								}
+							]
+						},
+						{
+							"featureType": "road",
+							"elementType": "geometry",
+							"stylers": [
+								{
+									"color": "#003336"
+								}
+							]
+						},
+						{
+							"featureType": "road",
+							"elementType": "labels",
+							"stylers": [
+								{
+									"color": "#829595"
+								},
+								{
+									"visibility": "simplified"
+								}
+							]
+						},
+						{
+							"featureType": "road",
+							"elementType": "labels.icon",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						},
+						{
+							"featureType": "transit",
+							"stylers": [
+								{
+									"visibility": "off"
+								}
+							]
+						}
+					]
+				};
+
+				map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+				var myLatLng = new google.maps.LatLng(50.143998, 14.099969);
+				var icon = {$basePath} + "/gfx/map-pointer-white.png";
+				var beachMarker = new google.maps.Marker({
+					position: myLatLng,
+					icon: icon,
+					map: map
+				});
+			}
+
+			window.setTimeout(initialize, 500);
+		});
+	</script>

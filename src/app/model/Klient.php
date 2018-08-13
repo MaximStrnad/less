@@ -5,10 +5,8 @@ namespace App\Model;
 use Nette;
 
 
-class Klient
+class Klient extends Nette\Object
 {
-	use Nette\SmartObject;
-
     private $nazev;
     private $popisek;
     private $popisek_en;

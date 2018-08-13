@@ -1,0 +1,102 @@
+.convertToRem(@val:1) { 
+    @v: unit(@val/@font-size-rem, rem); 
+}
+
+.convertToVW(@val:1) { 
+    @v: unit(@val/19.2, vw);
+}
+
+.fontSizeRem(@size: @font-size-rem) {
+	.convertToRem(@size);
+	font-size: unit(@v, rem);
+}
+
+.paddingLeftVW(@val: 1) {
+	.convertToVW(@val);
+	padding-left: unit(@v, vw);
+}
+
+.paddingRightVW(@val: 1) {
+	.convertToVW(@val);
+	padding-right: unit(@v, vw);
+}
+
+.paddingTopVW(@val: 1) {
+	.convertToVW(@val);
+	padding-top: unit(@v, vw);
+}
+
+.paddingBottomVW(@val: 1) {
+	.convertToVW(@val);
+	padding-bottom: unit(@v, vw);
+}
+
+.topVW(@val: 1) {
+	.convertToVW(@val);
+	top: unit(@v, vw);
+}
+
+.bottomVW(@val: 1) {
+	.convertToVW(@val);
+	bottom: unit(@v, vw);
+}
+
+.rightVW(@val: 1) {
+	.convertToVW(@val);
+	right: unit(@v, vw);
+}
+
+.widthVW(@val: 1) {
+	.convertToVW(@val);
+	width: unit(@v, vw);
+}
+
+.heightVW(@size: @font-size-rem) {
+	.convertToVW(@size);
+	height: unit(@v, vw);
+}
+
+.paddingLeftRem(@val: 1) {
+	.convertToRem(@val);
+	padding-left: unit(@v, rem);
+}
+
+.paddingRightRem(@val: 1) {
+	.convertToRem(@val);
+	padding-right: unit(@v, rem);
+}
+
+.paddingTopRem(@val: 1) {
+	.convertToRem(@val);
+	padding-top: unit(@v, rem);
+}
+
+.paddingBottomRem(@val: 1) {
+	.convertToRem(@val);
+	padding-bottom: unit(@v, rem);
+}
+
+.topRem(@val: 1) {
+	.convertToRem(@val);
+	top: unit(@v, rem);
+}
+
+.bottomRem(@val: 1) {
+	.convertToRem(@val);
+	bottom: unit(@v, rem);
+}
+
+.rightRem(@val: 1) {
+	.convertToRem(@val);
+	right: unit(@v, rem);
+}
+
+.widthRem(@val: 1) {
+	.convertToRem(@val);
+	width: unit(@v, rem);
+}
+
+.heightRem(@size: @font-size-rem) {
+	.convertToRem(@size);
+	height: unit(@v, rem);
+}

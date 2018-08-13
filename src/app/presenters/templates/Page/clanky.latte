@@ -1,29 +1,37 @@
+{block page_style}page--articles{/block}
+
 {block content}
-<section class="news-list">
-    {foreach $clanky as $clanek}
-        <div class="news text-center">
-            <span class="time">{$clanek->getDatum()|date:'j. n. Y'}</span>
-            <h2>{$locale == 'cs' ? $clanek->getTitulek() : $clanek->getTitulekEn()|noescape}</h2>
-            <p>{$locale == 'cs' ? $clanek->getText() : $clanek->getTextEn()|noescape}</p>
-            {if '' !== $clanek->getSoubor()}
-                <img src="" data-src="/gfx/novinky/{$clanek->getSoubor()}" alt="{$locale == 'cs' ? $clanek->getTitulek() : $clanek->getTitulekEn()}">
-            {/if}
-            {if '' !== $clanek->getYoutube()}
-                <div class="yt-container">
-                    <div class="yt-wrapper">
-                        <iframe src="https://www.youtube.com/embed/{$clanek->getYoutube()}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                    </div>
+	<section class="container container--small indent">
+		{foreach $clanky as $article}
+			<article class="article">
+				<span class="article__date">
+					{$article->getDatum()|date:'j. n. Y'}
+				</span>
+
+				<h2 class="article__title">
+					{$locale == 'cs' ? $article->getTitulek() : $article->getTitulekEn()|noescape}
+				</h2>
+
+				<p class="article__content">
+					{$locale == 'cs' ? $article->getText() : $article->getTextEn()|noescape}
+				</p>
+
+                <div class="article__media">
+                    {if '' !== $article->getSoubor()}
+                        <div class="article__thumbnail">
+                            <img
+                                data-src="{$basePath}/gfx/novinky/{$article->getSoubor()}"
+                                alt="{$locale == 'cs' ? $article->getTitulek() : $article->getTitulekEn()}"
+                                >
+                        </div>
+                    {/if}
+
+                    {if '' !== $article->getYoutube()}
+                        <div class="article__video">
+                            <iframe src="https://www.youtube.com/embed/{$article->getYoutube()}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    {/if}
                 </div>
-            {/if}
-        </div>
-    {/foreach}
-    {if $showOlder == 1}
-        <div class="container-fluid text-right">
-            <a n:href="Page:prezentace" class="arrow-down">{_translation.prezentace.older}</a>
-        </div>
-    {/if}
-</section>
-
-{/block}
-
-{block afterFooter}
+			</article>
+		{/foreach}
+	</section>

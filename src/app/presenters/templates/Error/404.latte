@@ -1,8 +1,31 @@
+{block page_style}page--error-404{/block}
+
 {block content}
-<h1 n:block=title>Page Not Found</h1>
+	<section class="container indent">
+		<h1 class="page__title">
+			{_design_2018.error_404.title}
+		</h1>
+		<p class="page__description">
+			{_design_2018.error_404.description}
+		</p>
+	</section>
 
-<p>The page you requested could not be found. It is possible that the address is
-incorrect, or that the page no longer exists. Please use a search engine to find
-what you are looking for.</p>
-
-<p><small>error 404</small></p>
+	<section class="container slide-wrapper slide-wrapper--content-form">
+		<p class="slide-prepend indent">
+			{_design_2018.error_404.slide.title|noescape}
+		</p>
+		<div class="slide slide--responsive slide--centered">
+			<div class="slide__logo-wrapper">
+				<a href="{link Page:obsahForma}">
+					<img src="{$basePath}/gfx/obsahforma/obsahforma-logo{if $locale == 'en'}_en{/if}.png" alt="{_design_2018.error_404.slide.alt}">
+				</a>
+			</div>
+			<div class="slide__button-wrapper slide__button-wrapper--animated">
+				<div>
+					<a href="{link Page:obsahForma}" class="btn btn--white">
+						<span>{_design_2018.slide.go_to_button}</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>

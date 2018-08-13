@@ -1,0 +1,49 @@
+﻿<section>
+    <div class="cycle-slideshow"
+         data-cycle-fx="scrollHorz"
+         data-swipe="true"
+         data-cycle-swipe-fx="scrollHorz"
+         data-slides="picture">
+        <!-- you need to add data-slides="picture" to div.cycle-slideshow  -->
+        <picture>
+            <source srcset="{$basePath}/gfx/kkzpp/4.jpg" media="(min-width: 1025px)"> <!-- visible at x>1024 -->
+            <source srcset="{$basePath}/gfx/kkzpp/4.jpg" media="(min-width: 769px)"> <!-- visible at 1025>x>768 -->
+            <source srcset="{$basePath}/gfx/kkzpp/4.jpg" media="(min-width: 1px)"> <!-- visible at 769>x>1 -->
+            <img src="{$basePath}/gfx/kkzpp/4.jpg" alt=""> <!-- default -->
+        </picture>
+        <picture>
+            <source srcset="{$basePath}/gfx/kkzpp/5.jpg" media="(min-width: 1025px)">
+            <source srcset="{$basePath}/gfx/kkzpp/5.jpg" media="(min-width: 769)">
+            <source srcset="{$basePath}/gfx/kkzpp/5.jpg" media="(min-width: 1px)">
+            <img src="{$basePath}/gfx/kkzpp/5.jpg" alt="">
+        </picture>
+        <picture>
+            <source srcset="{$basePath}/gfx/kkzpp/3.jpg" media="(min-width: 1025px)">
+            <source srcset="{$basePath}/gfx/kkzpp/3.jpg" media="(min-width: 769)">
+            <source srcset="{$basePath}/gfx/kkzpp/3.jpg" media="(min-width: 1px)">
+            <img src="{$basePath}/gfx/kkzpp/3.jpg" alt="">
+        </picture>
+        <picture>
+            <source srcset="{$basePath}/gfx/kkzpp/2.jpg" media="(min-width: 1025px)">
+            <source srcset="{$basePath}/gfx/kkzpp/2.jpg" media="(min-width: 769)">
+            <source srcset="{$basePath}/gfx/kkzpp/2.jpg" media="(min-width: 1px)">
+            <img src="{$basePath}/gfx/kkzpp/2.jpg" alt="">
+        </picture>
+        <span class="cycle-prev"></span>
+        <span class="cycle-next"></span>
+    </div>
+</section>
+
+<section>
+    <div class="cycle-slideshow"
+         data-cycle-fx="scrollHorz"
+         data-swipe="true"
+         data-cycle-swipe-fx="scrollHorz">
+        <img src="{$basePath}/gfx/kkzpp/4.jpg" alt="">
+        <img src="{$basePath}/gfx/kkzpp/5.jpg" alt="">
+        <img src="{$basePath}/gfx/kkzpp/3.jpg" alt="">
+        <img src="{$basePath}/gfx/kkzpp/2.jpg" alt="">
+        <span class="cycle-prev"></span>
+        <span class="cycle-next"></span>
+    </div>
+</section>

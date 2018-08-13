@@ -1,0 +1,247 @@
+.slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    .heightVW(832px);
+    position: relative;
+
+	&--centered {
+		.both_centered;
+	}
+
+	&-wrapper {
+	}
+
+	&-prepend {
+		margin-bottom: 0.6rem;
+	}
+
+	&__logo-wrapper {
+		&--full {
+			height: 100%;
+
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+
+	&__button-wrapper {
+		.both_centered;
+		position: absolute;
+		top: auto;
+		.bottomRem(40px);
+		left: auto;
+		.rightRem(50px);
+		.widthRem(384px);
+		.heightRem(142px);
+
+		&--animated {
+			z-index: 1;
+
+			@media screen and (min-width: 1160px) {
+				&:hover{
+					&::after {
+						height: 100%;
+					}
+				}
+			}
+
+			&::after {
+				background-color: #b2b0b0;
+				height: 0px;
+				position: absolute;
+				content: "";
+				bottom: 0px;
+				width: 100%;
+				z-index: 1;
+				transition: height 0.2s;
+			}
+		}
+
+		.btn {
+			position: relative;
+			z-index: 2;
+		}
+	}
+
+	&__note {
+		position: absolute;
+
+		&--above-slide {
+			left: 0;
+			top: -1rem;
+			font-size: 1rem;
+		}
+
+		&--behind-top {
+			left: 0;
+			top: 1rem;
+			font-size: 1rem;
+		}
+
+		&--above-bottom {
+			bottom: 2%;
+			left: 0;
+			font-size: 1rem;
+		}
+	}
+}
+
+.slide-wrapper {
+	&--content-form {
+		margin-top: 5rem;
+
+		.slide {
+			.heightVW(600px);
+			background-color: @color-be-2;
+
+			&__logo-wrapper {
+				img {
+					.widthRem(441px);
+				}
+			}
+
+			&__button-wrapper {
+				top: auto;
+				bottom: 5%;
+				background-color: #c1c1c1;
+
+				.btn {
+					&::after {
+						background-color: #B3B1A5;
+					}
+
+					&:hover {
+						&::after {
+							background-color: #918e7f;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&--kkzpp {
+		margin-top: 7.6rem;
+
+		.slide {
+			.heightVW(850px);
+			background-image: url("../gfx/default/kkzpp_bg00.png");
+
+			&__logo-wrapper {
+				img {
+					.widthRem(180px);
+				}
+			}
+		}
+
+		.slide__button-wrapper {
+			background-color: rgba(12, 47, 29, 0.67);
+			.bottomRem(28px);
+
+			&::after {
+				background-color: rgba(12, 47, 29, 0.87);
+			}
+
+			.btn {
+				&::after {
+					background-color: transparent;
+				}
+
+				&:hover {
+					&::after {
+						background-color: #cccccc;
+					}
+				}
+			}
+		}
+	}
+
+	&--destro {
+		margin-top: 7.8rem;
+
+		.slide {
+			.heightVW(600px);
+			background-image: url("../gfx/default/destro_bg01.jpg");
+			&__logo-wrapper {
+				img {
+					.widthRem(284px);
+				}
+			}
+		}
+
+		.slide__button-wrapper {
+			background-color: #f1c001;
+			.bottomRem(28px);
+
+			&::after {
+				background-color: #eab700;
+			}
+
+			.btn {
+				&::after {
+					background-color: #daaf00;
+				}
+
+				&:hover {
+					&::after {
+						background-color: #af8f0c;
+					}
+				}
+			}
+		}
+	}
+
+	&--tack {
+		margin-top: 7.8rem;
+
+		.slide {
+			background-image: url("../gfx/default/tack.png");
+			.heightVW(850px);
+
+            .slide__button-wrapper {
+                background-color: rgba(176, 2, 40, 0.35);
+                .bottomRem(28px);
+
+                &::after {
+                    background-color: rgba(176, 2, 40, 0.5);
+                }
+
+                .btn {
+                    &::after {
+                        background-color: rgba(176, 2, 40, 0.35);
+                    }
+
+					&:hover {
+						&::after {
+							background-color: rgba(176, 2, 40, 0.65);
+						}
+					}
+                }
+            }
+		}
+
+		.slide__button-wrapper {
+			background-color: rgba(211, 2, 45, 0.25);
+			.bottomRem(28px);
+
+			&::after {
+				background-color: rgba(211, 2, 45, 0.75);
+			}
+
+			.btn {
+				&::after {
+					background-color: rgba(211, 2, 45, 0.25);
+				}
+
+				&:hover {
+					&::after {
+						background-color: rgba(211, 2, 45, 0.55);
+					}
+				}
+			}
+		}
+	}
+}

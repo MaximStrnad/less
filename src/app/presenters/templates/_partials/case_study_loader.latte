@@ -1,0 +1,34 @@
+<section class="cs-loader" data-next-page="{link $url}">
+	<p class="indent cs-loader-prepend">{_design_2018.footer.scroll_for_next}</p>
+	<div class="cs-loader__loader">
+		<div
+			class="cs-loader__wrapper"
+			style="
+				{if $background_image}background-image: url({$basePath}/gfx/{$background_image});{/if}
+				{if $background_color}background-color: {$background_color|noescape};{/if}
+				"
+			>
+			<div
+				class="cs-loader__overlay overlay"
+				style="background-color: {$overlay_color|noescape}"
+				></div>
+			<div class="cs-loader__content no-space">
+				<div class="cs-loader__spacer"></div>
+				<div
+					class="cs-loader__case-study indent"
+					style="{if $color}color: {$color|noescape};{/if}"
+					>
+					{if $title}
+						{$title}
+					{/if}
+				</div>
+				<div class="cs-loader__progress-bar no-space">
+					<span
+						class="percent"
+						style="{if $color}color: {$color|noescape};{/if}"
+						>0</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,7 +1,31 @@
+{block page_style}page--error-403{/block}
+
 {block content}
-<h1 n:block=title>Access Denied</h1>
+	<section class="container indent">
+		<h1 class="page__title">
+			{_design_2018.error_403.title}
+		</h1>
+		<p class="page__description">
+			{_design_2018.error_403.description}
+		</p>
+	</section>
 
-<p>You do not have permission to view this page. Please try contact the web
-site administrator if you believe you should be able to view this page.</p>
-
-<p><small>error 403</small></p>
+	<section class="container slide-wrapper slide-wrapper--content-form">
+		<p class="slide-prepend indent">
+			{_design_2018.error_403.slide.title|noescape}
+		</p>
+		<div class="slide slide--responsive slide--centered">
+			<div class="slide__logo-wrapper">
+				<a href="{link Page:obsahForma}">
+					<img src="{$basePath}/gfx/obsahforma/obsahforma-logo{if $locale == 'en'}_en{/if}.png" alt="{_design_2018.error_403.slide.alt}">
+				</a>
+			</div>
+			<div class="slide__button-wrapper slide__button-wrapper--animated">
+				<div>
+					<a href="{link Page:obsahForma}" class="btn btn--white">
+						<span>{_design_2018.slide.go_to_button}</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>

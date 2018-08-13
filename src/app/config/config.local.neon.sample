@@ -1,0 +1,13 @@
+parameters:
+    database:
+        host: localhost
+        database: "ddd"
+        user: "root"
+        password: ""
+        profiler: true
+    contact:
+        mail: ""
+    smtp:
+        host: ""
+        username: ""
+        password: ""

@@ -1,0 +1,15 @@
+parameters:
+    database:
+        host: localhost
+        database: "c1ddd"
+        user: "root"
+        password: ""
+        profiler: true
+    contact:
+        mail: "zdenek.sladek@dostdobrydesign.cz"
+    smtp:
+        host: "smtp.gmail.com"
+        port: 587
+        username: "sladek.ddd@gmail.com"
+        password: "MINI+C005erGre"
+        secure: tls

@@ -1,243 +1,204 @@
-{* This is the welcome page, you can delete it *}
+{block page_style}page--about-us{/block}
 
 {block content}
-
-<section class="top-section top-medium">
-    <div class="container-fluid">
-        <div class="headline-box">
-            <h1 n:block=title>{_translation.onas.headlineBox.headline}</h1>
-            <p>{_translation.onas.headlineBox.text|noescape}</p>
-        </div>
-        <div class="service-list">
-            <div class="row">
-                <div class="col-md-6">
-                    <p>{_translation.onas.service.left.text1|noescape}</p>
-                    <img src="/gfx/onas/service-1.png" alt="" style="height: 6.041666667vw; max-height: 116px;">
-                    <h2>{_translation.onas.service.left.headline2}</h2>
-                    <p>{_translation.onas.service.left.text2|noescape}</p>
-                    <img src="/gfx/onas/service-2.png" alt="" style="height: 3.802083333vw; max-height: 73px;">
-                    <h2>{_translation.onas.service.left.headline3}</h2>
-                    <p>{_translation.onas.service.left.text3|noescape}</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="/gfx/onas/service-3.png" alt="" style="height: 4.479166667vw; max-height: 86px;">
-                    <h2>{_translation.onas.service.right.headline1}</h2>
-                    <p>{_translation.onas.service.right.text1|noescape}</p>
-                    <img src="/gfx/onas/service-4.png" alt="" style="height: 5.416666667vw; max-height: 104px;">
-                    <h2>{_translation.onas.service.right.headline2}</h2>
-                    <p>{_translation.onas.service.right.text2|noescape}</p>
-                    <img src="/gfx/onas/service-5.png" alt="" style="height: 5.3125vw; max-height: 102px;">
-                    <h2>{_translation.onas.service.right.headline3}</h2>
-                    <p>{_translation.onas.service.right.text3|noescape}</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row" style="text-align: center; margin: 50px 0px;">
-                    <a n:href="Page:seznamStudii" class="btn btn-orange btn-big">
-                        <span class="btn__text">{_translation.vytvarimeWeby.bottomRow.button|noescape}</span>
-                        <svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 39.85 73.57">
-                        <polygon points="4.55 73.57 0 68.78 30.79 36.79 0 4.79 4.55 0 39.85 36.73 39.79 36.79 39.85 36.84 4.55 73.57" style="fill: currentColor;fill-rule: evenodd; stroke: currentColor; stroke-width: 2px"/></svg>
-                    </a>
-        </div>
-    </div>
-          
-	
-	
-    <div class="container-fluid text-right">
-        <a href="#scrollTo" class="arrow-down scroll-to">{_translation.onas.service.moreProjects}</a>
-    </div>
-</section>
-
-
-<section class="box-present obsah-forma" id="scrollTo">
-    <div class="container-fluid">
-        <div class="row obsah-forma-big">
-            <div class="col-md-6 text-center">
-                <img src="/gfx/onas/obsah-forma.png" alt="{_translation.onas.grey.headline}" style="height: 2.291666667vw; max-height: 44px;">
-            </div>
-            <div class="col-md-6 text-right">
-                <div class="inner">
-                    <h2>{_translation.vytvarimeObaly.grey.headline|noescape}</h2>
-                    <p>{_translation.vytvarimeObaly.grey.text|noescape}</p>
-                    <a n:href="Page:obsahForma" class="btn btn-grey">
-                        <span class="btn__text">{_translation.homepage.project.link}</span>
-                        <svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 39.85 73.57">
-                        <polygon points="4.55 73.57 0 68.78 30.79 36.79 0 4.79 4.55 0 39.85 36.73 39.79 36.79 39.85 36.84 4.55 73.57" style="fill: currentColor;fill-rule: evenodd; stroke: currentColor; stroke-width: 2px"/></svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--
-
-<section class="box-present obsah-forma" id="scrollTo">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 text-center">
-                <img src="/gfx/onas/obsah-forma.png" alt="{_translation.onas.grey.headline}" style="height: 2.291666667vw; max-height: 44px;">
-            </div>
-            <div class="col-md-6 text-right">
-                <div class="inner">
-                    <h2>{_translation.onas.grey.headline|noescape}</h2>
-                    <p>{_translation.onas.grey.text|noescape}</p>
-                    <a n:href="Page:obsahForma" class="btn btn-grey">
-                        <span class="btn__text">{_translation.homepage.project.link}</span>
-                        <svg class="btn__icon" xmlns="http://www.w3.org/2000/svg" width="7" height="12" viewBox="0 0 39.85 73.57">
-                        <polygon points="4.55 73.57 0 68.78 30.79 36.79 0 4.79 4.55 0 39.85 36.73 39.79 36.79 39.85 36.84 4.55 73.57" style="fill: currentColor;fill-rule: evenodd; stroke: currentColor; stroke-width: 2px"/></svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>-->
-
-<section class="box-present box-purple">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-6 col-sm-4 col-sm-offset-8 text-right">
-                <div class="inner">
-                    <h2>{_translation.onas.purple.headline|noescape}</h2>
-                    <p>{_translation.onas.purple.text|noescape}</p>
-                    <!--<a href="#" class="btn btn-purple">{_translation.homepage.project.link}</a>-->
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="text-section">
-    <div class="container-fluid">
-        <div class="years-list">
-
-            <div class="row">
-                <div class="col-sm-6 text-right">
-                    <h2>2017</h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6">
-					{_translation.onas.history.2017|noescape}
-                </div>
-                <div class="col-sm-6">
-                    <h2>2016</h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6 col-sm-push-6">
-					{_translation.onas.history.2016|noescape}
-                </div>
-                <div class="col-sm-6 text-right col-sm-pull-6">
-                    <h2>2015</h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6">
-					{_translation.onas.history.2015|noescape}
-                </div>
-                <div class="col-sm-6">
-                    <h2>2014</h2>
-                </div>
-
+	<section class="container indent">
+		<h1 class="page__title">
+			{_design_2018.about_us.title}
+		</h1>
+		<p class="page__description">
+			{_design_2018.about_us.description}
+		</p>
+	</section>
+	<section class="about-us__items">
+		<div class="container column-wrapper">
+			<div class="column column--left puzzle-indent--bottom-dbl">
+				<div class="item font--size-1 indent">
+					<img src="{$basePath}/gfx/onas/service-1.png" alt="{_design_2018.about_us.services.logotype.title}" >
+					<h2 class="item__title">
+						{_design_2018.about_us.services.logotype.title}
+					</h2>
+					<p class="item__description">
+						{_design_2018.about_us.services.logotype.description|noescape}
+					</p>
+				</div>
 			</div>
-            <div class="row">
-                <div class="col-sm-6 col-sm-push-6">
-					{_translation.onas.history.2014|noescape}
-                </div>
-                <div class="col-sm-6 text-right col-sm-pull-6">
-                    <h2>2013</h2>
-                </div>
+			<div class="column column--left puzzle-indent--bottom-dbl">
+				<div class="item font--size-1 indent">
+					<img src="{$basePath}/gfx/onas/service-3.png" alt="{_design_2018.about_us.services.web.title}" >
+					<h2 class="item__title">
+						{_design_2018.about_us.services.web.title}
+					</h2>
+					<p class="item__description">
+						{_design_2018.about_us.services.web.description|noescape}
+					</p>
+				</div>
 			</div>
-
-            <div class="row">
-                <div class="col-sm-6">
-					{_translation.onas.history.2013|noescape}
-                </div>
-                <div class="col-sm-6">
-                    <h2>2012</h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6 col-sm-push-6">
-					{_translation.onas.history.2012|noescape}
-                </div>
-                <div class="col-sm-6 text-right col-sm-pull-6">
-                    <h2>2011</h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6">
-					{_translation.onas.history.2011|noescape}
-                </div>
-                <div class="col-sm-6">
-                    <h2>2010</h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6 col-sm-push-6">
-					{_translation.onas.history.2010|noescape}
-                 </div>
-                <div class="col-sm-6 text-right col-sm-pull-6">
-                    <h2>2009</h2>
-                </div>
+			<div class="column column--left puzzle-indent--bottom-dbl">
+				<div class="item font--size-1 indent">
+					<img src="{$basePath}/gfx/onas/service-2.png" alt="{_design_2018.about_us.services.wrap.title}" >
+					<h2 class="item__title">
+						{_design_2018.about_us.services.wrap.title}
+					</h2>
+					<p class="item__description">
+						{_design_2018.about_us.services.wrap.description|noescape}
+					</p>
+				</div>
 			</div>
-
-            <div class="row">
-                <div class="col-sm-6">
-					{_translation.onas.history.2009|noescape}
-                </div>
-                <div class="col-sm-6">
-                    <h2>2008</h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6 col-sm-push-6">
-					{_translation.onas.history.2008|noescape}
-                </div>
-                <div class="col-sm-6 text-right col-sm-pull-6">
-                    <h2>2007</h2>
-                </div>
+			<div class="column column--left puzzle-indent--bottom-dbl">
+				<div class="item font--size-1 indent">
+					<img src="{$basePath}/gfx/onas/ico-2.png" alt="{_design_2018.about_us.services.wrap.title}" >
+					<h2 class="item__title">
+						{_design_2018.about_us.services.prez.title}
+					</h2>
+					<p class="item__description">
+						{_design_2018.about_us.services.prez.description|noescape}
+					</p>
+				</div>
+			</div>			
+		</div>
+	</section>
+	<section class="container slide-wrapper slide-wrapper--content-form">
+		<p class="slide-prepend indent">
+			{_design_2018.about_us.slide.title|noescape}
+		</p>
+		<div class="slide slide--responsive slide--centered">
+			<div class="slide__logo-wrapper">
+				<a href="{link Page:obsahForma}">
+					<img src="{$basePath}/gfx/obsahforma/obsahforma-logo{if $locale == 'en'}_en{/if}.png" alt="{_design_2018.about_us.slide.alt}">
+				</a>
 			</div>
-
-            <div class="row">
-                <div class="col-sm-6">
-					{_translation.onas.history.2007|noescape}
-                </div>
-                <div class="col-sm-6">
-                    <h2>2006</h2>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-6 col-sm-push-6">
-					{_translation.onas.history.2006|noescape}
-                </div>
-                <div class="col-sm-6 text-right col-sm-pull-6">
-                    <h2>2005</h2>
-                </div>
-            </div>
-
-			<div class="row">
-                <div class="col-sm-6">
-					{_translation.onas.history.2005|noescape}
-                </div>
-                <div class="col-sm-6">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-{/block}
-
-{block afterFooter}
+			<div class="slide__button-wrapper slide__button-wrapper--animated">
+				<div>
+					<a href="{link Page:obsahForma}" class="btn btn--white">
+						<span>{_design_2018.about_us.slide.go_to_button|noescape}</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="container container--small indent about-us__history">
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2018.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2018.description|noescape}
+			</p>
+		</div>
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2017.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2017.description|noescape}
+			</p>
+		</div>
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2016.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2016.description|noescape}
+			</p>
+		</div>
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2015.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2015.description|noescape}
+			</p>
+		</div>
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2014.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2014.description|noescape}
+			</p>
+		</div>
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2013.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2013.description|noescape}
+			</p>
+		</div>
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2012.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2012.description|noescape}
+			</p>
+		</div>
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2011.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2011.description|noescape}
+			</p>
+		</div>
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2010.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2010.description|noescape}
+			</p>
+		</div>
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2009.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2009.description|noescape}
+			</p>
+		</div>
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2008.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2008.description|noescape}
+			</p>
+		</div>
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2007.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2007.description|noescape}
+			</p>
+		</div>
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2006.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2006.description|noescape}
+			</p>
+		</div>
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2005.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2005.description|noescape}
+			</p>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container column-wrapper puzzle-indent--top-dbl">
+			<div class="column column--left puzzle-indent--left font--size-1">
+			</div>
+			<div class="column column--right puzzle-indent--left font--size-1">
+				{include ../_partials/footer_lead.latte}
+			</div>
+		</div>
+		<div class="indent">
+			{include ../_partials/footer_sign.latte}
+		</div>
+	</footer>

@@ -1,0 +1,35 @@
+.cookie-bar {
+	.convertToRem(25px);
+	position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: @v;
+    line-height: @v;
+    z-index: 999;
+	background-color: #0b3b41;
+
+	&--disabled {
+		display: none;
+	}
+
+	&__note {
+		.font-weight-light;
+		.fontSizeRem(12px);
+		color: rgb(233,239,239);
+		display: inline-block;
+	}
+
+	&__btn-more-info {
+		.font-weight-light;
+		.fontSizeRem(12px);
+		color: rgb(233,239,239);
+		text-decoration: underline;
+	}
+
+	&__btn-ok {
+		.fontSizeRem(12px);
+		color: rgb(233,239,239);
+		text-decoration: underline;
+	}
+}

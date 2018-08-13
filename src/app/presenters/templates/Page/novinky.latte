@@ -1,29 +1,31 @@
 {block content}
-<section class="news-list">
-    {foreach $novinky as $novinka}
-        <div class="news text-center">
-            <span class="time">{$novinka->getDatum()|date:'j. n. Y'}</span>
-            <h2>{$locale == 'cs' ? $novinka->getTitulek() : $novinka->getTitulekEn()|noescape}</h2>
-            <p>{$locale == 'cs' ? $novinka->getText() : $novinka->getTextEn()|noescape}</p>
-            {if '' !== $novinka->getSoubor()}
-                <img src="" data-src="/gfx/novinky/{$novinka->getSoubor()}" alt="{$locale == 'cs' ? $novinka->getTitulek() : $novinka->getTitulekEn()}">
-            {/if}
-            {if '' !== $novinka->getYoutube()}
-                <div class="yt-container">
-                    <div class="yt-wrapper">
-                        <iframe src="https://www.youtube.com/embed/{$novinka->getYoutube()}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            {/if}
-        </div>
-    {/foreach}
-    {if $showOlder == 1}
-        <div class="container-fluid text-right">
-            <a n:href="Page:novinky" class="arrow-down">{_translation.novinky.older}</a>
-        </div>
-    {/if}
+<section class="news">
+	<div class="container__shifted">
+		{foreach $novinky as $novinka}
+			<div class="spacer__5"></div>
+			<div class="news__block">
+				<span class="news__time font__lsp_05 font__thin font__size--small">{$novinka->getDatum()|date:'j. n. Y'}</span>
+				<h2 class="news__heading font__bold font__green font__size--medium">{$locale == 'cs' ? $novinka->getTitulek() : $novinka->getTitulekEn()|noescape}</h2>
+				<p class="news__text font__normal font__size--small font__lsp_05">{$locale == 'cs' ? $novinka->getText() : $novinka->getTextEn()|noescape}</p>
+				<div class="spacer__2"></div>
+				<div class="news__media">
+					{if '' !== $novinka->getSoubor()}
+						<img src="" data-src="{$basePath}/gfx/novinky/{$novinka->getSoubor()}" alt="{$locale == 'cs' ? $novinka->getTitulek() : $novinka->getTitulekEn()}">
+					{/if}
+					{if '' !== $novinka->getYoutube()}
+						<div class="yt-container">
+							<div class="yt-wrapper">
+								<iframe src="https://www.youtube.com/embed/{$novinka->getYoutube()}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+							</div>
+						</div>
+					{/if}
+				</div>
+			</div>
+		{/foreach}
+		{if $showOlder == 1}
+			<div class="container-fluid text-right">
+				<a n:href="Page:novinky" class="arrow-down">{_translation.novinky.older}</a>
+			</div>
+		{/if}
+	</div>
 </section>
-
-{/block}
-
-{block afterFooter}

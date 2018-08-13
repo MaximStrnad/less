@@ -1,0 +1,61 @@
+&--our-work {
+	.header {
+		min-height: 18.45rem;
+	}
+
+	.page__title {
+		padding-top: 2.55rem;
+		padding-bottom: 4.5rem;
+	}
+
+	.our-work {
+		&__item {
+			position: relative;
+
+			&-logo {
+				width: 100%;
+				max-width: 100%;
+				box-sizing: border-box;
+			}
+
+			&-hover {
+                font-size: 1.65rem;
+				position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 0;
+                background-color: white;
+                font-size: 0;
+				transition: height 0.2s linear;
+
+				> p {
+					opacity: 0;
+					transition: opacity 0.2s linear;
+					transition-delay: 0.15s;
+				}
+			}
+
+			@media screen and (min-width: 1160px) {
+				&__content:hover {
+					position: relative;
+
+					.our-work__item-hover {
+						.both_centered;
+						height: 100%;
+
+						> p {
+							.font-weight-light;
+							font-size: 1.65rem;
+							line-height: 1.25;
+							color: @color-fe-1;
+							text-decoration: underline;
+							text-align: center;
+							opacity: 1;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -2,11 +2,12 @@
 
 namespace App\Presenters;
 
+use App\Model\DruhPrace;
+use \App\Model\Helpers;
 use Nette;
 use Nette\Application\UI;
 use Nette\Mail\Message;
-use Tracy\Debugger;
-use Tracy\ILogger;
+
 
 class PagePresenter extends Nette\Application\UI\Presenter
 {
@@ -16,15 +17,12 @@ class PagePresenter extends Nette\Application\UI\Presenter
     /** @var \Kdyby\Translation\Translator @inject */
     public $translator;
 
-    /** @var Nette\Mail\IMailer @inject */
-    public $mailer;
-
-    /**
+    /*
      * @var \App\Model\Helpers
      */
     private $helpers;
 
-    /**
+    /*
      * @param \App\Model\Helpers
      */
     public function __construct(\App\Model\Helpers $helpers)
@@ -40,7 +38,6 @@ class PagePresenter extends Nette\Application\UI\Presenter
     public function renderDefault()
     {
         $this->template->hasFooter = true;
-        $this->template->hasSpecialCss = "homepage-responsive-size";
     }
 
     public function renderSeznamStudii()
@@ -60,46 +57,102 @@ class PagePresenter extends Nette\Application\UI\Presenter
 
     public function renderObsahForma()
     {
+        $this->template->hasWhiteHeader = true;
         $this->template->hasFooter = true;
     }
 
-    public function renderKlubKlicovychZakaznikuPlzenskyPrazdroj()
+    public function renderArcadehry()
     {
         $this->template->hasFooter = false;
-        $this->template->hasSpecialCss = "skins/kkz";
+        $this->template->hasWhiteHeader = true;
     }
 
     public function renderDestro()
     {
         $this->template->hasFooter = false;
-        $this->template->hasSpecialCss = "skins/destro";
-    }
-
-    public function renderPetrackovyHorickeTrubicky()
-    {
-        $this->template->hasFooter = false;
-        $this->template->hasSpecialCss = "skins/pht";
+        $this->template->hasWhiteHeader = true;
     }
 
     public function renderDrevosrot()
     {
         $this->template->hasFooter = false;
-        $this->template->hasSpecialCss = "skins/drevosrot";
     }
 
+    public function renderEyren()
+    {
+        $this->template->hasFooter = false;
+        $this->template->hasWhiteHeader = true;
+    }
+
+	public function renderFer()
+    {
+        $this->template->hasFooter = false;
+    }
+
+    public function renderHaven()
+    {
+        $this->template->hasFooter = false;
+    }
+
+	public function renderKlubKlicovychZakaznikuPlzenskyPrazdroj()
+    {
+        $this->template->hasFooter = false;
+        $this->template->hasWhiteHeader = true;
+    }
+
+    public function renderPartner()
+    {
+        $this->template->hasFooter = false;
+        $this->template->hasWhiteHeader = true;
+    }
+
+    public function renderPetrackovyHorickeTrubicky()
+    {
+        $this->template->hasFooter = false;
+        $this->template->hasWhiteHeader = true;
+    }
+
+	public function renderPoldi()
+    {
+        $this->template->hasFooter = false;
+        $this->template->hasWhiteHeader = true;
+    }
+
+	public function renderStablo()
+    {
+        $this->template->hasFooter = false;
+        $this->template->hasWhiteHeader = true;
+    }
+
+    public function renderTack()
+    {
+        $this->template->hasFooter = false;
+    }
+	
+	public function renderTachtech()
+    {
+        $this->template->hasFooter = false;
+    }
+
+	public function renderZGruntu()
+    {
+        $this->template->hasFooter = false;
+    }
+	
+	
 	public function renderKontakt()
     {
-        $this->template->hasFooter = true;
+        $this->template->hasFooter = false;
     }
 
     public function renderDownload()
     {
-        $this->template->hasFooter = true;
+        $this->template->hasFooter = false;
     }
 
 	public function renderLead()
     {
-        $this->template->hasFooter = true;
+        $this->template->hasFooter = false;
     }
 
     public function renderDekovnaStranka()
@@ -119,40 +172,20 @@ class PagePresenter extends Nette\Application\UI\Presenter
 
     public function renderNasePrace($filter = '', $others = '')
     {
-        $this->template->hasFooter = true;
+        $this->template->hasFooter = false;
         $this->template->druhy = $this->helpers->getAllDruhPrace();
         $prace = $this->helpers->getPrace($filter, -1, $others);
         $this->template->prace = $prace;
         $this->template->filter = $this->getParameter('filter');
     }
 
-    public function renderVytvarimeLoga()
-    {
-        $this->template->hasFooter = true;
-        $prace = $this->helpers->getPrace('logo', 27);
-        $this->template->prace = $prace;
-    }
-
-    public function renderVytvarimeObaly()
-    {
-        $this->template->hasFooter = true;
-        $prace = $this->helpers->getPrace('obal', 18);
-        $this->template->prace = $prace;
-    }
-
-    public function renderVytvarimeWeby()
-    {
-        $this->template->hasFooter = true;
-        $prace = $this->helpers->getPrace('web', 27);
-        $this->template->prace = $prace;
-    }
 
     public function renderGetDetail($id)
     {
         $detail = $this->helpers->getPracaDetail($id);
         $this->template->detail = $detail;
     }
-    
+
     public function renderNovinky($id = 0)
     {
         $this->template->novinky = $this->helpers->getNovinka($id);
@@ -164,14 +197,14 @@ class PagePresenter extends Nette\Application\UI\Presenter
         $this->template->clanky = $this->helpers->getClanky($id);
         $this->template->showOlder = $id == 0 ? false : true;
     }
-    
+
     protected function createComponentContactForm()
     {
         $form = new UI\Form;
-        $form->addText('name', $this->translator->translate('translation.form.contact.name'))->setAttribute('class', 'form-control')->setRequired();
-        $form->addText('contact', $this->translator->translate('translation.form.contact.email'))->setAttribute('class', 'form-control')->setRequired();
+        $form->addText('name', $this->translator->translate('translation.form.contact.name'))->setAttribute('placeholder', 'Jan Novák')->setAttribute('class', 'form-control')->setRequired($this->translator->translate('design_2018.common.field_required'));
+        $form->addText('contact', $this->translator->translate('translation.form.contact.email'))->setAttribute('placeholder', '123 456 789')->setAttribute('class', 'form-control')->setRequired($this->translator->translate('design_2018.common.field_required'));
         $form->addTextArea('text', $this->translator->translate('translation.form.contact.message'))->setAttribute('class', 'form-control')->setAttribute('rows', '8');
-        $form->addSubmit('send', $this->translator->translate('translation.form.contact.button'))->setAttribute('class', 'btn btn-orange');
+        $form->addSubmit('send')->setAttribute('class', 'btn btn-orange')->getControlPrototype()->setName('button')->setHtml($this->translator->translate('translation.form.contact.button'));
         $form->addText("username")->setAttribute('class', 'antispam');
         $form->onSuccess[] = [$this, "contactFormSuccess"];
 
@@ -206,6 +239,14 @@ class PagePresenter extends Nette\Application\UI\Presenter
             exit;
         }
 
+        $mailer = new Nette\Mail\SmtpMailer([
+            'host' => $this->context->parameters['smtp']['host'],
+            'port' => $this->context->parameters['smtp']['port'],
+            'username' => $this->context->parameters['smtp']['username'],
+            'password' => $this->context->parameters['smtp']['password'],
+            'secure' => $this->context->parameters['smtp']['secure']
+        ]);
+
         $mailto = $this->context->parameters['contact']['mail'];
 
         $latte = new \Latte\Engine;
@@ -230,9 +271,8 @@ class PagePresenter extends Nette\Application\UI\Presenter
             $mail->addTo($mailAddr);
         }
         try {
-            $this->mailer->send($mail);
+            $mailer->send($mail);
         } catch(\Exception $ex) {
-	        Debugger::log($ex, ILogger::CRITICAL);
             //$this->flashMessage($this->locale === 'cs' ? 'Něco se pokazilo při odesílání e-mailu.' : 'Something went wrong when sending the e-mail.', 'danger text-center');
             $this->redirect('chybaOdeslani');
             exit;
@@ -268,6 +308,14 @@ class PagePresenter extends Nette\Application\UI\Presenter
             $this->redirect('chybaOdeslani');
             exit;
         }
+
+        $mailer = new Nette\Mail\SmtpMailer([
+            'host' => $this->context->parameters['smtp']['host'],
+            'port' => $this->context->parameters['smtp']['port'],
+            'username' => $this->context->parameters['smtp']['username'],
+            'password' => $this->context->parameters['smtp']['password'],
+            'secure' => $this->context->parameters['smtp']['secure']
+        ]);
 
         $mailto = $this->context->parameters['contact']['mail'];
 
@@ -306,9 +354,8 @@ class PagePresenter extends Nette\Application\UI\Presenter
             $mail->addTo($mailAddr);
         }
         try {
-            $this->mailer->send($mail);
+            $mailer->send($mail);
         } catch(\Exception $ex) {
-        	Debugger::log($ex, ILogger::CRITICAL);
             //$this->flashMessage($this->locale === 'cs' ? 'Něco se pokazilo při odesílání e-mailu.' : 'Something went wrong when sending the e-mail.', 'danger text-center');
             $this->redirect('chybaOdeslani');
             exit;
