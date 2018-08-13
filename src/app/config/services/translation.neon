@@ -1,0 +1,3 @@
+translation:
+    default: cs
+    fallback: [cs_CZ, cs]

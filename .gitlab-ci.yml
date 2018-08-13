@@ -1,10 +1,30 @@
 stages:
+  - compile
   - build
   - deploy
 
 variables:
   DOCKER_DRIVER: overlay2
   IMAGE_TAG_BRANCH: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
+
+compile:composer:
+   image: composer:1.6
+   stage: compile
+   script:
+      - cd src && composer install --no-dev -a --prefer-dist --ignore-platform-reqs --no-progress --no-suggest
+      - cd .. && sh filter.sh
+   only:
+      - master
+      - test
+   cache:
+      paths:
+         - src/vendor
+   artifacts:
+      expire_in: 1 hour
+      paths:
+         - docker/app/
+         - src/
+         - Dockerfile
 
 build:
    image: docker:latest
@@ -25,5 +45,7 @@ deploy:
      GIT_STRATEGY: none
    script:
      Empty
+   dependencies: []
    only:
      - master
+     - test

@@ -5,8 +5,10 @@ namespace App\Model;
 use Nette;
 
 
-class Prace extends Nette\Object
+class Prace
 {
+	use Nette\SmartObject;
+
     private $id;
     private $titulek;
     private $popisek;

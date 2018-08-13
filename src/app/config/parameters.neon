@@ -1,0 +1,3 @@
+parameters:
+	mail:
+		adminEmail: ahoj@ondrejvaclavik.cz

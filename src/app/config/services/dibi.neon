@@ -1,0 +1,8 @@
+dibi:
+	driver: pdo
+	dsn: 'mysql:dbname=%database.name%;host=%database.host%;port=%database.port%'
+	username: %database.user%
+	password: %database.pass%
+	charset: utf8
+	lazy: true
+	profiler: true

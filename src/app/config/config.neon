@@ -1,24 +1,14 @@
-parameters:
+#
+# WARNING: it is CRITICAL that this file & directory are NOT accessible directly via a web browser!
+# https://nette.org/security-warning
+#
 
-
-application:
-    errorPresenter: Error
-    mapping:
-        *: App\*Module\Presenters\*Presenter
-
-
-session:
-    expiration: 14 days
-
-extensions:
-    translation: Kdyby\Translation\DI\TranslationExtension
-
-translation:
-    default: cs
-    fallback: [cs_CZ, cs]
-
-services:
-    router: App\RouterFactory::createRouter
-    connection:
-        class: Dibi\Connection(%database%)
-    - App\Model\Helpers
+includes:
+	- php.neon
+	- nette.neon
+	- extensions.neon
+	- parameters.neon
+	- parameters.env.php
+	- services/app.neon
+	- services/dibi.neon
+	- services/translation.neon

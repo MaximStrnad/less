@@ -2,11 +2,12 @@ version: "3"
 services:
   app:
     build:
-      context: docker/app
+      context: .
     ports:
       - 80:80
+      - 443:443
     volumes:
-      - ./src:/var/www/html
+      - ./src:/var/app
       - ./store/log:/var/www/html/log
     environment:
         DEBUG: 1
@@ -19,6 +20,17 @@ services:
         MAIL_USER:
         MAIL_PASS:
         MAIL_SECURE:
+    depends_on:
+      - composer
+      - mail
+      - mysql
+
+  composer:
+    image: composer:1.6
+    working_dir: /var/app
+    volumes:
+      - ./src:/var/app
+    command: install
 
   mysql:
     image: mysql:8.0.3

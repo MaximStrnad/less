@@ -1,0 +1,25 @@
+tracy:
+	email: %mail.adminEmail%
+	strictMode: false
+	showBar: true
+	showLocation: true
+	maxDepth: 3
+	maxLen: 150
+	scream: false
+
+application:
+    errorPresenter: Error
+    mapping:
+        *: App\*Module\Presenters\*Presenter
+
+session:
+	autoStart: smart
+	expiration: 14 days
+	cookie_secure: TRUE
+	cookie_httponly: TRUE
+	use_only_cookies: TRUE
+	savePath: "%tempDir%/sessions"
+
+http:
+	proxy:
+		- 172.0.0.0/8

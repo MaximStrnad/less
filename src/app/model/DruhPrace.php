@@ -5,8 +5,10 @@ namespace App\Model;
 use Nette;
 
 
-class DruhPrace extends Nette\Object
+class DruhPrace
 {
+	use Nette\SmartObject;
+
     private $kod;
     private $poradi;
     private $nazev;

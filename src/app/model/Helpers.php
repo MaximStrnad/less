@@ -5,8 +5,10 @@ namespace App\Model;
 use Nette;
 
 
-class Helpers extends Nette\Object
+class Helpers
 {
+	use Nette\SmartObject;
+
     /**
      * @var \Dibi\Connection
      */
