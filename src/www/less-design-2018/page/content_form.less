@@ -51,6 +51,7 @@
 				position: relative;
 				top: -1rem;
 				padding-left: @section-padding-left*0.35;
+				color: @color-be-content-form;
 
 				&::before {
 					counter-increment: cpoints;
@@ -115,6 +116,10 @@
 		.btn {
 			.convertToRem(3px);
 			border: @v solid @color-fe-content-form;
+			
+			span {
+			color: @color-fe-content-form;
+			}
 		}
 
 		&__sign-info {

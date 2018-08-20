@@ -248,9 +248,9 @@ ProteinLogo.prototype.run = function () {
 
 	if(self.position) {
 		if(self.position > top) {
-			$('.header__main-logo').delay(400).fadeIn(400);
+			$('.header__main-logo').fadeIn(400);
 		} else {
-			$('.header__main-logo').stop().fadeOut(200);
+			$('.header__main-logo').fadeOut(200);
 		}
 	}
 

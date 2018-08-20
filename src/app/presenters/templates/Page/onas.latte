@@ -6,7 +6,7 @@
 			{_design_2018.about_us.title}
 		</h1>
 		<p class="page__description">
-			{_design_2018.about_us.description}
+			{_design_2018.about_us.description|noescape}
 		</p>
 	</section>
 	<section class="about-us__items">
@@ -24,7 +24,7 @@
 			</div>
 			<div class="column column--left puzzle-indent--bottom-dbl">
 				<div class="item font--size-1 indent">
-					<img src="{$basePath}/gfx/onas/service-3.png" alt="{_design_2018.about_us.services.web.title}" >
+					<img src="{$basePath}/gfx/onas/service-2.png" alt="{_design_2018.about_us.services.web.title}" >
 					<h2 class="item__title">
 						{_design_2018.about_us.services.web.title}
 					</h2>
@@ -35,7 +35,7 @@
 			</div>
 			<div class="column column--left puzzle-indent--bottom-dbl">
 				<div class="item font--size-1 indent">
-					<img src="{$basePath}/gfx/onas/service-2.png" alt="{_design_2018.about_us.services.wrap.title}" >
+					<img src="{$basePath}/gfx/onas/service-3.png" alt="{_design_2018.about_us.services.wrap.title}" >
 					<h2 class="item__title">
 						{_design_2018.about_us.services.wrap.title}
 					</h2>
@@ -46,7 +46,7 @@
 			</div>
 			<div class="column column--left puzzle-indent--bottom-dbl">
 				<div class="item font--size-1 indent">
-					<img src="{$basePath}/gfx/onas/ico-2.png" alt="{_design_2018.about_us.services.wrap.title}" >
+					<img src="{$basePath}/gfx/onas/service-4.png" alt="{_design_2018.about_us.services.wrap.title}" >
 					<h2 class="item__title">
 						{_design_2018.about_us.services.prez.title}
 					</h2>
@@ -187,6 +187,14 @@
 			</h2>
 			<p class="item__description">
 				{_design_2018.about_us.history.y2005.description|noescape}
+			</p>
+		</div>
+		<div class="item">
+			<h2 class="item__title">
+				{_design_2018.about_us.history.y2003.title|noescape}
+			</h2>
+			<p class="item__description">
+				{_design_2018.about_us.history.y2003.description|noescape}
 			</p>
 		</div>
 	</section>

@@ -305,7 +305,7 @@ lead:
 
 contact:
 	title: "Kontakt"
-	rules: "Všeobecné obchodní podmínky"
+	rules: "naše všeobecné obchodní podmínky"
 	form:
 		title: "Setkejme se a proberme<br>možnosti spolupráce"
 		description: "Napište nám svůj dotaz nebo jen telefon<br>či e-mail, ozveme se brzy zpět"
@@ -313,24 +313,24 @@ contact:
 
 about_us:
 	title: "O nás"
-	description: "Jsme úplně čerstvé digitální grafické studio se zkušenostmi od roku 2005. Dlouho jsme totiž byli Dost dobrý design, když pak jsme se v roce 2018 jednoduše změnili na Protein. Začali jsme víc myslet na vás než na sebe, tak to už dlouho chtělo změnu. Líbí se nám dávát život vašim značkám. Moc by to ale nefungovalo, kdybychom pracovali jen se vzhledem a vizuální formou. S čím dalším pracujeme, se dozvíte v kapitole OBSAH+FORMA. Sedíme v Kladně, je to k nám z okraje Prahy o dost blíž než na ten druhý okraj. Přednášíme a publikujeme. Naši klienti fungují po celé Evropě, v Rusku i v USA. A v roce 2007 jsme také pomohli založit Unii grafického designu"
+	description: "Jsme úplně nové digitální grafické studio se zkušenostmi od roku 2003. Dlouho jsme byli Dost dobrý design, až jsme se v roce 2018 změnili na Protein. Líbí se nám dávát život vašim značkám. Moc by to ale nefungovalo, kdybychom pracovali jen se samotnou grafickou formou. Specializujeme se na správná designérská rozhodnutí činěná v&nbsp;širokém kontextu. S&nbsp;čím vším pracujeme, popisuje náš koncept OBSAH+FORMA. Naši klienti prodávají po celé Evropě i&nbsp;USA. My pro ně pracujeme v&nbsp;Kladně. Přednášíme, publikujeme a&nbsp;jsme zakládajicí členové Unii grafického designu."
 	slide:
-		title: "Přístup k práci, kdy bez obsahu nemůže byt forma <span class='arrow-down'></span>"
+		title: "Grafický design musí mít tah na branku <span class='arrow-down'></span>"
 		alt: "Obsah + Forma"
 		go_to_button: "Prozkoumat"
 	services:
 		logotype:
 			title: "Značka a logo"
-			description: "Značka není jen logo a vizuální styl. Značka je příslib vašim zákazníkům a jejich očekávání zároveň. Pomůžeme vám odhalit, co vše se za tím může skrývat. Pomůžeme vám zákazníky nadchrnout. Vytváříme loga a značky zcela nové, anebo redesign a inovace původních. Pro praktické nasazení se bude hodit elektronický manuál, pomůže s vytvářením všech aplikací tištěných i elektronických."
+			description: "Značka není jen logo a vizuální styl. Značka je příslib vašim zákazníkům a&nbsp;jejich očekávání zároveň. Podrobnosti vyřešíme společně. Vytváříme loga a&nbsp;značky zcela nové, anebo redesign a&nbsp;inovace původních. Pro praktické nasazení se bude hodit elektronický manuál, pomůže s&nbsp;vytvářením všech aplikací tištěných i&nbsp;elektronických."
 		web:
 			title: "Web a appky"
-			description: "I na webu spojujeme „jak to vypadá“ a „co tam píšou“. Tady se k tomu ale ještě připojuje „jak to funguje“. Přes všechna UI a UX však web stále vidíme v kontextu veškeré komunikace vaší značky. Weby stavíme na vlastním redakčním systému Comet3&reg;. A umíme také mobilní aplikace, tu největší děláme pro Prazdroj."
+			description: "I&nbsp;na webu spojujeme obsah a&nbsp;formu. Tady se k&nbsp;tomu ale ještě připojuje funkčnost. Přes všechna UI a&nbsp;UX však web stále vidíme v kontextu veškeré komunikace vaší značky. Weby stavíme na vlastním redakčním systému Comet3&reg;. A&nbsp;umíme také mobilní aplikace, tu největší děláme pro Plzeňský Prazdroj."
 		wrap:
 			title: "Obaly"
-			description: "Obalový design má jen pár slov, aby toho řekl hodně. Dobrý obal zamává a lidé si hned dají do nákupního košíku. Takové děláme."
+			description: "Obal má jen pár slov, aby toho řekl hodně. Dobrý obal pozdraví a&nbsp;lidé si hned dají do nákupního košíku. Takové děláme. Lhostejno, zda je to etiketa, plechovka, sáček či krabice."
 		prez:
 			title: "Prezentace"
-			description: "Vytvoříme strukturu a celý obsah prezentace. Pomůžeme vám posílit dopady vaší prezentace. Vytvoříme všechny slajdy v prezentaci, nejen prázdné šablony. Prezentaci připravíme pro projektor a velké plátno, display v zasedačce nebo pro váš tablet. Připravíme i podklady k zaslání posluchačům nebo speciální aplikaci."
+			description: "Pomůžeme vám především posílit dopady vaší prezentace. Vytvoříme strukturu a&nbsp;všechny slajdy v prezentaci, nejen prázdné šablony. Prezentaci pro projektor a&nbsp;velké plátno, display v&nbsp;zasedačce nebo pro váš tablet. Připravíme i&nbsp;podklady k zaslání posluchačům nebo speciální aplikaci."
 	history:
 		y2018:
 			title: "2018"
@@ -370,31 +370,34 @@ about_us:
 			description: "Zdeněk a Milan spolu s&nbsp;dalšími 12 renomovanými studii spoluzakládají Unii grafického designu. Milan od té chvíle téměř deset let zastává funkci předsedy Unie. Posláním Unie je především osvěta a&nbsp;podpora trhu grafického designu.<br /><br />Studio Dost dobrý design se transformuje na společnost s ručením omezeným. Dost dobrý design® je ochrannou známkou.<br /><br />Zdeněk je členem poroty kreativní soutěže iReklama, kterou pořádá Unie vydavatelů, sekce vydavatelů internetových titulů.<br /><br />Na půdě Rakouského kulturního fóra v Praze přednáší Zdeněk referát o zkušenostech s designem mezi malými a středními podniky na mezinárodním workshopu EWDS o podpoře designu."
 		y2006:
 			title: "2006"
-			description: "Po roce působení má studio 5 tváří. Věnuje se logům, tiskovinám a&nbsp;webům. V&nbsp;tomto roce se ale nic mimořádného nestalo."
+			description: "Po roce působení má studio 5 tváří."
 		y2005:
 			title: "2005"
-			description: "Zdeněk promuje na ČVUT v Praze, FSI, Ústav řízení a ekonomiky podniku. Absolvuje s vyznamenáním. Jeho diplomová práce se zabývá problematikou korporátního designu v prostředí menších a středních firem. Vedoucím diplomové práce je Doc. Ing. Václav Dolanský, překladatel marketingové „bible“ Marketing Management profesora Philipa Kotlera. Hned na to zakládá grafické studio Dost dobrý design."
+			description: "Zdeněk promuje na ČVUT v Praze, FSI, Ústav řízení a ekonomiky podniku. Absolvuje s vyznamenáním. Jeho diplomová práce se zabývá problematikou korporátního designu v prostředí menších a středních firem. Vedoucím diplomové práce je Doc. Ing. Václav Dolanský, překladatel marketingové „bible“ Marketing Management profesora Philipa Kotlera. Hned na to přemění Dost dobrý design na regulerní grafické studio v prvních prostorách v Kladně."
+		y2003:
+			title: "2003"
+			description: "Zdeněk začíná vytvářet grafický design jako freelancer. Vzniká název Dost dobrý design."
 
 content_form:
-	title: "Obsah + Forma"
-	description: "Vytváříme obsah a formu. Zároveň. Při mluvení jsou obsahem slova, která říkáme. Forma, kterou slovům poskytne tón hlasu či výraz obličeje, může zcela změnit význam obsahu slov. Ve vizuální komunikaci je to obdobné. Grafická forma bez obsahu je jen dekorací. Je to jen samotný škleb."
+	title: "OBSAH+FORMA"
+	description: "Vytváříme obsah a formu. Zároveň. Obsah i forma se tak navzájem ovlivňují stejně jako jsou ovlivněny širším kontextem. Abychom si mohli dovolit takový luxus, jsou důkladné přípravy a&nbsp;rešerše nevyhnutelné. Přijdeme a pochopíme podstatu vašich aktivit, porozumíme vašim záměrům. Jinak bychom je nemohli sdělovat dál. V papírování si ale nelibujeme. Zajímají nás podstatné souvislosti, maximálně stručně. Potom můžeme mluvit o strategickém designu."
 	article:
-		title: "titulky a claimy, infografiky, značky, koncepce, podklady, kreativní briefy, prototypy webů"
-		description: "Šablonování se slepým obsahem „Lorem ipsum“ je dokonale ošidné. Návrh může být atraktivní, přesto nefunkční. Vytváří prostor pro obsah, který není možné získat. Když vzniká samotný obsah bez formy, je často nepřehledný nebo nevhodně strukturovaný. Při použití je roztříštěn na části, které nemají logické návaznosti. Řešením je nový způsob designové práce, kdy obsah a&nbsp;jeho vizuální forma vznikají společně. Díky tomu mají příležitost se vzájemně ovlivnit. Komplexní design, který tak vznikne je pro spotřebitele či uživatele více srozumitelný."
+		title: "strategie a koncepce, značky a prismata, podklady a data, krativní zadání, titulky a claimy, copy, infografiky, prototypy webů"
+		description: "Návrh grafického designu vytvořený bez svého obsahu, nebo jen s náhradním slepým obsahem, bude nefunkční. Je to dokonale zrádné, protože to může být velice atraktivní návrh. Takový návrh ale zpravidla nevyhoví koncepčním záměrům, pokud by byly bývaly stanoveny. Skutečný obsah neodpovídá tomu slepému nebo obsah předpokládaný v návrhu není možné vůbec získat. <br /><br />Obsah a jeho rozvržení, kdy postupně odkrýváme divákovi jednotlivé části, dodatečně ani vznikat nesmí. Vždyť je to ta nejdůležitější věc. Když vzniká samotný obsah bez vizuální formy, je často nepřehledný nebo nevhodně strukturovaný. Při pozdějším grafickém zpracování je pak roztříštěn na části, které nemají správné návaznosti. Obsah nebo návrhy se pak musí stejně předělávat.<br /><br />Způsob designérské práce, kdy obsah a&nbsp;jeho vizuální forma vznikají společně, eliminuje všechna tato rizika. Obsah a forma musí setkat na jednom velkém stole."
 		points:
 			i1:
 				title: "situace"
-				description: "Provádíme rešerši, průzkum a&nbsp;analýzu. Stanovujeme zákaznické užitky, customer insight. Zajímá nás šiřitel, příjemce vizuálního prostředku a&nbsp;prostředí. Smyslem první fáze je hledání možných problémů a&nbsp;příležitostí."
+				description: "Provádíme rešerši, průzkum a&nbsp;analýzu. Stanovujeme zákaznické užitky, customer insight. Zajímá nás šiřitel, příjemce vizuálního prostředku i&nbsp;okolní prostředí. Hledáme možné problémy ale především příležitostí. Hledáme ze široka maximum dostupných informací, podle kterých se můžeme v dalších krocích rozhodovat."
 			i2:
-				title: "cíl"
-				description: "Stanovujeme strategii a&nbsp;positioning. Provádíme koncepční design. Stanovujeme žádoucí kreativní mantinely, definici značky aj. Smyslem druhé fáze je zaměření pozornosti na hlavní úkoly."
+				title: "cíle"
+				description: "Stanovujeme strategii a&nbsp;positioning. Stanovujeme žádoucí kreativní mantinely, definici značky a další takové pojmy. Pomůžeme vám s rozhodováním, když si nebudete jistí. Cílem každého našeho projektu obecně je změnit chování či postoje publika. Jen je potřeba to upřesnit. Budeme se bavit o většímu úspěchu vašeho produktu nebo o větší podpoře vašeho projektu. Budeme dávkovat emoce nebo naopak racionalitu."
 			i3:
-				title: "obsah + forma"
-				description: "Vznikají první kreativní návrhy. Tato část probíhá zpravidla bez pomoci počítačů. Smyslem třetí fáze je hledání portfolia možných řešení."
+				title: "draft"
+				description: "Vznikají první kreativní návrhy obsahu, jeho uspořádání a stylizace. Tato část probíhá často bez pomoci počítačů s tužkou v ruce. Vznikne první koncepce."
 			i4:
 				title: "iterace"
-				description: "Stanovení nejvhodnějšího směru řešení. Postupné změny návrhu a&nbsp;revize předchozích designových rozhodnutí vyvolané změnami návrhu jiných částí produktu nebo změnou vnějších podmínek. Výsledkem je interně i&nbsp;externě konzistentní návrh, ve kterém již není co přidat, odebrat nebo změnit."
+				description: "Postupné změny návrhu a&nbsp;revize předchozích designových rozhodnutí vyvolané změnami návrhu jiných částí produktu nebo změnou vnějších podmínek. Výsledkem je interně i&nbsp;externě konzistentní návrh, ve kterém již není co přidat, odebrat nebo změnit. Tady se spolu obsah a forma svádějí boj o místo."
 			i5:
 				title: "realizace"
-				description: "Předtisková příprava, zadání do tisku. Kódování a&nbsp;programování. Smyslem páté fáze je naplnění návrhů."
-			appendix: "Každý návrhový proces má těchto 5 momentů. Pro různé produkty se ale význam a&nbsp;poměr<br/>náročnosti dílčích momentů může významně lišit."
+				description: "Předtisková příprava, zadání do tisku, do výroby, do distribuce. Kódování a&nbsp;programování. Realizace návrhů. Tato část už nemůže být příliš kreativní. Správný postup nás ale může vrátit na začátek dalšího kola."
+			appendix: "Každý návrhový proces má těchto 5 momentů. Pro různé produkty se ale význam a&nbsp;poměr<br/>náročnosti dílčích momentů může i významně lišit."

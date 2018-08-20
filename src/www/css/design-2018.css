@@ -211,10 +211,10 @@ table {
   background-color: #ecebe9;
 }
 .color-text-tachtech {
-  color: #1f1d21;
+  color: #000000;
 }
 .color-background-tachtech {
-  background-color: #f0f0f1;
+  background-color: #f1f0ee;
 }
 .color-text-zgruntu {
   color: #67493d;
@@ -1315,6 +1315,7 @@ button.btn {
 .page--about-us .about-us__items .item {
   padding-top: 1.0rem;
   background-color: white;
+  padding-right: 3.0rem;
 }
 .page--about-us .about-us__items .item__title {
   font-family: 'Rational TW Display ExtraBold', "Sans Serif";
@@ -1322,6 +1323,10 @@ button.btn {
 .page--about-us .about-us__items .item__description {
   line-height: 1.2;
   padding-bottom: 0.75rem;
+}
+.page--about-us .about-us__items .item img {
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
 }
 .page--about-us .about-us__history .item__title {
   font-family: 'Rational TW Display ExtraBold', "Sans Serif";
@@ -1381,6 +1386,7 @@ button.btn {
   position: relative;
   top: -1rem;
   padding-left: 1.225vw;
+  color: #414141;
 }
 .page--content-form .content-form__points .point::before {
   counter-increment: cpoints;
@@ -1434,6 +1440,9 @@ button.btn {
 }
 .page--content-form .footer .btn {
   border: 0.1875rem solid #2a2a2a;
+}
+.page--content-form .footer .btn span {
+  color: #2a2a2a;
 }
 .page--content-form .footer__sign-info span,
 .page--content-form .footer__sign-info span a {
@@ -2212,43 +2221,43 @@ button.btn {
   width: 38.8%;
 }
 .page--tachtech {
-  background-color: #f0f0f1;
+  background-color: #f1f0ee;
 }
 .page--tachtech .page__title {
-  color: #1f1d21;
+  color: #000000;
 }
 .page--tachtech .page__description {
-  color: #1f1d21;
+  color: #000000;
 }
 .page--tachtech .case-study__ceo {
-  color: #1f1d21;
+  color: #000000;
 }
 .page--tachtech .case-study .slide-wrapper--case-study-2 .slide__note {
-  color: #1f1d21;
+  color: #000000;
 }
 .page--tachtech .case-study .slide-wrapper--case-study-3 .slide__note {
   color: white;
 }
 .page--tachtech .case-study__about__title {
-  color: #1f1d21;
+  color: #000000;
 }
 .page--tachtech .case-study__about__description {
-  color: #1f1d21;
+  color: #000000;
 }
 .page--tachtech .case-study__about__link .column {
-  color: #1f1d21;
+  color: #000000;
 }
 .page--tachtech .case-study__about__link .column a {
-  color: #1f1d21;
+  color: #000000;
 }
 .page--tachtech .case-study__about__points .item .title {
-  color: #1f1d21;
+  color: #000000;
 }
 .page--tachtech .case-study__about__points .item .description {
-  color: #1f1d21;
+  color: #000000;
 }
 .page--tachtech .case-study__parallax {
-  background-color: #1f1d21;
+  background-color: #000000;
 }
 .page--tachtech .column--tachtech-1-left {
   width: 61.2%;
