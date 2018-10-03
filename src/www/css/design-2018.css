@@ -145,7 +145,7 @@ table {
   background-color: #140a3f;
 }
 .color-text-destro {
-  color: #5e410d;
+  color: #35302d;
 }
 .color-background-destro {
   background-color: #fdca00;
@@ -157,28 +157,28 @@ table {
   background-color: #f5ede4;
 }
 .color-text-eyren {
-  color: #e7e3db;
+  color: #fff5eb;
 }
 .color-background-eyren {
-  background-color: #5d1f1e;
+  background-color: #5e2d30;
 }
 .color-text-fer {
-  color: #006f97;
+  color: #61697e;
 }
 .color-background-fer {
   background-color: #ffffff;
 }
 .color-text-haven {
-  color: #601c78;
+  color: #381d44;
 }
 .color-background-haven {
   background-color: #f2eee0;
 }
 .color-text-kkzpp {
-  color: #bf9a51;
+  color: #b19869;
 }
 .color-background-kkzpp {
-  background-color: #00471d;
+  background-color: #0f3520;
 }
 .color-text-partner {
   color: #ffffff;
@@ -462,17 +462,17 @@ a:hover {
   transform: scale(1);
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  animation-delay: 2s;
-  -webkit-animation-delay: 2s;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
 }
 @-webkit-keyframes image_scale_animation {
   100% {
-    -webkit-transform: scale(1.05);
+    -webkit-transform: scale(1.07);
   }
 }
 @keyframes image_scale_animation {
   100% {
-    transform: scale(1.05);
+    transform: scale(1.07);
   }
 }
 .puzzle-indent--left {
@@ -692,6 +692,11 @@ button.btn {
   background-color: transparent;
   cursor: pointer;
 }
+.btn .blue {
+  color: #0b3c42 !important;
+  border: 1.125rem solid #0b3c42 !important;
+  margin-left: 0px !important;
+}
 .btn::after {
   content: " ";
   position: absolute;
@@ -715,7 +720,7 @@ button.btn {
   font-size: 0.75em;
 }
 .btn:hover::after {
-  background-color: #cccccc;
+  background-color: #afafaf;
 }
 .btn:hover span::after {
   opacity: 1;
@@ -730,11 +735,31 @@ button.btn {
 .btn--white span {
   color: white;
 }
+.btn--blue {
+  border-color: #0b3c42;
+  margin-right: 0px !important;
+  color: #0b3c42;
+}
+.btn--blue span {
+  color: #0b3c42;
+}
 .btn--color-text-1 {
   border: 0.1875rem solid #0b3c42;
 }
 .btn--color-text-1 span {
   color: #0b3c42;
+}
+.btn--color-text-2 {
+  border: 0.1875rem solid #2a2a2a;
+}
+.btn--color-text-2 span {
+  color: #2a2a2a;
+}
+.btn--color-text-2::after {
+  background-color: #afafaf;
+}
+.btn--color-text-2:hover::after {
+  background-color: #838383;
 }
 .cookie-bar {
   position: fixed;
@@ -879,10 +904,10 @@ button.btn {
   background-color: rgba(12, 47, 29, 0.87);
 }
 .slide-wrapper--kkzpp .slide__button-wrapper .btn::after {
-  background-color: transparent;
+  background-color: rgba(2, 18, 10, 0.15);
 }
 .slide-wrapper--kkzpp .slide__button-wrapper .btn:hover::after {
-  background-color: #cccccc;
+  background-color: rgba(2, 18, 10, 0.9);
 }
 .slide-wrapper--destro {
   margin-top: 7.8rem;
@@ -895,23 +920,23 @@ button.btn {
   width: 17.75rem;
 }
 .slide-wrapper--destro .slide__button-wrapper {
-  background-color: #f1c001;
+  background-color: rgba(253, 202, 1, 0.65);
   bottom: 1.75rem;
 }
 .slide-wrapper--destro .slide__button-wrapper::after {
-  background-color: #eab700;
+  background-color: rgba(241, 192, 1, 0.55);
 }
 .slide-wrapper--destro .slide__button-wrapper .btn::after {
-  background-color: #daaf00;
+  background-color: rgba(170, 136, 0, 0.2);
 }
 .slide-wrapper--destro .slide__button-wrapper .btn:hover::after {
-  background-color: #af8f0c;
+  background-color: rgba(170, 136, 0, 0.5);
 }
 .slide-wrapper--tack {
   margin-top: 7.8rem;
 }
 .slide-wrapper--tack .slide {
-  background-image: url("../gfx/default/tack.png");
+  background-image: url("../gfx/default/tack.jpg");
   height: 44.27083333vw;
 }
 .slide-wrapper--tack .slide .slide__button-wrapper {
@@ -922,10 +947,10 @@ button.btn {
   background-color: rgba(176, 2, 40, 0.5);
 }
 .slide-wrapper--tack .slide .slide__button-wrapper .btn::after {
-  background-color: rgba(176, 2, 40, 0.35);
+  background-color: rgba(124, 0, 27, 0.35);
 }
 .slide-wrapper--tack .slide .slide__button-wrapper .btn:hover::after {
-  background-color: rgba(176, 2, 40, 0.65);
+  background-color: rgba(124, 0, 27, 0.85);
 }
 .slide-wrapper--tack .slide__button-wrapper {
   background-color: rgba(211, 2, 45, 0.25);
@@ -1114,12 +1139,13 @@ button.btn {
   font-family: 'Rational TW Display Light', "Sans Serif";
   font-size: 1rem;
   line-height: 1.2;
+  margin-bottom: 1.25rem;
   padding-right: 5rem;
 }
 .page--case-study .case-study__about__logo--old {
   width: 10.9375rem !important;
   height: auto;
-  padding-top: 3.5rem;
+  padding-top: 2.25rem;
   padding-bottom: 1.75rem;
 }
 .page--case-study .case-study__about__link .column {
@@ -1145,6 +1171,15 @@ button.btn {
   font-family: 'Rational TW Display Light', "Sans Serif";
   font-size: 1rem;
 }
+.page--case-study .case-study__about__period {
+  width: 30vw;
+  margin-top: 6rem;
+  padding-top: 0.2rem;
+  border-top-style: solid;
+  border-top-width: 0.2rem;
+  font-family: 'Rational TW Display ExtraBold', "Sans Serif";
+  font-size: 1rem;
+}
 .page--case-study .case-study__footer {
   font-size: 1rem;
   text-align: right;
@@ -1168,6 +1203,36 @@ button.btn {
 }
 .page--case-study .case-study__footer .footer__cs .btn {
   padding: 0.75rem 13rem;
+}
+.page--case-study .case-study__footer .obsah_forma__cs {
+  padding-top: 4.2rem;
+  padding-bottom: 4rem;
+  height: 10.175rem;
+  padding-right: 4.3125rem;
+  line-height: 1.2;
+  background-color: #cbcbcb;
+}
+.page--case-study .case-study__footer .obsah_forma__cs-title {
+  font-family: 'Rational TW Display ExtraBold', "Sans Serif";
+  font-size: 1.625rem;
+  padding-right: 2.4375rem;
+  color: #2a2a2a;
+}
+.page--case-study .case-study__footer .obsah_forma__cs-note {
+  padding-top: 0.75rem;
+  padding-bottom: 1.25rem;
+  color: #2a2a2a;
+  padding-right: 2.4375rem;
+}
+.page--case-study .case-study__footer .obsah_forma__cs .btn {
+  padding: 0.75rem 13rem;
+  color: #2a2a2a;
+}
+.page--case-study .case-study__footer .obsah_forma__cs .btn .btn {
+  border: 4.3125rem solid #ffffff;
+}
+.page--case-study .case-study__footer .obsah_forma__cs .btn .btn span {
+  color: #2a2a2a;
 }
 .page--case-study .case-study .parallax {
   height: 100%;
@@ -1230,8 +1295,8 @@ button.btn {
 .page--case-study .case-study .parallax__phone-bg {
   position: absolute;
   top: auto;
-  bottom: 0;
-  left: 14%;
+  bottom: 0.65vw;
+  left: 13.2%;
   right: auto;
   width: 9.0625vw;
   height: 18.4375vw;
@@ -1415,6 +1480,13 @@ button.btn {
   font-family: 'Rational TW Display Light', "Sans Serif";
   color: #5d5d5d;
   line-height: 1.2;
+}
+.page--content-form .content-form__points .point__description span {
+  font-family: 'Rational TW Display ExtraBold', "Sans Serif";
+  font-size: 0.75rem;
+  display: block;
+  margin-top: 0.35rem;
+  color: #5d5d5d;
 }
 .page--content-form .content-form__points .point--appendix {
   top: auto;
@@ -1761,6 +1833,10 @@ button.btn {
 .page--arcadehry .case-study__about__points .item .description {
   color: #ffffff;
 }
+.page--arcadehry .case-study__about__period {
+  color: #ffffff;
+  border-top-color: #ffffff;
+}
 .page--arcadehry .case-study__parallax {
   background-color: #ffffff;
 }
@@ -1774,46 +1850,50 @@ button.btn {
   background-color: #fdca00;
 }
 .page--destro .page__title {
-  color: #5e410d;
+  color: #35302d;
 }
 .page--destro .page__description {
-  color: #5e410d;
+  color: #35302d;
 }
 .page--destro .case-study__ceo {
-  color: #5e410d;
+  color: #35302d;
 }
 .page--destro .case-study .slide-wrapper--case-study-2 .slide__note {
-  color: #5e410d;
+  color: #35302d;
 }
 .page--destro .case-study .slide-wrapper--case-study-3 .slide__note {
   color: white;
 }
 .page--destro .case-study__about__title {
-  color: #5e410d;
+  color: #35302d;
 }
 .page--destro .case-study__about__description {
-  color: #5e410d;
+  color: #35302d;
 }
 .page--destro .case-study__about__link .column {
-  color: #5e410d;
+  color: #35302d;
 }
 .page--destro .case-study__about__link .column a {
-  color: #5e410d;
+  color: #35302d;
 }
 .page--destro .case-study__about__points .item .title {
-  color: #5e410d;
+  color: #35302d;
 }
 .page--destro .case-study__about__points .item .description {
-  color: #5e410d;
+  color: #35302d;
+}
+.page--destro .case-study__about__period {
+  color: #35302d;
+  border-top-color: #35302d;
 }
 .page--destro .case-study__parallax {
-  background-color: #5e410d;
+  background-color: #35302d;
 }
-.page--destro .column--destro-1-left {
-  width: 61.2%;
+.page--destro .column--eyren-1-left {
+  width: 67.5%;
 }
-.page--destro .column--destro-1-right {
-  width: 38.8%;
+.page--destro .column--eyren-1-right {
+  width: 32.5%;
 }
 .page--drevosrot {
   background-color: #f5ede4;
@@ -1851,6 +1931,10 @@ button.btn {
 .page--drevosrot .case-study__about__points .item .description {
   color: #2a2111;
 }
+.page--drevosrot .case-study__about__period {
+  color: #2a2111;
+  border-top-color: #2a2111;
+}
 .page--drevosrot .case-study__parallax {
   background-color: #2a2111;
 }
@@ -1861,178 +1945,194 @@ button.btn {
   width: 38.8%;
 }
 .page--eyren {
-  background-color: #5d1f1e;
+  background-color: #5e2d30;
 }
 .page--eyren .page__title {
-  color: #e7e3db;
+  color: #fff5eb;
 }
 .page--eyren .page__description {
-  color: #e7e3db;
+  color: #fff5eb;
 }
 .page--eyren .case-study__ceo {
-  color: #e7e3db;
+  color: #fff5eb;
 }
 .page--eyren .case-study .slide-wrapper--case-study-2 .slide__note {
-  color: #e7e3db;
+  color: #fff5eb;
 }
 .page--eyren .case-study .slide-wrapper--case-study-3 .slide__note {
   color: white;
 }
 .page--eyren .case-study__about__title {
-  color: #e7e3db;
+  color: #fff5eb;
 }
 .page--eyren .case-study__about__description {
-  color: #e7e3db;
+  color: #fff5eb;
 }
 .page--eyren .case-study__about__link .column {
-  color: #e7e3db;
+  color: #fff5eb;
 }
 .page--eyren .case-study__about__link .column a {
-  color: #e7e3db;
+  color: #fff5eb;
 }
 .page--eyren .case-study__about__points .item .title {
-  color: #e7e3db;
+  color: #fff5eb;
 }
 .page--eyren .case-study__about__points .item .description {
-  color: #e7e3db;
+  color: #fff5eb;
+}
+.page--eyren .case-study__about__period {
+  color: #fff5eb;
+  border-top-color: #fff5eb;
 }
 .page--eyren .case-study__parallax {
-  background-color: #e7e3db;
+  background-color: #fff5eb;
 }
 .page--eyren .column--eyren-1-left {
-  width: 61.2%;
+  width: 67.5%;
 }
 .page--eyren .column--eyren-1-right {
-  width: 38.8%;
+  width: 32.5%;
 }
 .page--fer {
   background-color: #ffffff;
 }
 .page--fer .page__title {
-  color: #006f97;
+  color: #61697e;
 }
 .page--fer .page__description {
-  color: #006f97;
+  color: #61697e;
 }
 .page--fer .case-study__ceo {
-  color: #006f97;
+  color: #61697e;
 }
 .page--fer .case-study .slide-wrapper--case-study-2 .slide__note {
-  color: #006f97;
+  color: #61697e;
 }
 .page--fer .case-study .slide-wrapper--case-study-3 .slide__note {
   color: white;
 }
 .page--fer .case-study__about__title {
-  color: #006f97;
+  color: #61697e;
 }
 .page--fer .case-study__about__description {
-  color: #006f97;
+  color: #61697e;
 }
 .page--fer .case-study__about__link .column {
-  color: #006f97;
+  color: #61697e;
 }
 .page--fer .case-study__about__link .column a {
-  color: #006f97;
+  color: #61697e;
 }
 .page--fer .case-study__about__points .item .title {
-  color: #006f97;
+  color: #61697e;
 }
 .page--fer .case-study__about__points .item .description {
-  color: #006f97;
+  color: #61697e;
+}
+.page--fer .case-study__about__period {
+  color: #61697e;
+  border-top-color: #61697e;
 }
 .page--fer .case-study__parallax {
-  background-color: #006f97;
+  background-color: #61697e;
 }
-.page--fer .column--fer-1-left {
-  width: 61.2%;
+.page--fer .column--eyren-1-left {
+  width: 67.5%;
 }
-.page--fer .column--fer-1-right {
-  width: 38.8%;
+.page--fer .column--eyren-1-right {
+  width: 32.5%;
 }
 .page--haven {
   background-color: #f2eee0;
 }
 .page--haven .page__title {
-  color: #601c78;
+  color: #381d44;
 }
 .page--haven .page__description {
-  color: #601c78;
+  color: #381d44;
 }
 .page--haven .case-study__ceo {
-  color: #601c78;
+  color: #381d44;
 }
 .page--haven .case-study .slide-wrapper--case-study-2 .slide__note {
-  color: #601c78;
+  color: #381d44;
 }
 .page--haven .case-study .slide-wrapper--case-study-3 .slide__note {
   color: white;
 }
 .page--haven .case-study__about__title {
-  color: #601c78;
+  color: #381d44;
 }
 .page--haven .case-study__about__description {
-  color: #601c78;
+  color: #381d44;
 }
 .page--haven .case-study__about__link .column {
-  color: #601c78;
+  color: #381d44;
 }
 .page--haven .case-study__about__link .column a {
-  color: #601c78;
+  color: #381d44;
 }
 .page--haven .case-study__about__points .item .title {
-  color: #601c78;
+  color: #381d44;
 }
 .page--haven .case-study__about__points .item .description {
-  color: #601c78;
+  color: #381d44;
+}
+.page--haven .case-study__about__period {
+  color: #381d44;
+  border-top-color: #381d44;
 }
 .page--haven .case-study__parallax {
-  background-color: #601c78;
+  background-color: #381d44;
 }
-.page--haven .column--haven-1-left {
-  width: 61.2%;
+.page--haven .column--eyren-1-left {
+  width: 67.5%;
 }
-.page--haven .column--haven-1-right {
-  width: 38.8%;
+.page--haven .column--eyren-1-right {
+  width: 32.5%;
 }
 .page--kkzpp {
-  background-color: #00471d;
+  background-color: #0f3520;
 }
 .page--kkzpp .page__title {
-  color: #bf9a51;
+  color: #b19869;
 }
 .page--kkzpp .page__description {
-  color: #bf9a51;
+  color: #b19869;
 }
 .page--kkzpp .case-study__ceo {
-  color: #bf9a51;
+  color: #b19869;
 }
 .page--kkzpp .case-study .slide-wrapper--case-study-2 .slide__note {
-  color: #bf9a51;
+  color: #b19869;
 }
 .page--kkzpp .case-study .slide-wrapper--case-study-3 .slide__note {
   color: white;
 }
 .page--kkzpp .case-study__about__title {
-  color: #bf9a51;
+  color: #b19869;
 }
 .page--kkzpp .case-study__about__description {
-  color: #bf9a51;
+  color: #b19869;
 }
 .page--kkzpp .case-study__about__link .column {
-  color: #bf9a51;
+  color: #b19869;
 }
 .page--kkzpp .case-study__about__link .column a {
-  color: #bf9a51;
+  color: #b19869;
 }
 .page--kkzpp .case-study__about__points .item .title {
-  color: #bf9a51;
+  color: #b19869;
 }
 .page--kkzpp .case-study__about__points .item .description {
-  color: #bf9a51;
+  color: #b19869;
+}
+.page--kkzpp .case-study__about__period {
+  color: #b19869;
+  border-top-color: #b19869;
 }
 .page--kkzpp .case-study__parallax {
-  background-color: #bf9a51;
+  background-color: #b19869;
 }
 .page--kkzpp .column--kkzpp-1-left {
   width: 61.2%;
@@ -2075,6 +2175,10 @@ button.btn {
 }
 .page--partner .case-study__about__points .item .description {
   color: #ffffff;
+}
+.page--partner .case-study__about__period {
+  color: #ffffff;
+  border-top-color: #ffffff;
 }
 .page--partner .case-study__parallax {
   background-color: #ffffff;
@@ -2121,6 +2225,10 @@ button.btn {
 .page--pht .case-study__about__points .item .description {
   color: #fffaf0;
 }
+.page--pht .case-study__about__period {
+  color: #fffaf0;
+  border-top-color: #fffaf0;
+}
 .page--pht .case-study__parallax {
   background-color: #fffaf0;
 }
@@ -2129,6 +2237,15 @@ button.btn {
 }
 .page--pht .column--pht-1-right {
   width: 38.8%;
+}
+.page--pht .column--pht-3-left {
+  width: 32.9%;
+}
+.page--pht .column--pht-3-center {
+  width: 33.6%;
+}
+.page--pht .column--pht-3-right {
+  width: 32.9%;
 }
 .page--poldi {
   background-color: #134b8a;
@@ -2165,6 +2282,10 @@ button.btn {
 }
 .page--poldi .case-study__about__points .item .description {
   color: #ffffff;
+}
+.page--poldi .case-study__about__period {
+  color: #ffffff;
+  border-top-color: #ffffff;
 }
 .page--poldi .case-study__parallax {
   background-color: #ffffff;
@@ -2211,6 +2332,10 @@ button.btn {
 .page--stablo .case-study__about__points .item .description {
   color: #f74a69;
 }
+.page--stablo .case-study__about__period {
+  color: #f74a69;
+  border-top-color: #f74a69;
+}
 .page--stablo .case-study__parallax {
   background-color: #f74a69;
 }
@@ -2255,6 +2380,10 @@ button.btn {
 }
 .page--tachtech .case-study__about__points .item .description {
   color: #000000;
+}
+.page--tachtech .case-study__about__period {
+  color: #000000;
+  border-top-color: #000000;
 }
 .page--tachtech .case-study__parallax {
   background-color: #000000;
@@ -2301,6 +2430,10 @@ button.btn {
 .page--tack .case-study__about__points .item .description {
   color: #f20132;
 }
+.page--tack .case-study__about__period {
+  color: #f20132;
+  border-top-color: #f20132;
+}
 .page--tack .case-study__parallax {
   background-color: #f20132;
 }
@@ -2345,6 +2478,10 @@ button.btn {
 }
 .page--zgruntu .case-study__about__points .item .description {
   color: #67493d;
+}
+.page--zgruntu .case-study__about__period {
+  color: #67493d;
+  border-top-color: #67493d;
 }
 .page--zgruntu .case-study__parallax {
   background-color: #67493d;

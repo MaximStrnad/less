@@ -186,11 +186,6 @@ class PagePresenter extends Nette\Application\UI\Presenter
         $this->template->detail = $detail;
     }
 
-    public function renderNovinky($id = 0)
-    {
-        $this->template->novinky = $this->helpers->getNovinka($id);
-        $this->template->showOlder = $id == 0 ? false : true;
-    }
 
     public function renderClanky($id = 0)
     {
@@ -201,10 +196,10 @@ class PagePresenter extends Nette\Application\UI\Presenter
     protected function createComponentContactForm()
     {
         $form = new UI\Form;
-        $form->addText('name', $this->translator->translate('translation.form.contact.name'))->setAttribute('placeholder', 'Jan Novák')->setAttribute('class', 'form-control')->setRequired($this->translator->translate('design_2018.common.field_required'));
-        $form->addText('contact', $this->translator->translate('translation.form.contact.email'))->setAttribute('placeholder', '123 456 789')->setAttribute('class', 'form-control')->setRequired($this->translator->translate('design_2018.common.field_required'));
-        $form->addTextArea('text', $this->translator->translate('translation.form.contact.message'))->setAttribute('class', 'form-control')->setAttribute('rows', '8');
-        $form->addSubmit('send')->setAttribute('class', 'btn btn-orange')->getControlPrototype()->setName('button')->setHtml($this->translator->translate('translation.form.contact.button'));
+        $form->addText('name', $this->translator->translate('design_2018.contact.form.name'))->setAttribute('placeholder', 'Jan Novák')->setAttribute('class', 'form-control')->setRequired($this->translator->translate('design_2018.common.field_required'));
+        $form->addText('contact', $this->translator->translate('design_2018.contact.form.email'))->setAttribute('placeholder', '123 456 789')->setAttribute('class', 'form-control')->setRequired($this->translator->translate('design_2018.common.field_required'));
+        $form->addTextArea('text', $this->translator->translate('design_2018.contact.form.message'))->setAttribute('class', 'form-control')->setAttribute('rows', '8');
+        $form->addSubmit('send')->setAttribute('class', 'btn btn--blue')->getControlPrototype()->setName('button')->setHtml($this->translator->translate('design_2018.contact.form.button'));
         $form->addText("username")->setAttribute('class', 'antispam');
         $form->onSuccess[] = [$this, "contactFormSuccess"];
 

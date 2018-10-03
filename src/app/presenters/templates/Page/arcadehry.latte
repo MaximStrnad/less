@@ -17,7 +17,7 @@
 			<div class="slide">
 				<div class="slide__logo-wrapper slide__logo-wrapper--full">
 					<div class="image--scalable">
-						<img src="{$basePath}/gfx/cases/destro/destro-big.png" alt="{_design_2018.destro.banner.before}">
+						<img src="{$basePath}/gfx/cases/arcadehry/arcade_01.jpg" alt="{_design_2018.destro.banner.before}">
 					</div>
 				</div>
 				<p class="indent slide__note slide__note--above-bottom">
@@ -82,7 +82,7 @@
 				<div class="slide__button-wrapper">
 					<div>
 						<span class="go-to-web">
-							<a href="{link Page:destro}">{_design_2018.destro.go_to_web|noescape}</a><i class="arrow arrow-right"></i>
+							<a href="{link Page:destro}">{_design_2018.cs.go_to_web|noescape}</a><i class="arrow arrow-right"></i>
 						</span>
 					</div>
 				</div>
@@ -113,7 +113,7 @@
 		<div class="column-wrapper puzzle-indent--top-dbl">
 			<div class="column column--left no-space case-study__about indent">
 				<h2 class="case-study__about__title">
-					{_design_2018.destro.about.title|noescape}
+					{_design_2018.cs.client_title|noescape}
 				</h2>
 				<p class="case-study__about__description">
 					{_design_2018.destro.about.description|noescape}
@@ -159,6 +159,11 @@
 							</span>
 						</li>
 					</ul>
+					
+					<div class="case-study__about__period">
+					{_design_2018.destro.about.period|noescape}
+					</div>						
+					
 				</div>
 			</div>
 			<div class="column column--right puzzle-indent--left">
@@ -177,4 +182,5 @@
 		color            => "#f74a69",
 		title            => $presenter->translator->translate('design_2018.stablo.title'),
 		overlay_color    => "white",
+		pagefont_color   => "color-text-arcadehry"
 	}
