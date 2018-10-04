@@ -465,6 +465,10 @@ a:hover {
   animation-delay: 1s;
   -webkit-animation-delay: 1s;
 }
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
 @-webkit-keyframes image_scale_animation {
   100% {
     -webkit-transform: scale(1.07);
