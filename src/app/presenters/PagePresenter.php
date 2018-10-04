@@ -49,6 +49,11 @@ class PagePresenter extends Nette\Application\UI\Presenter
     {
         $this->template->hasFooter = true;
     }
+	
+    public function renderJobs()
+    {
+        $this->template->hasFooter = true;
+    }	
 
     public function renderVytvarimePrezentace()
     {

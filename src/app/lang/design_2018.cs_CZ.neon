@@ -175,12 +175,52 @@ arcadehry:
 	description: "Tady se čtyřicátníci a padesátníci vrací do doby svého dětství. Arcadehry jsou trochu muzeum, ale dějepis nečekejte. Je to domek kousek od Prahy napěchovaný restaurovanými a hlavně funkčními arkádovými automaty. V přítmí tam září katodové obrazovky s videohrami. Před pár lety jsme pomohli vytvořit značku a teď už druhý web v neonových barvách."
 	banner:
 		before: "Připravili jsme logo, vizuální styl a dvě generace webu."
+		in: "&bdquo;Původně jsme webem chtěli řešit jen praktické úlohy, pak se to všechno rozvinulo.&rdquo;"
+	ceo: "Jan Orna, majitel a ředitel"
+	web_title: "Web má kalendář, katalog her a rezervaci akcí"	
+	grow_note: "Arkády"
+	about:
+		description: "Začalo to jedním advokátem a dvěma koncipienty. Protože přestalo být rozumné stále rozšiřovat název kanceláře s přicházejícími lidmi, vznikl Haven. Přístav. Dnes v advokátní kanceláři pracují advokáti čtyři: Mgr. Andeya Voglová, Mgr. Robert Novotný, JUDr. Jiří Šmatlák a Mgr. Ondřej Huml. Studovali na českých právnických fakultách i mimo ně – též v Německu a Velké Británii a vládnou proto plynně němčinou a angličtinou. Advokátní kancelář se orientuje zejména na agendu související s právní podporou korporací, ale nejen na to. Vzhledem k jazykové vybavenosti zvládá právní podporu zahraničních klientů zde v Čechách."
+		link: "www.arcadehry.cz"
+		url: "http://www.arcadehry.cz"		
+		logo_old: "původní logo"
+		points_title: "Arcadehry jsou"
+		point1:
+			title: "Důrazný"
+			description: "Má dostatek odvahy a kuráže, ale i profesionální klid a rozvahu. "
+		point2:
+			title: "Důvtipný"
+			description: "Odbornost práva nespočívá jen ve znalosti právních předpisů."
+		point3:
+			title: "Starostlivý"
+			description: "Má dostatek porozumění, ale i profesionální nadhled a důvěryhodnost."	
+		period: "od 2014 po současnost"
+				
 drevosrot:
 	title: "Dřevošrot"
 	description: "Dřevošrot spojuje ty lidi, kteří mají les nebo jen dřevní odpad, s těmi lidmi, kteří jej umí využít pro energii. Dřevní štěpka, se kterou nakládá, totiž není nic jiného než energie zabalená do malých kousků. Dali jsme značce dřevošrot více tepla a vřelosti. Pomohli jsme také zákazníkům vysvětlit, v čem spočívá přínos dřevošrotu. Vytvořili jsme na to hezké schéma."
 	banner:
 		before: "Připravili jsme logo, vizuální styl, tiskoviny a web s efektním schématem."
-
+		in: "&bdquo;Naši partneři lépe chápou, v čem spočívá přidaná hodnota naší společnosti.&rdquo;"
+	ceo: "Dominika Vizváryová, provozní ředitelka Dřevošrot"
+	web_title: "Web s interaktivním schématem"
+	grow_note: "To jsou cesty energie sbalené do malých kousků dřeva"
+	about:
+		description: "Dřevošrot byl založen v roce 2006 Jiřím Caldou, který roku 2015 tragicky zahynul. Dřevošrot se zabývá zhodnocením dřevní hmoty, která zbývá po těžbě dřeva v lese. To s sebou nese obchodování, zpracování, skladování i dopravou tohoto dřevního odpadu. V lese nebo na deponii se rozdrtí do dřevní štěpky, která má další využití zejména v energetice jejím spalováním ve vhodných zařízeních. Lze využít také dřevo, které je nevhodné pro jiné zpracování. Dřevošrot Dřevošrot sám aktivně vyhledává zdroje materiálu pro zásobování svých zákazníků. Dřevošrot ač je sám relativně mladou společností, je jedním ze zakladatelů oboru v Česku. Ve všech případech je zhodnocen materiál, který by jinak zůstal bez užitku v lese."
+		link: "www.drevosrot.cz"
+		url: "http://www.drevosrot.cz"		
+		logo_old: "původní logo"
+		points_title: "Dřevošrot je"
+		point1:
+			title: "Kontaktní"
+			description: "Spojuje lidi a prohání mezi nimi proud energie."
+		point2:
+			title: "Vzdělaný"
+			description: "Rozumí své práci tak, že může poučit i ostatní."
+		point3:
+			title: "Vzorný"
+			description: "Je na něj naprostý spoleh. Nezpozdí se."	
+		period: "od 2014 po současnost"
 
 eyren:
 	title: "Eyren"
@@ -193,6 +233,7 @@ eyren:
 	about:
 		description: "Jako manažer kumštýřů se Helmut Vajc v jeden čas pohyboval kolem historického šermu. Zájem obecenstva nevzbuzovaly jen výkony bojovníků, ale také jejich zbroj a zbraně. Další kroky už jsou nasnadě. Nová společnost Wellcrafted se nevydala tehdy obvyklou cestou stánkového prodeje, ale uvedla pod názvem outfit4events.cz internetový obchod. Ten dnes prodává do celé Evropy. Jeho zákazníci nejsou jen soukromé osoby, ale i zámky, divadla a muzea. Můžete získat ručně zhotovenou originální historickou výbavu od zbraní, rytířské zbroje a výbavy, kostýmů, obuvi a kovaných výrobků. Rekvizity pro různé historické epochy."
 		link: "www.outfit4events.cz"
+		url: "https://www.outfit4events.cz"		
 		logo_old: "původní logo"
 		points_title: "Eyren je"
 		point1:
@@ -211,7 +252,26 @@ fer:
 	description: "Není ocel jako ocel. Ve Feru se obchoduje především s těmi náročnějšími materiály. Fer je stahlhandel. V sortimentu najdete vysoce legované, nástrojové, lecčemu vzdorné oceli. Metalurgie je věda. Když jsme pomáhali nastartovat značku Fer, cítili jsme se jak v bílých pláštích. Poznáte na ukázkách, co je metalografický výbrus?"
 	banner:
 		before: "Nastartovali jsme značku. Připravili jsme logo, vizuální styl, základní tiskoviny a první web s katalogem a skladovými zásobami."
-
+		in: "&bdquo;Od samého počátku působíme jako silná a věrohodná společnost.&rdquo;"
+	ceo: "Monika Pyplová, vedoucí obchodního oddělení"
+	web_title: "Web s napojením na sklad"	
+	grow_note: "Kolorovaný metalografický výbrus"
+	about:
+		description: "Společnost FER Kladno vznikla v roce 2012 při reorganizaci z kladenské Poldi Hütte a nyní pracuje jako samostatná prodejní společnost. V jejím sortimentu jsou výrobky zejména zahraničních hutí a oceláren. Na prvním místě se FER Kladno specializuje na ušlechtilé nástrojové a nerezové oceli. V sortimentu lze ale nalézt také na uhlíkové a konstrukční oceli z běžné produkce. Vše je dodáváno v obvykle vyráběných profilech. Materiál je možno dodat též nadělený na poloautomatické pile. Společnost FER Kladno má i vlastní laboratoř a je tak schopna dodat materiál s potřebnými atesty jakosti."
+		link: "www.ferkladno.cz"
+		url: "http://www.ferkladno.cz"		
+		logo_old: "původní logo"
+		points_title: "Fer je"
+		point1:
+			title: "Důrazný"
+			description: "Má dostatek odvahy a kuráže, ale i profesionální klid a rozvahu. "
+		point2:
+			title: "Důvtipný"
+			description: "Odbornost práva nespočívá jen ve znalosti právních předpisů."
+		point3:
+			title: "Starostlivý"
+			description: "Má dostatek porozumění, ale i profesionální nadhled a důvěryhodnost."	
+		period: "2013–2014"
 
 haven:
 	title: "HAVEN"
@@ -224,6 +284,7 @@ haven:
 	about:
 		description: "Začalo to jedním advokátem a dvěma koncipienty. Protože přestalo být rozumné stále rozšiřovat název kanceláře s přicházejícími lidmi, vznikl Haven. Přístav. Dnes v advokátní kanceláři pracují advokáti čtyři: Mgr. Andeya Voglová, Mgr. Robert Novotný, JUDr. Jiří Šmatlák a Mgr. Ondřej Huml. Studovali na českých právnických fakultách i mimo ně – též v Německu a Velké Británii a vládnou proto plynně němčinou a angličtinou. Advokátní kancelář se orientuje zejména na agendu související s právní podporou korporací, ale nejen na to. Vzhledem k jazykové vybavenosti zvládá právní podporu zahraničních klientů zde v Čechách."
 		link: "www.ak-haven.cz"
+		url: "http://www.ak-haven.cz"		
 		logo_old: "původní logo"
 		points_title: "Haven je"
 		point1:
@@ -247,7 +308,8 @@ partner:
 	grow_note: "Tak velká je armáda obchodních zástupců v Česku a na Slovensku."
 	about:
 		description: "Plzeňský Prazdroj byl založen již v roce 1842, kdy sládek Groll uvařil první várku světlého piva a vytvořil tak pivo plzeňského typu. Tento druh světlého spodně kvašeného piva Pilsener či Pils je dnes nejprodávanějším druhem piva na světě. A plzeňská dvanáctka je pojmem sama o sobě. Mezi značky Plzeňského Prazdroje patří také plzeňský Gambrinus, nošovický Radegast a Velkopopovický Kozel, v Česku nejrozšířenější nealkoholické pivo Birell, cidery Kingswood a Frisco a další. Celkem 12 značek. Plzeňský Prazdroj je největším výrobcem piva v Česku a současně i jeho největším exportérem. Pivo vyváží do více než 50 zemí světa. Současným majitelem Prazdroje je japonská pivovarnická skupina Asahi."
-		link: "inde"
+		link: "www.prazdroj.cz"
+		url: "http://www.prazdroj.cz"	
 		logo_old: "původní logo"
 		points_title: "Aplikace Partner2 je"
 		point1:
@@ -261,14 +323,13 @@ partner:
 			description: "Přináší profit."	
 		period: "od 2015 až dosud"		
 		
-		
 pht:
 	title: "Petráčkovy Hořické Trubičky"
 	description: "Recept na hořické trubičky přinesl do podkrkonoší kuchař z napoleonské armády počátkem 19. století. V rodině Petráčkových se tak trubičky stáčely už po několik generací. Když jednou dostali nápad dát ochutnat i ostatním. A tak Petráčkovy hořické trubičky najdete nejen v Makru a u regionálních distributorů. Nově také v Tescu, v prodejnách Žabka nebo na rohlik.cz."
 	banner:
 		before: "Dlouhodobě se staráme o značku. Připravili jsme logo, vizuální styl nebo web s kalkulátory."
 		in: "&bdquo;Nové obaly nám pomohly začít prodávat na nových místech. Otevřely se nám nové možnosti.&rdquo;"
-	ceo: "Lukáš Nový z vedení rodinné firmy Petráčkovy hořické trubičky"
+	ceo: "Lukáš Nový, vedení rodinné firmy Petráčkovy hořické trubičky"
 	grow_note: "Členové klubu pocítí vděčnost pivovaru za předešlou spolupráci."
 	about:
 		description: "V Hořicích se trubičky stáčí už přes sto let. Recept do kraje údajně v roce 1812 přinesl kuchař císaře Napoleona. Trubičky zachutnaly a od té doby trubičky stáčelo a stále stáčí v Hořicích několik rodin. Trubičky se staly postupně pojmem a začaly se vyvážet se do celého světa. I přes pozdější hromadnou výrobu tradice rodinného domácího stáčení nezanikla. Roku 1992 manželé Josef a Marcela Petráčkovi prodali své trubičky prvním zákazníkům a založili firmu, kterou nyní přebírá nová generace rodiny. Zkušené cukrářky stáčejí jednotlivé trubičky ručně na horké plotýnce. Strojová výroba není přípustná. Hořické trubičky a jejich výroba jsou totiž nositelem Chráněného zeměpisného označení EU, mohou se vyrábět pouze v Hořicích a okolí. Jde o sedmý český výrobek s touto výsadou. "
@@ -287,18 +348,16 @@ pht:
 			description: "Skočí do tašky raději samy, jen aby se na ně nezapomnělo"
 		period: "od 2013 po současnost"	
 		
-		
 poldi:
 	title: "Poldi Hütte"
 	description: "Slavná huť Poldi existuje v Kladně již od roku 1889. Není sice nejstarší, ale určitě nejznámější. Z oceli Poldi bylo vyrobeno mnoho slavného. Škoda, že právě nezažívá nejšťastnější chvíle. Během nedávných lepších let jsme měli možnost posunout její vzhled. Ta hvězda znamená a vždy znamenala vývoz oceli na pět světových kontinentů."
 	banner:
 		before: "Redesignovali jsme logo a vizuální styl"
 		in: "&bdquo;Tohle je ta pravá historická atmosféra, čistě, dobře, moderně.&rdquo;"
-	ceo: "Marie Drvotová, marketing manager"
+	ceo: "Marie Drvotová, marketing manager Poldi"
 	grow_note: "Historie Poldi protíná už tři staletí"
 	about:
 		description: "Poldi Hütte je pokračovatelem slavné tradice huti Poldi, kterou jako speciální ocelárnu založil v roce 1889 v Kladně podnikatel Karl Wittgenstein. V roce 1893 si nechala ocelárna registrovat dodnes platnou a slavnou ochrannou známku. Poldi je domácké jméno Leopoldiny Wittgensteinové, manželky zakladatele. A její obrázek od počátku zdobí tuto značku. Složení řady ocelí postupně vyvinutých v huti Poldi se stalo průběhem doby etalonem a doposud je základem pro výrobu speciálních ocelí po celém světě. Tyto oceli se stali pojmem a vyvážely se do celého světa. Názvů těchto ocelí se dodnes v praxi mezi lidmi používá pro označení příslušného typu či skupiny oceli, byť mají výrobní značku jinou."
-		link: "www.poldi.cz"
 		logo_old: "původní logo"
 		points_title: "Poldi je"
 		point1:
@@ -317,12 +376,26 @@ stablo:
 	description: "Stablo jsou velké stavební bloky z betonu pro hrubou terénní práci. Betonové bloky vyrábí v Destru a klidně by je zvládli nabízet tak jak jsou. Bloky ale oslovují nové jiné zákazníky, proto jsme vytvořili zcela novou produktovou značku Stablo. Vidíte beton a říkáte si nuda? S betonovými kostkami si hrajte jako se stavebnicí."
 	banner:
 		before: "Vytvořili jsme zcela novou značku Stablo. Připravili jsme logo, vizuální styl nebo web s grafickými kalkulátory."
-tachtech:
-	title: "Tachtech"
-	description: "Postavit pec tak, aby ohřívala materiál přesně jak má, je mimořádně náročné. Neúspěšnost v oboru je vysoká. Tachtech má ale ve svém týmu zkušené matadory. Tachtech a důvěra jsou stejné pojmy, o které se můžete opřít. Dáváme vám na to své slovo. Žádné výstřelky. Tachtech působí v Česku, v Polsku, na Ukrajině v Rusku a v dalších zemích."
-	banner:
-		before: "Dlouhodobě se staráme o značku. Připravili jsme redesign loga, vizuální styl nebo katalogy a jednoduchý web v několika jazycích."
-
+		in: "&bdquo;Design nám pomáhá rozvíjet obchod. Jsme vidět a je to vidět i v číslech.&rdquo;"
+	ceo: "Zbyněk Karas, obchodní ředitel Destro"
+	web_title: "Několik webů pro Destro"
+	grow_note: "O tolik procent ročně roste v&nbsp;průměru obrat Destro, úspěch a&nbsp;design jde ruku v&nbsp;ruce."
+	about:
+		description: "Destro už od roku 1990 zpracovává materiál ze staré haldy, která zbyla po kladenských hutích a zbavuje prospěšným způsobem Kladno ekologické zátěže. Však to říká i slogan „odpad měníme v materiál.“ Dosud bylo zpracováno a zákazníkům dodáno přes 2,2 milionu tun kameniva. To nachází využití ve stavebnictví – od podkladů silnic po zakládání staveb. Destro dělá ale mnohem víc. Pro hutní podniky zabezpečuje koloběh materiálů, kdy různé keramické odpady z metalurgických procesů zpracovává na vysprávkové hmoty pecí nebo struskotvorné přísady vsázky. Z velkých úlomků strusky umí zachránit železné slity a vrátit je ke zpracování. Pod obchodní značkou Stablo betonové stavební prefabrikované bloky rozličné velikosti a jako DestroBeton dodává betony z moderní betonárky."
+		link: "www.stablo.cz"
+		url: "http://www.stablo.cz"		
+		logo_old: "původní logo"
+		points_title: "Destro je"
+		point1:
+			title: "Krásné"
+			description: "Destro pomáhá vzniknout krásným věcem."
+		point2:
+			title: "Silné"
+			description: "Nebojí se vzít za těžkou práci."
+		point3:
+			title: "Tvořivé"
+			description: "Vidí užitek ve zdánlivě obyčejném."
+		period: "od 2004 po současnost"		
 
 tack:
 	title: "Tack"
@@ -335,6 +408,7 @@ tack:
 	about:
 		description: "BAG INTERNATIONAL je dodavatel slaných snacků vyrobených z brambor, cereálií a dalších surovin. V Česku působil BAG nejprve jako distributor výrobků své italské mateřské firmy BAG SNACKS. Od roku 1996 funguje ale i jako přímý výrobce v závodě poblíž Vidonic a Pecky u Nové Paky. Nejprve z české továrny BAGu zásobovali především zahraniční trhy. Dnes v továrně vyrábí snacky vlastního vývoje pod privátními značkami svých zákazníků ale i zcela vlastní výrobky. Ve Vidonicích se stále vyrábí nejen pro český trh. V sortimentu najdete čtyři řady snacků od malých balení pro chuť až po velká rodinná balení. Nový výrobek TACK byl vyroben v úspěšné zkušební sérii, na své rozšíření zatím čeká."
 		link: "www.bagint.cz"
+		url: "http://www.bagint.cz"		
 		logo_old: "původní logo"
 		points_title: "TACK je"
 		point1:
@@ -348,13 +422,6 @@ tack:
 			description: "Křupnutí je i vidět."	
 		period: "2017"
 
-zgruntu:
-	title: "Z Gruntu"
-	description: "Jednota v Českých Budějovicích je největší družstvo svého druhu v zemi. Provozuje mnoho obchodů nejen v jižních Čechách. A na pultech těchto obchodů, v oddělení lahůdek, najdete bezlepkové uzenářské výrobky s privátní značkou Z Gruntu. Značku jsme vytvořili od samého počátku. Focení produktů do vizuálů bylo nezapomenutelným zážitkem."
-	banner:
-		before: "Vytvořili jsme značku. Připravili jsme logo, vizuální styl nebo web s kalkulátory."
-
-
 destro:
 	title: "Destro"
 	description: "V Destru vidí užitek v materiálu, který jiní považují za odpad. Třeba z vysokopecní strusky vyrobí kamenivo, beton, betonovou stavebnici Stablo a ještě z ní vyseparují železo pro další využití. Pro ocelárny pak zabezpečí celý cyklus stavebních a odpadních materiálů. Ačkoli samy krásu nepobraly, produkty Destro stojí na začátku vzniku krásných věcí a staveb."
@@ -362,12 +429,12 @@ destro:
 		before: "Dlouhodobě se staráme o značku. Připravili jsme logo, vizuální styl nebo web s kalkulátory."
 		in: "&bdquo;Design nám pomáhá rozvíjet obchod. Jsme vidět a je to vidět i v číslech.&rdquo;"
 	ceo: "Zbyněk Karas, obchodní ředitel Destro"
-	case_studies:
-		title: "Několik webů pro Destro"
+	web_title: "Několik webů pro Destro"
 	grow_note: "O tolik procent ročně roste v&nbsp;průměru obrat Destro, úspěch a&nbsp;design jde ruku v&nbsp;ruce."
 	about:
 		description: "Destro už od roku 1990 zpracovává materiál ze staré haldy, která zbyla po kladenských hutích a zbavuje prospěšným způsobem Kladno ekologické zátěže. Však to říká i slogan „odpad měníme v materiál.“ Dosud bylo zpracováno a zákazníkům dodáno přes 2,2 milionu tun kameniva. To nachází využití ve stavebnictví – od podkladů silnic po zakládání staveb. Destro dělá ale mnohem víc. Pro hutní podniky zabezpečuje koloběh materiálů, kdy různé keramické odpady z metalurgických procesů zpracovává na vysprávkové hmoty pecí nebo struskotvorné přísady vsázky. Z velkých úlomků strusky umí zachránit železné slity a vrátit je ke zpracování. Pod obchodní značkou Stablo betonové stavební prefabrikované bloky rozličné velikosti a jako DestroBeton dodává betony z moderní betonárky."
 		link: "www.destro.cz"
+		url: "http://www.destro.cz"
 		logo_old: "původní logo"
 		points_title: "Destro je"
 		point1:
@@ -381,14 +448,13 @@ destro:
 			description: "Vidí užitek ve zdánlivě obyčejném."
 		period: "od 2004 po současnost"
 
-
 kkzpp:
 	title: "Klub klíčových zákazníků"
 	description: "Plzeňský Prazdroj pečuje o mnoho pokladů. Především o samotný plzeňský ležák, který založil svou kategorii. Klub klíčových zákazníků je místo, kde se ze zákazníků Plzeňského Prazdroje, hospodských a restauratérů, stávají hosté. Zde o ně pivovar pečuje. Vytvořili jsme vizuální prostředí, kde se zákazníci Prazdroje mohou cítit opečovávaní."
 	banner:
 		before: "Připravili jsme logo a vizuální styl s několika aplikacemi."
 		in: "&bdquo;Nová loga vyvolávají různé reakce. Logo Klubu přijali naši zákazníci velmi pozitivně.&rdquo;"
-	ceo: "Jan Krátký, manažer Plzeňský Prazdroj a. s."
+	ceo: "Jan Krátký, manažer Plzeňského Prazdroje"
 	grow_note: "Členové klubu pocítí vděčnost pivovaru za předešlou spolupráci."
 	about:
 		description: "Plzeňský Prazdroj byl založen již v roce 1842, kdy sládek Groll uvařil první várku světlého piva a vytvořil tak pivo plzeňského typu. Tento druh světlého spodně kvašeného piva Pilsener či Pils je dnes nejprodávanějším druhem piva na světě. A plzeňská dvanáctka je pojmem sama o sobě. Mezi značky Plzeňského Prazdroje patří také plzeňský Gambrinus, nošovický Radegast a Velkopopovický Kozel, v Česku nejrozšířenější nealkoholické pivo Birell, cidery Kingswood a Frisco a další. Celkem 12 značek. Plzeňský Prazdroj je největším výrobcem piva v Česku a současně i jeho největším exportérem. Pivo vyváží do více než 50 zemí světa. Současným majitelem Prazdroje je japonská pivovarnická skupina Asahi."
@@ -407,8 +473,56 @@ kkzpp:
 			description: "Klub není pro pivovar, klub existuje pro jeho zákazníky."
 		period: "2016"	
 
-	
-			
+zgruntu:
+	title: "Z Gruntu"
+	description: "Jednota v Českých Budějovicích je největší družstvo svého druhu v zemi. Provozuje mnoho obchodů nejen v jižních Čechách. A na pultech těchto obchodů, v oddělení lahůdek, najdete bezlepkové uzenářské výrobky s privátní značkou Z Gruntu. Značku jsme vytvořili od samého počátku. Focení produktů do vizuálů bylo nezapomenutelným zážitkem."
+	banner:
+		before: "Co jsme připravili"
+		in: "&bdquo;Reference.&rdquo;"
+	ceo: "Jméno Příjmení, manažer"
+	grow_note: Poznámka"
+	about:
+		description: "Popis."
+		link: "www.nic.cz"
+		url: "http://www.nic.cz"
+		logo_old: "původní logo"
+		points_title: "Klient je"
+		point1:
+			title: "První"
+			description: "Ale pozor!"
+		point2:
+			title: "Druhý"
+			description: "Ale pozor!"
+		point3:
+			title: "Třetí"
+			description: "Ale pozor!"
+		period: "2000"	
+		
+tachtech:
+	title: "Tachtech"
+	description: "Postavit pec tak, aby ohřívala materiál přesně jak má, je mimořádně náročné. Neúspěšnost v oboru je vysoká. Tachtech má ale ve svém týmu zkušené matadory. Tachtech a důvěra jsou stejné pojmy, o které se můžete opřít. Dáváme vám na to své slovo. Žádné výstřelky. Tachtech působí v Česku, v Polsku, na Ukrajině v Rusku a v dalších zemích."
+	banner:
+		before: "Co jsme připravili"
+		in: "&bdquo;Reference.&rdquo;"
+	ceo: "Jméno Příjmení, manažer"
+	grow_note: Poznámka"
+	about:
+		description: "Popis."
+		link: "www.nic.cz"
+		url: "http://www.nic.cz"
+		logo_old: "původní logo"
+		points_title: "Klient je"
+		point1:
+			title: "První"
+			description: "Ale pozor!"
+		point2:
+			title: "Druhý"
+			description: "Ale pozor!"
+		point3:
+			title: "Třetí"
+			description: "Ale pozor!"
+		period: "2000"	
+				
 download:
 	title: "Stáhněte si naši pomůcku do šuplíku"
 	description: "Děkujeme za návštěvu našeho webu. Na oplátku tu pro vás máme kartu<br>s typografickými pravidly a klávesovými zkratkami."
@@ -534,6 +648,28 @@ content_form:
 				title: "realizace"
 				description: "Předtisková příprava, zadání do tisku, do výroby, do distribuce. Kódování a&nbsp;programování. Realizace aplikace. Tady je prostor pro přesnost, ne pro kreativitu. Ťik ťak. Dobrá práce nás pak vrací zpět na bod jedna."
 			appendix: "Paráda, hotovo. Je to dobré."
+			
+jobs:
+	title: "Hledáme tě"
+	description: "Jsme malé studio, takže tvoje nápady budou mít prostor vyniknout. Pracujeme raději v klidu než v poklusu. Sídlíme v Kladně, ale dostupnost z Prahy je skvělá. S kolegy si tykáme. Pracujeme na moc pěkných projektech. Možnosti spolpráce jsou otevřené. Víc si o nás koneckonců můžeš přečíst na jiných stránkách tohoto webu."
+	slide:
+		title: "Grafický design musí mít tah na branku <span class='arrow-down'></span>"
+		alt: "Obsah + Forma"
+		go_to_button: "Prozkoumat"
+	joblist:
+		job_1:
+			title: "Designér"
+			description: "Hledáme vysoce praktického kolegu nebo kolegyni. Měl/a bys mít výtvarné vidění světa, přehled v oboru a zručnou ruku. Vedle toho základní související znalosti z marketingu, obchodu a psychologie. Pracujeme v Adobe produktech."
+		job_2:
+			title: "Výtvarník"
+			description: "Hledáme kolegu nebo kolegyni s hlavou v oblacích a s nohama na zemi. Měl/a bys mít přehled a zručnost ve výtvarných technikách. A kromě toho jistou ruku. Externí příležitostná spoupráce."		
+		job_3:
+			title: "Junior designér / DTP"
+			description: "Hledáme kolegu nebo kolegyni s přesným okem a rychlou rukou. A když budeš učenlivý/á, povýšíš. Abychom mohli pracovat v klidu, musí ti to jít pěkně od ruky. Pracujeme v Adobe produktech."
+		job_4:
+			title: "Programátor"
+			description: "Vyvíjíme aplikaci pro Plzeňský Prazdroj a vlastní redakční systém Comet, na kterém stavíme weby. Používáme technologie jako React, Nette, HTML5, Less a tak."
+	
 			
 			
 	

@@ -96,7 +96,13 @@
 				<p class="case-study__about__description">
 					{_design_2018.partner.about.description|noescape}
 				</p>
-				
+				<div class="column-wrapper case-study__about__link">
+					<div class="column column--left">
+						<a href="{_design_2018.partner.about.url|noescape}" target="_blank">
+							{_design_2018.partner.about.link|noescape}
+						</a>
+					</div>
+				</div>
 				<div class="case-study__about__points">
 					<h2 class="case-study__about__title">
 						{_design_2018.partner.about.points_title}
@@ -147,7 +153,7 @@
 		url              => "Page:destro",
 		background_image => false,
 		background_color => "#fdca00",
-		color            => "#5e410d",
+		color            => "#35302d",
 		title            => $presenter->translator->translate('design_2018.destro.title'),
 		overlay_color    => "white",
 		pagefont_color   => "color-text-partner"

@@ -1,0 +1,87 @@
+{block page_style}page--about-us{/block}
+
+{block content}
+	<section class="container indent">
+		<h1 class="page__title">
+			{_design_2018.jobs.title}
+		</h1>
+		<p class="page__description">
+			{_design_2018.jobs.description|noescape}
+		</p>
+	</section>
+	<section class="about-us__items">
+		<div class="container column-wrapper">
+			<div class="column column--left puzzle-indent--bottom-dbl">
+				<div class="item font--size-1 indent">
+					<h2 class="item__title">
+						{_design_2018.jobs.joblist.job_1.title}
+					</h2>
+					<p class="item__description">
+						{_design_2018.jobs.joblist.job_1.description|noescape}
+					</p>
+				</div>
+			</div>
+			<div class="column column--left puzzle-indent--bottom-dbl">
+				<div class="item font--size-1 indent">
+					<h2 class="item__title">
+						{_design_2018.jobs.joblist.job_2.title}
+					</h2>
+					<p class="item__description">
+						{_design_2018.jobs.joblist.job_2.description|noescape}
+					</p>
+				</div>
+			</div>	
+			<div class="column column--left puzzle-indent--bottom-dbl">
+				<div class="item font--size-1 indent">
+					<h2 class="item__title">
+						{_design_2018.jobs.joblist.job_3.title}
+					</h2>
+					<p class="item__description">
+						{_design_2018.jobs.joblist.job_3.description|noescape}
+					</p>
+				</div>
+			</div>	
+			<div class="column column--left puzzle-indent--bottom-dbl">
+				<div class="item font--size-1 indent">
+					<h2 class="item__title">
+						{_design_2018.jobs.joblist.job_4.title}
+					</h2>
+					<p class="item__description">
+						{_design_2018.jobs.joblist.job_4.description|noescape}
+					</p>
+				</div>
+			</div>								
+		</div>
+	</section>
+	<section class="container slide-wrapper slide-wrapper--content-form">
+		<p class="slide-prepend indent">
+			{_design_2018.jobs.slide.title|noescape}
+		</p>
+		<div class="slide slide--responsive slide--centered">
+			<div class="slide__logo-wrapper">
+				<a href="{link Page:obsahForma}">
+					<img src="{$basePath}/gfx/obsahforma/obsahforma-logo{if $locale == 'en'}_en{/if}.png" alt="{_design_2018.jobs.slide.alt}">
+				</a>
+			</div>
+			<div class="slide__button-wrapper slide__button-wrapper--animated">
+				<div>
+					<a href="{link Page:obsahForma}" class="btn btn--white">
+						<span>{_design_2018.jobs.slide.go_to_button|noescape}</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container column-wrapper puzzle-indent--top-dbl">
+			<div class="column column--left puzzle-indent--left font--size-1">
+			</div>
+			<div class="column column--right puzzle-indent--left font--size-1">
+				{include ../_partials/footer_lead.latte}
+			</div>
+		</div>
+		<div class="indent">
+			{include ../_partials/footer_sign.latte}
+		</div>
+	</footer>

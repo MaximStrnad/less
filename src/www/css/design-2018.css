@@ -151,7 +151,7 @@ table {
   background-color: #fdca00;
 }
 .color-text-drevosrot {
-  color: #2a2111;
+  color: #241a05;
 }
 .color-background-drevosrot {
   background-color: #f5ede4;
@@ -1110,6 +1110,10 @@ button.btn {
   border: solid white;
   border-width: 0 2px 2px 0;
 }
+.page--case-study .case-study .slide-wrapper--case-study-2 .slide__button-wrapper .go-to-web .arrow-pht {
+  border: solid #ff8a2a;
+  border-width: 0 2px 2px 0;
+}
 .page--case-study .case-study .slide-wrapper--case-study-3 .slide {
   height: 44.27083333vw;
 }
@@ -1899,44 +1903,44 @@ button.btn {
   background-color: #f5ede4;
 }
 .page--drevosrot .page__title {
-  color: #2a2111;
+  color: #241a05;
 }
 .page--drevosrot .page__description {
-  color: #2a2111;
+  color: #241a05;
 }
 .page--drevosrot .case-study__ceo {
-  color: #2a2111;
+  color: #241a05;
 }
 .page--drevosrot .case-study .slide-wrapper--case-study-2 .slide__note {
-  color: #2a2111;
+  color: #241a05;
 }
 .page--drevosrot .case-study .slide-wrapper--case-study-3 .slide__note {
   color: white;
 }
 .page--drevosrot .case-study__about__title {
-  color: #2a2111;
+  color: #241a05;
 }
 .page--drevosrot .case-study__about__description {
-  color: #2a2111;
+  color: #241a05;
 }
 .page--drevosrot .case-study__about__link .column {
-  color: #2a2111;
+  color: #241a05;
 }
 .page--drevosrot .case-study__about__link .column a {
-  color: #2a2111;
+  color: #241a05;
 }
 .page--drevosrot .case-study__about__points .item .title {
-  color: #2a2111;
+  color: #241a05;
 }
 .page--drevosrot .case-study__about__points .item .description {
-  color: #2a2111;
+  color: #241a05;
 }
 .page--drevosrot .case-study__about__period {
-  color: #2a2111;
-  border-top-color: #2a2111;
+  color: #241a05;
+  border-top-color: #241a05;
 }
 .page--drevosrot .case-study__parallax {
-  background-color: #2a2111;
+  background-color: #241a05;
 }
 .page--drevosrot .column--drevosrot-1-left {
   width: 61.2%;
