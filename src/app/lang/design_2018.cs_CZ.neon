@@ -1,7 +1,6 @@
 homepage:
 	title: "Bez designu umřeš"
 	description: "Digitální grafické studio. Vytváříme značky a jejich loga, weby, obaly a prezentace."
-
 	kkzpp:
 		title: "Připravili jsme vizuální identitu pro Klub klíčových zákazníků Plzeňského Prazdroje <span class='arrow-down'></span>"
 		alt: "Klub klíčových zákazníků Plzeňského Pivovaru"
@@ -17,9 +16,9 @@ cookies:
     info: "Další informace."
     btn: "V pořádku"
     title: "Používáme cookies a různé nástroje"
-    description: "Cookies jsou malé soubory dat, které si webový server ukládá na váš počítač. Dělají to skoro všechny weby na světě. Podle nich třeba poznají, že jste u nás už jednou byli. Cookies jsou dočasné nebo trvalé. A jdou i smazat, blokovat atd., atd. Nikdy vás ale neidentifikují osobne, nikdy. Používáme klasické GoogleAnalytics kvůli návštěvnosti, abychom viděl odkud k nám přicházíte a co u nás nejvíc hledáte. Statisticky. Vedle toho používáme Smartlook na vytváření heatmap. Díky tomu jsme mohli naše stránky upravit tak, aby se vám lépe používaly. A používáme také Leady, které poznají, z jaké firmy na nás koukáte. Ale opravdu jenom firmy a ještě ne všechny, vaše osobní data to fakt nepozná. Rádi bychom se Vám ozvali, když zahlédneme, že Vás náš web opravdu zaujal. Anebo se nás rovnou zeptejte, jak používat tyhle věci, abyste se něco dozvěděli o návštěvnících svých vlastních webů."
+    description: "Cookies jsou malé soubory dat, které si webový server ukládá na váš počítač. Dělají to skoro všechny weby na světě. Podle nich třeba poznají, že jste u nás už jednou byli. Cookies jsou dočasné nebo trvalé. A jdou i smazat, blokovat atd., atd. Nikdy vás ale neidentifikují osobne, nikdy. Používáme klasické GoogleAnalytics kvůli návštěvnosti, abychom viděl odkud k nám přicházíte a co vás nás nejvíc přitahuje. Statisticky. Vedle toho používáme Smartlook na vytváření heatmap. Díky tomu jsme mohli naše stránky upravit tak, aby se vám lépe používaly. A používáme také Leady, které poznají, z jaké firmy na nás koukáte. Ale opravdu jenom firmy a ještě ne všechny, vaše osobní data to fakt nepozná. Rádi bychom se Vám připomněli, když zahlédneme, že Vás náš web opravdu zaujal. Klidně se nás rovnou zeptejte, jak používat tyhle věci, abyste se sami něco dozvěděli o návštěvnících svých vlastních webů."
     slide:
-        title: "Koncepce práce, kdy bez obsahu nemůže byt forma <span class='arrow-down'></span>"
+        title: "Metoda práce, kdy bez obsahu nemůže být forma <span class='arrow-down'></span>"
         alt: 
 
 info:
@@ -46,12 +45,12 @@ common:
 
 header:
 	logo:
-		alt: "Protein studio"
+		alt: "Studio Protein"
 
 footer:
 	button: "Hej, to mě zajímá"
 	note: "Napište nám, zabere to jen pár vteřin.<br>Ozveme se sami brzy zpět."
-	motto: "Protein studio je zakládající člen"
+	motto: "Studio Protein je zakládající člen"
 	scroll_for_next: "Skrolujte k další případovce"
 	case_study:
 		title: "Tak s jakým projektem<br>vám pomůžeme?"
@@ -76,49 +75,49 @@ thank_you:
 	title: "Hurá, díky za zprávu!"
 	description: "Máme radost, že nám píšete. Brzy se ozveme! A četli jste už o tom, jak pracujeme?"
 	slide:
-		title: "Koncepce práce, kdy bez obsahu nemůže byt forma <span class='arrow-down'></span>"
+		title: "Metoda práce, kdy bez obsahu nemůže být forma <span class='arrow-down'></span>"
 		alt: 
 
 error_sending:
 	title: "Jejda, něco se nám pokazilo"
-	description: "Možná bude lepší, když nám rovnou zavoláte. Tak se prosím nezlobte."
+	description: "Možná bude lepší, když nám rovnou zavoláte na 603 323 436. Zvedne to Zdeněk. Tak se prosím nezlobte."
 	slide:
-		title: "Koncepce práce, kdy bez obsahu nemůže byt forma <span class='arrow-down'></span>"
+		title: "Metoda práce, kdy bez obsahu nemůže být forma <span class='arrow-down'></span>"
 		alt: 
 
 error_403:
-	title: "Přístup odepřen"
-	description: "Nemáte oprávnění k zobrazení této stránky. Zkuste prosím kontakt na web pokud si myslíte, že byste měli tuto stránku zobrazit."
+	title: "Počkat, počkat"
+	description: "Chybí vám oprávnění k zobrazení této stránky. Zkuste nás rovnou kontaktovat."
 	slide:
-		title: "Koncepce práce, kdy bez obsahu nemůže byt forma <span class='arrow-down'></span>"
+		title: "Metoda práce, kdy bez obsahu nemůže být forma <span class='arrow-down'></span>"
 		alt: 
 
 error_404:
-	title: "Stránka nenalezena"
-	description: "Stránka, kterou jste požadovali, nebyla nalezena. Je možné, že adresa je nesprávné nebo že stránka již neexistuje. Použijte vyhledávač, který chcete najít co hledáš."
+	title: "Jejda, chybka"
+	description: "Požadovaná stránka se někam ztratila. Tak se prosím nezlobte."
 	slide:
-		title: "Koncepce práce, kdy bez obsahu nemůže byt forma <span class='arrow-down'></span>"
+		title: "Metoda práce, kdy bez obsahu nemůže být forma <span class='arrow-down'></span>"
 		alt: 
 
 error_405:
-	title: "Metoda není povolena"
-	description: "Požadovaná metoda není povolena pro adresu URL."
+	title: "Počkat, počkat"
+	description: "Takhle to nepůjde. Zkoušíte na nás nějaké zvláštní metody a požadavky."
 	slide:
-		title: "Koncepce práce, kdy bez obsahu nemůže byt forma <span class='arrow-down'></span>"
+		title: "Metoda práce, kdy bez obsahu nemůže být forma <span class='arrow-down'></span>"
 		alt: 
 
 error_410:
-	title: "Stránka nenalezena"
-	description: "Požadovaná stránka byla odebrána z webu. Omlouváme se za nepříjemnosti."
+	title: "Jejda, chybka"
+	description: "Požadovaná stránka se někam ztratila. Tak se prosím nezlobte."
 	slide:
-		title: "Koncepce práce, kdy bez obsahu nemůže byt forma <span class='arrow-down'></span>"
+		title: "Metoda práce, kdy bez obsahu nemůže být forma <span class='arrow-down'></span>"
 		alt: 
 
 error_4xx:
-	title: "Jejda, něco se nám pokazilo"
-	description: "Váš prohlížeč odeslal požadavek, který tento server nerozuměl ani nepracoval."
+	title: "Počkat, počkat"
+	description: "Takhle to nepůjde. Zkoušíte na nás nějaké zvláštní metody a požadavky."
 	slide:
-		title: "Koncepce práce, kdy bez obsahu nemůže byt forma <span class='arrow-down'></span>"
+		title: "Metoda práce, kdy bez obsahu nemůže být forma <span class='arrow-down'></span>"
 		alt: 
 
 our_work:
@@ -156,15 +155,12 @@ our_work:
 	stablo:
 		alt: ""
 		hover_text: "Stablo je značka betonových stavebních bloků"
-	tachtech:
-		alt: ""
-		hover_text: "Tachtech po Evropě staví<br />průmyslové pece"
 	tack:
 		alt: ""
 		hover_text: "Tack je bramborový snack s cizrnou"
 	zgruntu:
 		alt: ""
-		hover_text: "Z Gruntu je privátní značka uzenin<br />Jednoty České Budějovice"
+		hover_text: "Z Gruntu je značka uzenin<br />Jednoty České Budějovice"
 
 cs:
 	go_to_web: "přejít na web"
@@ -175,26 +171,26 @@ arcadehry:
 	description: "Tady se čtyřicátníci a padesátníci vrací do doby svého dětství. Arcadehry jsou trochu muzeum, ale dějepis nečekejte. Je to domek kousek od Prahy napěchovaný restaurovanými a hlavně funkčními arkádovými automaty. V přítmí tam září katodové obrazovky s videohrami. Před pár lety jsme pomohli vytvořit značku a teď už druhý web v neonových barvách."
 	banner:
 		before: "Připravili jsme logo, vizuální styl a dvě generace webu."
-		in: "&bdquo;Původně jsme webem chtěli řešit jen praktické úlohy, pak se to všechno rozvinulo.&rdquo;"
+		in: "&bdquo;Původně jsme webem chtěli řešit jen praktické úlohy, pak se z toho stala šou.&rdquo;"
 	ceo: "Jan Orna, majitel a ředitel"
 	web_title: "Web má kalendář, katalog her a rezervaci akcí"	
 	grow_note: "Arkády"
 	about:
-		description: "Začalo to jedním advokátem a dvěma koncipienty. Protože přestalo být rozumné stále rozšiřovat název kanceláře s přicházejícími lidmi, vznikl Haven. Přístav. Dnes v advokátní kanceláři pracují advokáti čtyři: Mgr. Andeya Voglová, Mgr. Robert Novotný, JUDr. Jiří Šmatlák a Mgr. Ondřej Huml. Studovali na českých právnických fakultách i mimo ně – též v Německu a Velké Británii a vládnou proto plynně němčinou a angličtinou. Advokátní kancelář se orientuje zejména na agendu související s právní podporou korporací, ale nejen na to. Vzhledem k jazykové vybavenosti zvládá právní podporu zahraničních klientů zde v Čechách."
+		description: "Arcadehry – to je největší arkádová herna a muzeum ve střední Evropě. Je to soukromá atrakce. Herní automaty začal Jan Orna sbírat už v roce 2004, dost na otevření muzea jich bylo v roce 2011. V současné době je uvnitř zhruba 170 her. A všechny automaty fungují. Pro hraní nemusíte mít s sebou spoustu mincí, stačí zaplatit vstupné. Některé videohry pocházejí ještě z dob, kdy mnozí návštěvníci nebyli ještě na světě. Na jejich základech jsou ale postaveny i hry nejmodernější. Automaty a hry pocházejí z Evropy, USA i z Japonska. Nejstarší automat vyrobili roku 1974. Hernu a muzeum navštíví v poslední době asi deset tisíc hráčů ročně."
 		link: "www.arcadehry.cz"
 		url: "http://www.arcadehry.cz"		
 		logo_old: "původní logo"
 		points_title: "Arcadehry jsou"
 		point1:
-			title: "Důrazný"
-			description: "Má dostatek odvahy a kuráže, ale i profesionální klid a rozvahu. "
+			title: "Svítící"
+			description: "Barevná světla uprostřed tmy jsou klíčová."
 		point2:
-			title: "Důvtipný"
-			description: "Odbornost práva nespočívá jen ve znalosti právních předpisů."
+			title: "Hrající"
+			description: "Slouží sice trochu k poučení, ale hlavně k zábavě."
 		point3:
-			title: "Starostlivý"
-			description: "Má dostatek porozumění, ale i profesionální nadhled a důvěryhodnost."	
-		period: "od 2014 po současnost"
+			title: "Fandící"
+			description: "Tahle zábava fandí spoustě svých fanoušků."
+		period: "2011 a 2016"
 				
 drevosrot:
 	title: "Dřevošrot"
@@ -263,14 +259,14 @@ fer:
 		logo_old: "původní logo"
 		points_title: "Fer je"
 		point1:
-			title: "Důrazný"
-			description: "Má dostatek odvahy a kuráže, ale i profesionální klid a rozvahu. "
+			title: "Rigorózní"
+			description: "Ocel je vážná, seriózní věc."
 		point2:
-			title: "Důvtipný"
-			description: "Odbornost práva nespočívá jen ve znalosti právních předpisů."
+			title: "Zevrubný"
+			description: "Důkladnost v každém detailu."
 		point3:
-			title: "Starostlivý"
-			description: "Má dostatek porozumění, ale i profesionální nadhled a důvěryhodnost."	
+			title: "Efektivní"
+			description: "Ví, proč skvěle funguje."	
 		period: "2013–2014"
 
 haven:
@@ -353,7 +349,7 @@ poldi:
 	description: "Slavná huť Poldi existuje v Kladně již od roku 1889. Není sice nejstarší, ale určitě nejznámější. Z oceli Poldi bylo vyrobeno mnoho slavného. Škoda, že právě nezažívá nejšťastnější chvíle. Během nedávných lepších let jsme měli možnost posunout její vzhled. Ta hvězda znamená a vždy znamenala vývoz oceli na pět světových kontinentů."
 	banner:
 		before: "Redesignovali jsme logo a vizuální styl"
-		in: "&bdquo;Tohle je ta pravá historická atmosféra, čistě, dobře, moderně.&rdquo;"
+		in: "&bdquo;Detailní a precizní práce.&rdquo;"
 	ceo: "Marie Drvotová, marketing manager Poldi"
 	grow_note: "Historie Poldi protíná už tři staletí"
 	about:
@@ -379,7 +375,7 @@ stablo:
 		in: "&bdquo;Design nám pomáhá rozvíjet obchod. Jsme vidět a je to vidět i v číslech.&rdquo;"
 	ceo: "Zbyněk Karas, obchodní ředitel Destro"
 	web_title: "Několik webů pro Destro"
-	grow_note: "O tolik procent ročně roste v&nbsp;průměru obrat Destro, úspěch a&nbsp;design jde ruku v&nbsp;ruce."
+	grow_note: "druhů stavebních kostech, nekonečně možností"
 	about:
 		description: "Destro už od roku 1990 zpracovává materiál ze staré haldy, která zbyla po kladenských hutích a zbavuje prospěšným způsobem Kladno ekologické zátěže. Však to říká i slogan „odpad měníme v materiál.“ Dosud bylo zpracováno a zákazníkům dodáno přes 2,2 milionu tun kameniva. To nachází využití ve stavebnictví – od podkladů silnic po zakládání staveb. Destro dělá ale mnohem víc. Pro hutní podniky zabezpečuje koloběh materiálů, kdy různé keramické odpady z metalurgických procesů zpracovává na vysprávkové hmoty pecí nebo struskotvorné přísady vsázky. Z velkých úlomků strusky umí zachránit železné slity a vrátit je ke zpracování. Pod obchodní značkou Stablo betonové stavební prefabrikované bloky rozličné velikosti a jako DestroBeton dodává betony z moderní betonárky."
 		link: "www.stablo.cz"
@@ -387,15 +383,15 @@ stablo:
 		logo_old: "původní logo"
 		points_title: "Destro je"
 		point1:
-			title: "Krásné"
-			description: "Destro pomáhá vzniknout krásným věcem."
+			title: "Houževnaté"
+			description: "Vydrží i nepěkné zacházení."
 		point2:
-			title: "Silné"
-			description: "Nebojí se vzít za těžkou práci."
+			title: "Pohyblivé"
+			description: "Ty kostky se dají přesunout a přestavět."
 		point3:
-			title: "Tvořivé"
-			description: "Vidí užitek ve zdánlivě obyčejném."
-		period: "od 2004 po současnost"		
+			title: "Vlídné"
+			description: "Vychází všem vstříc."
+		period: "od 2016 po současnost"		
 
 tack:
 	title: "Tack"
@@ -525,7 +521,7 @@ tachtech:
 				
 download:
 	title: "Stáhněte si naši pomůcku do šuplíku"
-	description: "Děkujeme za návštěvu našeho webu. Na oplátku tu pro vás máme kartu<br>s typografickými pravidly a klávesovými zkratkami."
+	description: "Díky, že jste byli na našem webu. Na oplátku tu pro vás máme kartu<br>s typografickými pravidly a klávesovými zkratkami."
 	card:
 		alt: "typokarta"
 
@@ -650,8 +646,8 @@ content_form:
 			appendix: "Paráda, hotovo. Je to dobré."
 			
 jobs:
-	title: "Hledáme tě"
-	description: "Jsme malé studio, takže tvoje nápady budou mít prostor vyniknout. Pracujeme raději v klidu než v poklusu. Sídlíme v Kladně, ale dostupnost z Prahy je skvělá. S kolegy si tykáme. Pracujeme na moc pěkných projektech. Možnosti spolpráce jsou otevřené. Víc si o nás koneckonců můžeš přečíst na jiných stránkách tohoto webu."
+	title: "Hledáme tě, kolego"
+	description: "Jsme malé studio, takže tvoje nápady budou mít prostor vyniknout. Pracujeme rádi v poklidné tvůrčí atmosféře, kde je dostatek prostoru úkoly promyslet. Jenom ti to musí myslet. Sídlíme v Kladně, ale dostupnost z Prahy je skvělá. S kolegy si tykáme. Pracujeme na moc pěkných projektech. Víc si o nás koneckonců můžeš přečíst na jiných stránkách tohoto webu. Možnosti spolupráce jsou otevřené."
 	slide:
 		title: "Grafický design musí mít tah na branku <span class='arrow-down'></span>"
 		alt: "Obsah + Forma"

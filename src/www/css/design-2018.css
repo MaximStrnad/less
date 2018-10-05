@@ -895,7 +895,7 @@ button.btn {
 }
 .slide-wrapper--kkzpp .slide {
   height: 44.27083333vw;
-  background-image: url("../gfx/default/kkzpp_bg00.png");
+  background-image: url("../gfx/default/kkzpp.jpg");
 }
 .slide-wrapper--kkzpp .slide__logo-wrapper img {
   width: 11.25rem;
@@ -918,7 +918,6 @@ button.btn {
 }
 .slide-wrapper--destro .slide {
   height: 31.25vw;
-  background-image: url("../gfx/default/destro_bg01.jpg");
 }
 .slide-wrapper--destro .slide__logo-wrapper img {
   width: 17.75rem;

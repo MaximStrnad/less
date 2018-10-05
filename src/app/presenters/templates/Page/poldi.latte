@@ -16,13 +16,11 @@
 			</p>
 			<div class="slide">
 				<div class="slide__logo-wrapper slide__logo-wrapper--full">
-					<div>
-					
 		<video autoplay loop muted>
-  <source src="{$basePath}/gfx/cases/poldi/poldi_video.mp4" type="video/mp4">
+			<source src="{$basePath}/gfx/cases/poldi/poldi_video.mp4" type="video/mp4">
+			<source src="{$basePath}/gfx/cases/poldi/poldi_video.webm" type="video/webm">
+			<img src="{$basePath}/gfx/cases/poldi/poldi_novideo.jpg" alt="{_design_2018.poldi.banner.before}">
 		</video>
-
-					</div>
 				</div>
 				<p class="indent slide__note slide__note--above-bottom">
 					{_design_2018.poldi.banner.in|noescape}
@@ -137,8 +135,8 @@
 		../_partials/case_study_loader.latte,
 		url              => "Page:drevosrot",
 		background_image => false,
-		background_color => "#fef8e8",
-		color            => "#67493d",
+		background_color => "#f5ede4",
+		color            => "#241a05",
 		title            => $presenter->translator->translate('design_2018.drevosrot.title'),
 		overlay_color    => "white",
 		pagefont_color   => "color-text-poldi"
