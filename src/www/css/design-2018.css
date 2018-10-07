@@ -321,13 +321,13 @@ table {
 }
 .icon-download {
   content: '';
-  background: url(../gfx/download/download-icon-black.png) no-repeat;
+  background: url(../gfx/download/download-icon.svg) no-repeat;
   background-size: 100%;
-  width: 1.8125rem;
-  height: 2.0625rem;
+  width: 1.62rem;
+  height: 2.06rem;
   display: inline-block;
   position: relative;
-  top: 0.1rem;
+  top: 0.3rem;
 }
 html {
   font-size: 16px;
@@ -604,7 +604,9 @@ video {
   padding-right: 3.5vw;
   padding-top: 14vh;
   display: none;
-  background-color: #e9efef;
+  background-image: url(../gfx/menu-bg.png);
+  background-size: cover;
+  background-color: #dfe8e8;
 }
 .primary-menu__main-logo {
   display: inline-block;
@@ -1727,12 +1729,12 @@ button.btn {
 }
 .page--lead .lead__form .list:after {
   content: '';
-  background: url(../gfx/arrow-switch.png) no-repeat;
+  background: url(../gfx/arrow-switch.svg) no-repeat;
   background-size: 100%;
   width: 1.1875rem;
   height: 1.0625rem;
   position: absolute;
-  right: 1rem;
+  right: 0.75rem;
   top: 0;
   cursor: pointer;
 }
