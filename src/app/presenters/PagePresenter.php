@@ -178,19 +178,7 @@ class PagePresenter extends Nette\Application\UI\Presenter
     public function renderNasePrace($filter = '', $others = '')
     {
         $this->template->hasFooter = false;
-        $this->template->druhy = $this->helpers->getAllDruhPrace();
-        $prace = $this->helpers->getPrace($filter, -1, $others);
-        $this->template->prace = $prace;
-        $this->template->filter = $this->getParameter('filter');
     }
-
-
-    public function renderGetDetail($id)
-    {
-        $detail = $this->helpers->getPracaDetail($id);
-        $this->template->detail = $detail;
-    }
-
 
     public function renderClanky($id = 0)
     {
