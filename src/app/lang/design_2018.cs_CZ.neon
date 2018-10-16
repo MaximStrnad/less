@@ -1,4 +1,4 @@
-homepage:
+﻿homepage:
 	title: "Bez designu umřeš"
 	description: "Digitální grafické studio. Vytváříme značky a jejich loga, weby, obaly a prezentace."
 	kkzpp:
@@ -8,7 +8,7 @@ homepage:
 		title: "Už od roku 2005 se staráme o vzhled značky Destro <span class='arrow-down'></span>"
 		alt: "Destro"
 	tack:
-		title: "Skvělá chuť bramborovo cizrnového snacku má jméno a obal <span class='arrow-down'></span>"
+		title: "Skvělá chuť bramborovo-cizrnového snacku má jméno a obal <span class='arrow-down'></span>"
 		alt: "Tack"
 cookies:
     text: "K poskytování služeb a analýze návštěvnosti používáme soubory cookie. Když tu zůstanete, tak s tím souhlasíte."
@@ -16,7 +16,7 @@ cookies:
     btn: "V pořádku"
     title: "Používáme cookies a různé nástroje"
     description_1: "Cookies jsou malé soubory dat, které si webový server ukládá na váš počítač. Dělají to skoro všechny weby na světě. Podle nich třeba poznáme, že jste u nás už jednou byli. Nemusíme vás tak pokaždé otravovat otravnou cookielištou. Cookies jsou dočasné nebo trvalé. A jdou i smazat, blokovat a tak. Nikdy vás ale neidentifikují osobně, opravdu nikdy."
-    description_2: "Používáme klasické GoogleAnalytics kvůli návštěvnosti, abychom viděl odkud k nám přicházíte a co vás u nás nejvíc přitahuje. Statisticky. Vedle toho používáme Smartlook na vytváření heatmap. Díky tomu jsme mohli naše stránky upravit tak, aby se vám lépe používaly. A používáme také Leady, které poznají, z jaké firmy na nás koukáte. Ale opravdu jenom firmy a ještě zdaleka ne všechny. Vaše osobní data to vážně nepozná. Jestli jste ale ředitel, tak to zkusíme uhádnout. Rádi bychom se u vás ve firmě připomněli, když zahlédneme, že Vás náš web opravdu zaujal. Pokud se sami chcete něco dozvědět o návštěvnících svých vlastních webů, klidně se nás rovnou zeptejte, jak tyto nástroje používat."	
+    description_2: "Používáme klasické GoogleAnalytics kvůli návštěvnosti, abychom viděli, odkud k nám přicházíte a co vás u nás nejvíc přitahuje. Statisticky. Vedle toho používáme Smartlook na vytváření heatmap. Díky tomu jsme mohli naše stránky upravit tak, aby se vám lépe používaly. A používáme také Leady, které poznají, z jaké firmy na nás koukáte. Ale opravdu jenom firmy a ještě zdaleka ne všechny. Vaše osobní data to vážně nepozná. Jestli jste ale ředitel, tak to zkusíme uhádnout. Rádi bychom se u vás ve firmě připomněli, když zahlédneme, že Vás náš web opravdu zaujal. Pokud se sami chcete něco dozvědět o návštěvnících svých vlastních webů, klidně se nás rovnou zeptejte, jak tyto nástroje používat."	
     slide:
         title: "Metoda práce, kdy bez obsahu nemůže být forma <span class='arrow-down'></span>"
         alt: 
@@ -54,7 +54,7 @@ footer:
 		button: "ano!"
 	obsah_forma:
 		title: "OBSAH+FORMA"
-		note: "Podívejte se na naši metodu. Pomáhá<br>nám dosahovat výtečné výsledky."
+		note: "Podívejte se na naši metodu. Pomáhá<br>nám dosahovat výtečných výsledků."
 		button: "hned!"		
 navigation:
 	homepage: "domů"
@@ -155,9 +155,9 @@ arcadehry:
 		in: "&bdquo;Původně jsme webem chtěli řešit jen praktické úlohy, pak se z toho stala show.&rdquo;"
 	ceo: "Jan Orna, majitel a ředitel"
 	web_title: "Web má kalendář, katalog her a rezervaci akcí"	
-	grow_note: "Když vás obklopí ta neonová světla, jakoby nebylo nic jiného na světě"
+	grow_note: "Když vás obklopí ta neonová světla, jako by nebylo nic jiného na světě"
 	about:
-		description: "Arcadehry – to je největší arkádová herna a muzeum ve střední Evropě. Je to soukromá atrakce. Herní automaty začal Jan Orna sbírat už v roce 2004, dost na otevření muzea jich bylo v roce 2011. V současné době je uvnitř zhruba 170 her. A všechny automaty fungují. Pro hraní nemusíte mít s sebou spoustu mincí, stačí zaplatit vstupné a hrát. Některé videohry pocházejí z dob, kdy mnozí návštěvníci nebyli ještě na světě. Nejstarší automat vyrobili roku 1974. Z některých her se staly později i digitální tituly. Automaty a hry pocházejí zpravidla z Evropy, USA i z Japonska. Hernu a muzeum navštíví v poslední době zhruba deset tisíc hráčů ročně. Kdy je otevřeno se dozvíte na webu. Tak přijďte hrát."
+		description: "Arcadehry – to je největší arkádová herna a muzeum ve střední Evropě. Je to soukromá atrakce. Herní automaty začal Jan Orna sbírat už v roce 2004, dost na otevření muzea jich bylo v roce 2011. V současné době je uvnitř zhruba 170 her. A všechny automaty fungují. Pro hraní nemusíte mít s sebou spoustu mincí, stačí zaplatit vstupné a hrát. Některé videohry pocházejí z dob, kdy mnozí návštěvníci nebyli ještě na světě. Nejstarší automat vyrobili roku 1972. Je to původní PONG od Atari s výrobním číslem 00033. Klenot evropského významu. Z některých her se staly později i digitální tituly. Automaty a hry pocházejí zpravidla z Evropy, USA i z Japonska. Hernu a muzeum navštíví v poslední době zhruba deset tisíc hráčů ročně. Kdy je otevřeno, se dozvíte na webu. Tak přijďte hrát."
 		link: "www.arcadehry.cz"
 		url: "https://www.arcadehry.cz"		
 		logo_old: "původní logo"
@@ -183,7 +183,7 @@ drevosrot:
 	web_title: "Web s interaktivním schématem"
 	grow_note: "Toto jsou cesty energie sbalené do malých kousků dřeva"
 	about:
-		description: "Dřevošrot byl založen v roce 2006 Jiřím Caldou. Jiří bohužel roku 2015 tragicky zahynul a o společnost se starají jeho následovníci. Dřevošrot, ač je sám relativně mladou společností, je jedním ze zakladatelů oboru v Česku. Zabývá zhodnocením dřevní hmoty, která zbývá po těžbě dřeva v lese. To s sebou nese úklid lesa, obchodování, zpracování, skladování i dopravu tohoto dřevního odpadu. V lese nebo na deponii se odpad rozdrtí do dřevní štěpky, která má další využití zejména v energetice. Zužitkuje se spalováním ve vhodných zařízeních. Výjimečně lze využít také samotné dřevo, které je nepoužitelné pro jiné zpracování. Provozovatelům elektráren Dřevošrot sám aktivně vyhledává zdroje pro zásobování palivem. Majitelům lesa zhodnotí materiál, který by jinak zůstal bez užitku ležet na zemi."
+		description: "Dřevošrot byl založen v roce 2006 Jiřím Caldou. Jiří bohužel roku 2015 tragicky zahynul a o společnost se starají jeho následovníci. Dřevošrot, ač je sám relativně mladou společností, je jedním ze zakladatelů oboru v Česku. Zabývá se zhodnocením dřevní hmoty, která zbývá po těžbě dřeva v lese. To s sebou nese úklid lesa, obchodování, zpracování, skladování i dopravu tohoto dřevního odpadu. V lese nebo na deponii se odpad rozdrtí do dřevní štěpky, která má další využití zejména v energetice. Zužitkuje se spalováním ve vhodných zařízeních. Výjimečně lze využít také samotné dřevo, které je nepoužitelné pro jiné zpracování. Provozovatelům elektráren Dřevošrot sám aktivně vyhledává zdroje pro zásobování palivem. Majitelům lesa zhodnotí materiál, který by jinak zůstal bez užitku ležet na zemi."
 		link: "www.drevosrot.cz"
 		url: "http://www.drevosrot.cz"		
 		logo_old: "původní logo"
@@ -200,11 +200,11 @@ drevosrot:
 		period: "od 2014 po současnost"
 eyren:
 	title: "Eyren"
-	description: "Značka prvotřídních historických zbraní a středověké módy. Nejlepší čeští řemeslníci je vyrábí pro jeden z největších evropských eshopů s touto tématikou – Outfit4Events z Kadaně. Značku Eyren jsme vytvořili od píky. Vznešenost a urozenost má v rodové linii. Pokud v ní ale cítíte zároveň trochu záludnosti, je to tak správě. Středověk nebyl pro bábovky."
+	description: "Značka prvotřídních historických zbraní a středověké módy. Nejlepší čeští řemeslníci je vyrábí pro jeden z největších evropských e-shopů s touto tematikou – Outfit4Events z Kadaně. Značku Eyren jsme vytvořili od píky. Vznešenost a urozenost má v rodové linii. Pokud v ní ale cítíte zároveň trochu záludnosti, je to tak správně. Středověk nebyl pro bábovky."
 	banner:
 		before: "Vytvořili jsme název a charakter značky, logo i vizuální styl a první aplikace."
 		in: "&bdquo;Vidím ducha dávných staletí. A přitom se skvěle vyjímá i v současnosti.&rdquo;"
-	ceo: "Helmut Vajc, majitel eshopu Outfit4Events"
+	ceo: "Helmut Vajc, majitel e-shopu Outfit4Events"
 	grow_note: "Eyren patří hradům. Hrady patří jemu. Nebo jí?"
 	about:
 		description: "Jako manažer kumštýřů se Helmut Vajc v jeden čas pohyboval kolem historického šermu. Zájem obecenstva nevzbuzovaly jen výkony bojovníků, ale také jejich zbraně a zbroj. Další kroky už jsou nasnadě. Nová společnost Wellcrafted se nevydala tehdy obvyklou cestou stánkového prodeje, ale uvedla pod názvem outfit4events.cz internetový obchod. Ten dnes prodává do celé Evropy. Jeho zákazníci nejsou jen soukromé osoby, ale i zámky, divadla a muzea či filmové a televizní produkce. Můžete získat ručně zhotovenou originální historickou výbavu od zbraní, rytířské zbroje nebo jiných kovářských výrobků až po kostýmy, obuv a další oděvní doplňky. Sortiment obsahuje rekvizity pro různé historické epochy."
@@ -232,14 +232,14 @@ fer:
 	web_title: "Web s napojením na sklad"	
 	grow_note: "Kolorovaný metalografický výbrus oceli"
 	about:
-		description: "Společnost FER Kladno vznikla v roce 2012 při reorganizaci kladenské Poldi Hütte a nyní pracuje jako samostatná obchodní a distribuční společnost s vlastním skladovým zázemím. V jejím sortimentu jsou výrobky zejména zahraničních hutí a oceláren. Na prvním místě se FER Kladno specializuje na ušlechtilé nástrojové a nerezové oceli. Takovým materiálům se musí rozumět, není to na nich na první pohled vidět. V sortimentu lze ale nalézt také na uhlíkové a konstrukční oceli z běžné produkce. Vše v obvykle vyráběných profilech. Materiál umí Fer dodat nadělený na poloautomatické pile. A mají i vlastní laboratoř. K materiálům tak získá zákazník i potřebné atesty jakosti."
+		description: "Společnost FER Kladno vznikla v roce 2012 při reorganizaci kladenské Poldi Hütte a nyní pracuje jako samostatná obchodní a distribuční společnost s vlastním skladovým zázemím. V jejím sortimentu jsou výrobky zejména zahraničních hutí a oceláren. Na prvním místě se FER Kladno specializuje na ušlechtilé nástrojové a nerezové oceli. Takovým materiálům se musí rozumět, není to na nich na první pohled vidět. V sortimentu lze ale nalézt také uhlíkové a konstrukční oceli z běžné produkce. Vše v obvykle vyráběných profilech. Materiál umí Fer dodat nadělený na poloautomatické pile. A mají i vlastní laboratoř. K materiálům tak získá zákazník i potřebné atesty jakosti."
 		link: "www.ferkladno.cz"
 		url: "http://www.ferkladno.cz"		
 		logo_old: "původní logo"
 		points_title: "Fer je"
 		point1:
 			title: "akademický"
-			description: "Ocel je věda, i při určitých teplotách i barevná."
+			description: "Ocel je věda, při určitých teplotách i barevná."
 		point2:
 			title: "efektivní"
 			description: "Fer moc dobře ví, proč tak skvěle funguje."	
@@ -249,14 +249,14 @@ fer:
 		period: "2013–2014"
 haven:
 	title: "HAVEN"
-	description: "Když se mluví o advokátních kancelářích, nebývá to často v dobrém. Haven vám chce ale ukázat, že zdravé sebevědomí a férový přístup je něco jiného než arogance. Mladí právníci ze sebe vydávají víc, než je obvyklý standard. Takže plus plus. A úsilí evidentně se vyplácí, kancelář se stále rozšiřuje. Přispěli jsme naší komunikační koncepcí v prostředí svázaným přísnými regulemi."
+	description: "Když se mluví o advokátních kancelářích, nebývá to často v dobrém. Haven vám chce ale ukázat, že zdravé sebevědomí a férový přístup je něco jiného než arogance. Mladí právníci ze sebe vydávají víc, než je obvyklý standard. Takže plus plus. A úsilí evidentně se vyplácí, kancelář se stále rozšiřuje. Přispěli jsme naší komunikační koncepcí v prostředí svázaném přísnými regulemi."
 	banner:
 		before: "Dlouhodobě se staráme o značku. Připravili jsme logo, vizuální styl a efektní web."
 		in: "&bdquo;Bezprostřední pozitivní odezvu vnímám při setkání s klienty. Ti přibývají a my rosteme.&rdquo;"
-	ceo: "Andreya Voglová, adkovátka Haven"
+	ceo: "Andreya Voglová, advokátka Haven"
 	grow_note: "České hrady sem patří"
 	about:
-		description: "Začalo to jedním jménem, jedním advokátem se dvěma koncipienty. Protože přestalo být rozumné stále rozšiřovat název kanceláře s přicházejícími lidmi, vznikl Haven. Přístav. Když vznikají tyto řádky v advokátní kanceláři pracují advokáti čtyři: Mgr. Andeya Voglová, Mgr. Robert Novotný, JUDr. Jiří Šmatlák a Mgr. Ondřej Huml. Možná se to brzy znovu změní. Studovali na českých právnických fakultách i mimo ně – též v Německu a Velké Británii – a vládnou proto plynnou němčinou a angličtinou. Advokátní kancelář se orientuje zejména na agendu související s právní podporou korporací, ale nejen na to. Vzhledem k jazykové vybavenosti zvládají právní služby pro zahraniční klienty působicí zde v Čechách."
+		description: "Začalo to jedním jménem, jedním advokátem se dvěma koncipienty. Protože přestalo být rozumné stále rozšiřovat název kanceláře s přicházejícími lidmi, vznikl Haven. Přístav. Když vznikají tyto řádky, v advokátní kanceláři pracují advokáti čtyři: Mgr. Andreya Voglová, Mgr. Robert Novotný, JUDr. Jiří Šmatlák a Mgr. Ondřej Huml. Možná se to brzy znovu změní. Studovali na českých právnických fakultách i mimo ně – též v Německu a Velké Británii – a vládnou proto plynnou němčinou a angličtinou. Advokátní kancelář se orientuje zejména na agendu související s právní podporou korporací, ale nejen na to. Vzhledem k jazykové vybavenosti zvládají právní služby pro zahraniční klienty působící zde v Čechách."
 		link: "www.ak-haven.cz"
 		url: "http://www.ak-haven.cz"		
 		logo_old: "původní logo"
@@ -298,14 +298,14 @@ partner:
 		period: "od 2015 až dosud"		
 		
 pht:
-	title: "Petráčkovy Hořické Trubičky"
+	title: "Petráčkovy hořické trubičky"
 	description: "Hořické trubičky mají bohatou historii a evropské razítko k tomu. Jenže to není k jídlu. Hořické trubičky především znamenitě chutnají. Když jsme to zviditelnili, slavili jsme úspěch. A tak Petráčkovy hořické trubičky už nenajdete jen v Makru a u regionálních distributorů. Nově jsou k dostání také v Tescu, v prodejnách Žabka i na jiných místech."
 	banner:
 		before: "Dlouhodobě se staráme o značku. Připravili jsme logo, vizuální styl nebo web s kalkulátory."
 		in: "&bdquo;Nové obaly nám pomohly začít prodávat na nových místech. Otevřely se nám nové možnosti.&rdquo;"
 	ceo: "Lukáš Nový, vedení rodinné firmy Petráčkovy hořické trubičky"
 	about:
-		description: "V Hořicích se trubičky stáčí už přes dvě stovky let. Recept do kraje údajně v roce 1812 přinesl kuchař císaře Napoleona. Trubičky zachutnaly a od té doby trubičky stáčelo a stále stáčí v Hořicích několik rodin. Trubičky se staly postupně pojmem a začaly se vyvážet se do celého světa. I přes pozdější hromadnou výrobu tradice rodinného domácího stáčení nezanikla. Také v rodině Petráčkových se tak trubičky stáčely už po několik generací. Když jednou dostali nápad dát ochutnat i ostatním. Roku 1992 manželé Josef a Marcela Petráčkovi prodali své trubičky prvním zákazníkům a založili vlastní firmu, kterou nyní přebírá nová generace rodiny. Zkušené cukrářky stáčejí jednotlivé trubičky ručně na horké plotýnce. Strojová výroba není přípustná. Hořické trubičky a jejich výroba jsou totiž nositelem Chráněného zeměpisného označení EU, mohou se vyrábět pouze v Hořicích a okolí. Jde o sedmý český výrobek s touto výsadou. "
+		description: "V Hořicích se trubičky stáčí už přes dvě stovky let. Recept do kraje údajně v roce 1812 přinesl kuchař císaře Napoleona. Trubičky zachutnaly a od té doby trubičky stáčelo a stále stáčí v Hořicích několik rodin. Trubičky se staly postupně pojmem a začaly se vyvážet do celého světa. I přes pozdější hromadnou výrobu tradice rodinného domácího stáčení nezanikla. Také v rodině Petráčkových se tak trubičky stáčely už po několik generací. Když jednou dostali nápad dát ochutnat i ostatním. Roku 1992 manželé Josef a Marcela Petráčkovi prodali své trubičky prvním zákazníkům a založili vlastní firmu, kterou nyní přebírá nová generace rodiny. Zkušené cukrářky stáčejí jednotlivé trubičky ručně na horké plotýnce. Strojová výroba není přípustná. Hořické trubičky a jejich výroba jsou totiž nositelem Chráněného zeměpisného označení EU, mohou se vyrábět pouze v Hořicích a okolí. Jde o sedmý český výrobek s touto výsadou. "
 		link: "www.horicke-trubicky.eu"
 		url: "http://www.horicke-trubicky.eu"
 		logo_old: "původní logo"
@@ -330,7 +330,7 @@ poldi:
 	ceo: "Marie Drvotová, marketing manager Poldi"
 	grow_note: "Historie Poldi protíná už tři staletí"
 	about:
-		description: "Poldi Hütte je pokračovatelem slavné tradice huti Poldi, kterou jako speciální ocelárnu založil v roce 1889 v Kladně podnikatel Karl Wittgenstein. V roce 1893 si nechala ocelárna registrovat dodnes platnou ochrannou známku. Poldi je domácké jméno Leopoldiny Wittgensteinové, manželky zakladatele. A je to také její silueta, která od počátku zdobí tuto značku. Pěticípou hvězdu k ní nepřidali komunisté, jak by se mohlo zdát. Je tam od počátku, vyjadřuje vývoz na pět světových kontinentů. Poldi je i dnes světovou značkou. Složení řady ocelí postupně vyvinutých v huti Poldi se stalo průběhem doby univerzálním etalonem a doposud je základem pro výrobu speciálních ocelí. Tyto oceli se stali pojmem samy o sobě. Názvů těchto ocelí (např. Anticorro) se dodnes v praxi mezi lidmi běžně používá pro označení příslušného typu či skupiny oceli, byť mohou mít výrobce jiného. Podobně jako Jeep, Lux nebo Xerox se staly návzem pro své kategorie."
+		description: "Poldi Hütte je pokračovatelem slavné tradice huti Poldi, kterou jako speciální ocelárnu založil v roce 1889 v Kladně podnikatel Karl Wittgenstein. V roce 1893 si nechala ocelárna registrovat dodnes platnou ochrannou známku. Poldi je domácké jméno Leopoldiny Wittgensteinové, manželky zakladatele. A je to také její silueta, která od počátku zdobí tuto značku. Pěticípou hvězdu k ní nepřidali komunisté, jak by se mohlo zdát. Je tam od počátku, vyjadřuje vývoz na pět světových kontinentů. Poldi je i dnes světovou značkou. Složení řady ocelí postupně vyvinutých v huti Poldi se stalo průběhem doby univerzálním etalonem a doposud je základem pro výrobu speciálních ocelí. Tyto oceli se staly pojmem samy o sobě. Názvů těchto ocelí (např. Anticorro) se dodnes v praxi mezi lidmi běžně používá pro označení příslušného typu či skupiny oceli, byť mohou mít výrobce jiného. Podobně jako Jeep, Lux nebo Xerox se staly názvem pro své kategorie."
 		logo_old: "původní logo"
 		points_title: "Poldi je"
 		point1:
@@ -354,7 +354,7 @@ stablo:
 	web_title: "Web s kalkulátorem, katalogem a e-shopem"
 	grow_note: "druhů stavebních kostek, nekonečně možností"
 	about:
-		description: "Destro už od roku 1990 zpracovává materiál ze staré haldy, která zbyla po kladenských hutích a zbavuje prospěšným způsobem Kladno ekologické zátěže. Však to říká i slogan „odpad měníme v materiál.“ Dosud bylo zpracováno a zákazníkům dodáno přes 2,2 milionu tun kameniva. To nachází využití ve stavebnictví – od podkladů silnic po zakládání staveb. Destro dělá ale mnohem víc. Pro hutní podniky zabezpečuje koloběh materiálů, kdy různé keramické odpady z metalurgických procesů zpracovává na vysprávkové hmoty pecí nebo struskotvorné přísady vsázky. Z velkých úlomků strusky umí zachránit železné slity a vrátit je ke zpracování. Pod obchodní značkou Stablo vyrábí betonové stavební prefabrikované bloky rozličné velikosti a jako DestroBeton dodává betony z moderní betonárky."
+		description: "Destro už od roku 1990 zpracovává materiál ze staré haldy, která zbyla po kladenských hutích a zbavuje prospěšným způsobem Kladno ekologické zátěže. Však to říká i slogan „odpad měníme v materiál“. Dosud bylo zpracováno a zákazníkům dodáno přes 2,2 milionu tun kameniva. To nachází využití ve stavebnictví – od podkladů silnic po zakládání staveb. Destro dělá ale mnohem víc. Pro hutní podniky zabezpečuje koloběh materiálů, kdy různé keramické odpady z metalurgických procesů zpracovává na vysprávkové hmoty pecí nebo struskotvorné přísady vsázky. Z velkých úlomků strusky umí zachránit železné slitky a vrátit je ke zpracování. Pod obchodní značkou Stablo vyrábí betonové stavební prefabrikované bloky rozličné velikosti a jako DestroBeton dodává betony z moderní betonárky."
 		link: "www.stablo.cz"
 		url: "http://www.stablo.cz"		
 		logo_old: "původní logo"
@@ -371,14 +371,14 @@ stablo:
 		period: "od 2016 po současnost"		
 tack:
 	title: "Tack"
-	description: "Patří mezi bramborové snacky, v Tacku je ale přes 16 % cizrny. Je tam proto také hodně vklákniny. Je to pořád snack, těžko o něm mluvit jako o zdravé potravině. Do oblíbené nezdravé uličky v supermarketu ale přináší změnu k lepšímu. Tack jsme vytvořili od základu. Slyšíte v názvu to křupnutí? Inspiraci pro obal jsme našli ve uličce s proteinovými výrobky."
+	description: "Patří mezi bramborové snacky, v Tacku je ale přes 16 % cizrny. Je tam proto také hodně vlákniny. Je to pořád snack, těžko o něm mluvit jako o zdravé potravině. Do oblíbené nezdravé uličky v supermarketu ale přináší změnu k lepšímu. Tack jsme vytvořili od základu. Slyšíte v názvu to křupnutí? Inspiraci pro obal jsme našli v uličce s proteinovými výrobky."
 	banner:
 		before: "Vytvořili jsme celou značku – její název, logo, styl a obal"
 		in: "&bdquo;Tahle spolupráce klapla na první dobrou, ani jsme nechtěli vidět víc.&rdquo;"
 	ceo: "Radek Hylmar, sales manager"
 	grow_note: "To, co se leskne, je rafinovaně odhalená podkladová alu fólie."
 	about:
-		description: "BAG INTERNATIONAL je dodavatel slaných snacků vyrobených z brambor, cereálií a dalších surovin. V Česku působil BAG nejprve jako distributor výrobků své italské mateřské firmy BAG SNACKS. Od roku 1996 funguje ale i jako přímý výrobce – ve výrobním závodě poblíž Vidonic a Pecky u Nové Paky. Nejprve se z české továrny BAGu zásobovali především zahraniční trhy. Dnes v továrně vyrábí snacky vlastního vývoje pod privátními značkami svých zákazníků ale i zcela vlastní výrobky pro český i evropský trh. V sortimentu najdete čtyři řady snacků od malých balení pro chuť až po velká rodinná balení. Nový výrobek TACK byl vyroben v úspěšné zkušební sérii, na své rozšíření zatím čeká."
+		description: "BAG INTERNATIONAL je dodavatel slaných snacků vyrobených z brambor, cereálií a dalších surovin. V Česku působil BAG nejprve jako distributor výrobků své italské mateřské firmy BAG SNACKS. Od roku 1996 funguje ale i jako přímý výrobce – ve výrobním závodě poblíž Vidonic a Pecky u Nové Paky. Nejprve se z české továrny BAGu zásobovaly především zahraniční trhy. Dnes v továrně vyrábí snacky vlastního vývoje pod privátními značkami svých zákazníků, ale i zcela vlastní výrobky pro český i evropský trh. V sortimentu najdete čtyři řady snacků od malých balení pro chuť až po velká rodinná balení. Nový výrobek TACK byl vyroben v úspěšné zkušební sérii, na své rozšíření zatím čeká."
 		link: "www.bagint.cz"
 		url: "http://www.bagint.cz"		
 		logo_old: "původní logo"
@@ -401,9 +401,9 @@ destro:
 		in: "&bdquo;Design nám pomáhá rozvíjet obchod. Jsme vidět a je to vidět i v číslech.&rdquo;"
 	ceo: "Zbyněk Karas, obchodní ředitel Destro"
 	web_title: "Několik webů pro Destro"
-	grow_note: "O tolik procent ročně roste v&nbsp;průměru obrat Destro, úspěch a&nbsp;design jde ruku v&nbsp;ruce."
+	grow_note: "O tolik procent ročně roste v průměru obrat Destro, úspěch a design jde ruku v ruce."
 	about:
-		description: "Destro už od roku 1990 zpracovává materiál ze staré haldy, která zbyla po kladenských hutích a zbavuje prospěšným způsobem Kladno ekologické zátěže. Však to říká i slogan „odpad měníme v materiál.“ Dosud bylo zpracováno a zákazníkům dodáno přes 2,2 milionu tun kameniva. To nachází využití ve stavebnictví – od podkladů silnic po zakládání staveb. Destro dělá ale mnohem víc. Pro hutní podniky zabezpečuje koloběh materiálů, kdy různé keramické odpady z metalurgických procesů zpracovává na vysprávkové hmoty pecí nebo struskotvorné přísady vsázky. Z velkých úlomků strusky umí zachránit železné slity a vrátit je ke zpracování. Pod obchodní značkou Stablo vyrábí betonové stavební prefabrikované bloky rozličné velikosti a jako DestroBeton dodává betony z moderní betonárky."
+		description: "Destro už od roku 1990 zpracovává materiál ze staré haldy, která zbyla po kladenských hutích a zbavuje prospěšným způsobem Kladno ekologické zátěže. Však to říká i slogan „odpad měníme v materiál“. Dosud bylo zpracováno a zákazníkům dodáno přes 2,2 milionu tun kameniva. To nachází využití ve stavebnictví – od podkladů silnic po zakládání staveb. Destro dělá ale mnohem víc. Pro hutní podniky zabezpečuje koloběh materiálů, kdy různé keramické odpady z metalurgických procesů zpracovává na vysprávkové hmoty pecí nebo struskotvorné přísady vsázky. Z velkých úlomků strusky umí zachránit železné slitky a vrátit je ke zpracování. Pod obchodní značkou Stablo vyrábí betonové stavební prefabrikované bloky rozličné velikosti a jako DestroBeton dodává betony z moderní betonárky."
 		link: "www.destro.cz"
 		url: "http://www.destro.cz"
 		logo_old: "původní logo"
@@ -420,7 +420,7 @@ destro:
 		period: "od 2004 po současnost"
 kkzpp:
 	title: "Klub klíčových zákazníků"
-	description: "Plzeňský Prazdroj pečuje o mnoho pokladů. Především o samotný plzeňský ležák, který založil svou kategorii. Klub klíčových zákazníků je místo, kde se ze zákazníků Plzeňského Prazdroje, hospodských a restauratérů, stávají hosté. Zde o ně pivovar pečuje. Vytvořili jsme vizuální prostředí, kde se zákazníci Prazdroje mohou cítit opečovávaní."
+	description: "Plzeňský Prazdroj pečuje o mnoho pokladů. Především o samotný plzeňský ležák, který založil svou kategorii. Klub klíčových zákazníků je místo, kde se ze zákazníků Plzeňského Prazdroje, hospodských a restauratérů stávají hosté. Zde o ně pivovar pečuje. Vytvořili jsme vizuální prostředí, kde se zákazníci Prazdroje mohou cítit opečovávaní."
 	banner:
 		before: "Připravili jsme logo a vizuální styl s několika aplikacemi."
 		in: "&bdquo;Nová loga vyvolávají různé reakce. Logo Klubu přijali naši zákazníci velmi pozitivně.&rdquo;"
@@ -469,7 +469,7 @@ zgruntu:
 		
 tachtech:
 	title: "Tachtech"
-	description: "Postavit pec tak, aby ohřívala materiál přesně jak má, je mimořádně náročné. Neúspěšnost v oboru je vysoká. Tachtech má ale ve svém týmu zkušené matadory. Tachtech a důvěra jsou stejné pojmy, o které se můžete opřít. Dáváme vám na to své slovo. Žádné výstřelky. Tachtech působí v Česku, v Polsku, na Ukrajině v Rusku a v dalších zemích."
+	description: "Postavit pec tak, aby ohřívala materiál přesně, jak má, je mimořádně náročné. Neúspěšnost v oboru je vysoká. Tachtech má ale ve svém týmu zkušené matadory. Tachtech a důvěra jsou stejné pojmy, o které se můžete opřít. Dáváme vám na to své slovo. Žádné výstřelky. Tachtech působí v Česku, v Polsku, na Ukrajině, v Rusku a v dalších zemích."
 	banner:
 		before: "Co jsme připravili"
 		in: "&bdquo;Reference.&rdquo;"
@@ -526,7 +526,7 @@ contact:
 		
 about_us:
 	title: "O nás"
-	description: "Jsme úplně nové digitální grafické studio se zkušenostmi od roku 2003. Dlouho jsme byli Dost dobrý design, až jsme se v roce 2018 změnili na Protein. Líbí se nám dávát život vašim značkám. Moc by to ale nefungovalo, kdybychom pracovali jen se samotnou grafickou formou. S&nbsp;čím vším pracujeme, popisuje metoda OBSAH+FORMA. Svou pozornost zaměřujeme na správnost designérských rozhodnutí. Naši klienti prodávají po celé Evropě i&nbsp;USA. My pro ně pracujeme v&nbsp;Kladně. Přednášíme, publikujeme a&nbsp;jsme zakládajicí členové Unie grafického designu."
+	description: "Jsme úplně nové digitální grafické studio se zkušenostmi od roku 2003. Dlouho jsme byli Dost dobrý design, až jsme se v roce 2018 změnili na Protein. Líbí se nám dávat život vašim značkám. Moc by to ale nefungovalo, kdybychom pracovali jen se samotnou grafickou formou. S čím vším pracujeme, popisuje metoda OBSAH+FORMA. Svou pozornost zaměřujeme na správnost designérských rozhodnutí. Naši klienti prodávají po celé Evropě i USA. My pro ně pracujeme v Kladně. Přednášíme, publikujeme a jsme zakládající členové Unie grafického designu."
 	slide:
 		title: "Grafický design musí mít tah na branku <span class='arrow-down'></span>"
 		alt: "Obsah + Forma"
@@ -534,84 +534,84 @@ about_us:
 	services:
 		logotype:
 			title: "Značka a logo"
-			description: "Značka není jen logo a vizuální styl. Značka je příslib a&nbsp;očekávání zároveň. Vytváříme loga a&nbsp;značky zcela nové, anebo redesign a&nbsp;inovace původních. Pro praktické nasazení se bude hodit elektronický manuál, pomůže s&nbsp;vytvářením všech aplikací tištěných i&nbsp;elektronických."
+			description: "Značka není jen logo a vizuální styl. Značka je příslib a očekávání zároveň. Vytváříme loga a značky zcela nové, anebo redesign a inovace původních. Pro praktické nasazení se bude hodit elektronický manuál, pomůže s vytvářením všech aplikací tištěných i elektronických."
 		web:
 			title: "Web a appky"
-			description: "I&nbsp;na webu spojujeme obsah a&nbsp;formu. Tady se k&nbsp;tomu ale ještě připojuje funkčnost. Přes všechna UI a&nbsp;UX však web stále vidíme jako velkou část tváře vaší značky. Weby stavíme na vlastním redakčním systému Comet3&reg;. A&nbsp;umíme také mobilní aplikace, tu největší děláme pro Plzeňský Prazdroj."
+			description: "I na webu spojujeme obsah a formu. Tady se k tomu ale ještě připojuje funkčnost. Přes všechna UI a UX však web stále vidíme jako velkou část tváře vaší značky. Weby stavíme na vlastním redakčním systému Comet3&reg;. A umíme také mobilní aplikace, tu největší děláme pro Plzeňský Prazdroj."
 		wrap:
 			title: "Obaly"
-			description: "Obal má jen pár slov, aby toho řekl hodně. Dobrý obal pozdraví a&nbsp;lidé si ho hned dají do nákupního košíku. Takové děláme. Lhostejno, zda je to etiketa, plechovka, sáček či krabice."
+			description: "Obal má jen pár slov, aby toho řekl hodně. Dobrý obal pozdraví a lidé si ho hned dají do nákupního košíku. Takové děláme. Lhostejno, zda je to etiketa, plechovka, sáček či krabice."
 		prez:
 			title: "Prezentace"
-			description: "Pomůžeme vám zvednou publikum ze židlí. Tedy ne k odchodu, ale k akci. Vytvoříme strukturu a&nbsp;všechny slajdy v prezentaci, nejen prázdné šablony. Prezentaci pro projektor a&nbsp;velké plátno, display v&nbsp;zasedačce nebo pro váš tablet. Připravíme i&nbsp;podklady k zaslání nebo speciální aplikaci."
+			description: "Pomůžeme vám zvednout publikum ze židlí. Tedy ne k odchodu, ale k akci. Vytvoříme strukturu a všechny slajdy v prezentaci, nejen prázdné šablony. Prezentaci pro projektor a velké plátno, displej v zasedačce nebo pro váš tablet. Připravíme i podklady k zaslání nebo speciální aplikaci."
 	history:
 		y2018:
 			title: "2018"
-			description: "Dost dobrý design se mění na Protein. Velká změna pro nás. I pro vás.<br /><br />Zdeněk je počtvrté za sebou přizvaný do poroty soutěže Kalendář roku 2018. Zasedání poroty a vyhlášení výsledkůse koná tentokrát v Brně.<br /><br />Aplikace Partner Prazdroj 2 se začala používat i na Slovensku.<br /><br />I letos se Zdeněk prezentuje se svým odborným tématem na MarketingMixu. Pokolikáté už?"
+			description: "Dost dobrý design se mění na Protein. Velká změna pro nás. I pro vás.<br /><br />Zdeněk je počtvrté za sebou přizvaný do poroty soutěže Kalendář roku 2018. Zasedání poroty a vyhlášení výsledků se koná tentokrát v Brně.<br /><br />Zdeněk byl pozvaný jako host na dva úvodní semináře projektu Creative Hub v Praze.<br /><br />Aplikace Partner Prazdroj 2 se začala používat i na Slovensku.<br /><br />I letos se Zdeněk prezentuje se svým odborným tématem na Marketing Mixu. Pokolikáté už? Stručnou noticku o tom píše Packaging Herald."
 		y2017:
 			title: "2017"
-			description: "Studio představilo nový web a&nbsp;s ním i&nbsp;nová témata. Budování značky, prodejní a&nbsp;jiné prezentace, inovovaný koncept OBSAH+FORMA.<br /><br />Zdeněk je potřetí za sebou přizvaný do poroty soutěže Kalendář roku 2017. Zasedání poroty se koná na známé grafické škole v&nbsp;Hellichově ulici v&nbsp;Praze. Květnové vyhlášení pak proběhlo na půdě Poslanecké sněmovny Parlamentu ČR. Zdeněk měl jako předseda poroty krátký projev.<br /><br />Opakovaně jsme podpořili soutěž Marketér roku a&nbsp;Zdeněk byl předat také jednu z&nbsp;cen. Je to už tradice.<br /><br />Další Zdeňkova přednáška na MarketingMixu."
+			description: "Studio představilo nový web a s ním i nová témata. Budování značky, prodejní a jiné prezentace, inovovaný koncept OBSAH+FORMA.<br /><br />Zdeněk je potřetí za sebou přizvaný do poroty soutěže Kalendář roku 2017. Zasedání poroty se koná na známé grafické škole v Hellichově ulici v Praze. Květnové vyhlášení pak proběhlo na půdě Poslanecké sněmovny Parlamentu ČR. Zdeněk měl jako předseda poroty krátký projev.<br /><br />Opakovaně jsme podpořili soutěž Marketér roku a Zdeněk byl předat také jednu z cen. Je to už tradice.<br /><br />Další Zdeňkova přednáška na Marketing Mixu."
 		y2016:
 			title: "2016"
-			description: "Další Marketing Mix v&nbsp;Brně a&nbsp;v Praze. Letošním tématem je budování grafické značky pro budování značky jako takové. Přednáška je na videu.<br /><br />Po úpravě stanov je Zdeněk zvolen do předsednictva Unie grafického designu.<br /><br />Zdeněk odjíždí na expedici do Lotyšska natočit pro klienta, jak probíhá sběr a&nbsp;zpracování hub.<br /><br />Již po druhé byl Zdeněk předsedou poroty soutěže Kalendář roku 2016. Jako předseda měl Zdeněk krátký proslov při slavnostním vyhlášení na půdě Poslenecké sněmovny Parlamentu.<br /><br />Loňské přednášky na Marketing Mixu měly dvě nečekané reprízy v&nbsp;Ostravě a&nbsp;Hradci Králové na stejnojmenné akci.<br /><br />Inovovali jsme proces směrem k&nbsp;intenzivnějšímu propojení obsahu a&nbsp;formy. Začali jsme vytvářet funkční prototypy webů s&nbsp;nástrojem UXpin.<br /><br />Také letos jsme podpořili Marketéra roku jako loni a&nbsp;předloni a&nbsp;předpředloni."
+			description: "Další Marketing Mix v Brně a v Praze. Letošním tématem je budování grafické značky pro budování značky jako takové. Přednáška je na videu.<br /><br />Po úpravě stanov je Zdeněk zvolen do předsednictva Unie grafického designu.<br /><br />Zdeněk odjíždí na expedici do Lotyšska natočit pro klienta, jak probíhá sběr a zpracování hub.<br /><br />Již podruhé byl Zdeněk předsedou poroty soutěže Kalendář roku 2016. Jako předseda měl Zdeněk krátký proslov při slavnostním vyhlášení na půdě Poslanecké sněmovny Parlamentu.<br /><br />Loňské přednášky na Marketing Mixu měly dvě nečekané reprízy v Ostravě a Hradci Králové na stejnojmenné akci.<br /><br />Inovovali jsme proces směrem k intenzivnějšímu propojení obsahu a formy. Začali jsme vytvářet funkční prototypy webů s nástrojem UXpin.<br /><br />Také letos jsme podpořili Marketéra roku jako loni a předloni a předpředloni."
 		y2015:
 			title: "2015"
-			description: "Zdeněk byl pozván, aby se stal členem poroty Kalendář roku 2015. Byl hned zvolen předsedou poroty. Zasedání se konalo v&nbsp;prostorách Národního technického muzea.<br /><br />Na Marketing Mixu v&nbsp;Praze a&nbsp;v Brně Zdeněk vysvětluje posluchačům, jak poznat, že mají blbé logo. Přednáška je na videu.<br /><br />Vznikla první verze aplikace Partner Prazdroj."
+			description: "Zdeněk byl pozván, aby se stal členem poroty Kalendář roku 2015. Byl hned zvolen předsedou poroty. Zasedání se konalo v prostorách Národního technického muzea.<br /><br />Na Marketing Mixu v Praze a v Brně Zdeněk vysvětluje posluchačům, jak poznat, že mají blbé logo. Přednáška je na videu.<br /><br />Vznikla první verze aplikace Partner Prazdroj."
 		y2014:
 			title: "2014"
-			description: "Na podzim se v&nbsp;Praze a&nbsp;v&nbsp;Brně konal první ročník Marketing Mixu, nástupce Světa reklamy. Zdeněk přednášel o&nbsp;tom, jak vytřískat maximum z&nbsp;grafického designéra. Přednáška je na videu.<br /><br />Časopis České marketingové společnosti Marketing & Komunikace I/2014 a&nbsp;Typografia otiskují další Zdeňkovy odborné články. První se věnuje namingu a&nbsp;druhý porovnává weby a&nbsp;tiskoviny.<br /><br />Zdeněk poprvé vystupuje v&nbsp;doprovodném programu největšího českého oborového veletrhu Reklama Polygraf. V&nbsp;programu ho ale hledejte pod jménem Sven Ekstrøm. Přednáška se totiž věnovala namingu &ndash; pojmenovávání.<br /><br />Časopis Font hodnotí loga výrobců kuchyní. Naše logo ROTO je mezi nimi a&nbsp;vede si dobře.<br /><br />Studio se přestěhovalo do nových prostor v&nbsp;centru Kladna."
+			description: "Na podzim se v Praze a v Brně konal první ročník Marketing Mixu, nástupce Světa reklamy. Zdeněk přednášel o tom, jak vytřískat maximum z grafického designéra. Přednáška je na videu.<br /><br />Časopis České marketingové společnosti Marketing & komunikace I/2014 a Typografia otiskují další Zdeňkovy odborné články. První se věnuje namingu a druhý porovnává weby a tiskoviny.<br /><br />Zdeněk poprvé vystupuje v doprovodném programu největšího českého oborového veletrhu Reklama Polygraf. V programu ho ale hledejte pod jménem Sven Ekstrøm. Přednáška se totiž věnovala namingu &ndash; pojmenovávání.<br /><br />Časopis Font hodnotí loga výrobců kuchyní. Naše logo ROTO je mezi nimi a vede si dobře.<br /><br />Studio se přestěhovalo do nových prostor v centru Kladna."
 		y2013:
 			title: "2013"
-			description: "Časopis České marketingové společnosti Marketing & Komunikace I/2013 otiskuje další Zdeňkův odborný článek s&nbsp;názvem Zadání zakázky grafickému studiu.<br /><br />Časopis Font ve svém 130. čísle otiskuje článek o&nbsp;našem redesignu loga POLDI. Po čase Zdeněk také opět odpovídá na několik otázek časopisu Typografie.<br /><br />Zdeněk vystupuje s&nbsp;přednáškou o&nbsp;webech a&nbsp;tiskovinách v&nbsp;rámci doprovodného programu veletrhu Svět reklamy v&nbsp;Praze a&nbsp;v Brně.<br /><br />Článek LOGO je obsahem čísla III/2013 časopisu České marketingové společnosti Marketing & Komunikace I/2013. Zdeněk se jako zástupce ČMS účastní panelové diskuse konference Dialog se zákazníkem, kterou ČMS spolupořádá."
+			description: "Časopis České marketingové společnosti Marketing & komunikace I/2013 otiskuje další Zdeňkův odborný článek s názvem Zadání zakázky grafickému studiu.<br /><br />Časopis Font ve svém 130. čísle otiskuje článek o našem redesignu loga POLDI. Po čase Zdeněk také opět odpovídá na několik otázek časopisu Typografie.<br /><br />Zdeněk vystupuje s přednáškou o webech a tiskovinách v rámci doprovodného programu veletrhu Svět reklamy v Praze a v Brně.<br /><br />Článek LOGO je obsahem čísla III/2013 časopisu České marketingové společnosti Marketing & komunikace I/2013. Zdeněk se jako zástupce ČMS účastní panelové diskuse konference Dialog se zákazníkem, kterou ČMS spolupořádá."
 		y2012:
 			title: "2012"
-			description: "Časopis České marketingové společnosti Marketing & Komunikace I/2012 otiskuje další Zdeňkův odborný článek s&nbsp;názvem Jak vybrat grafického designéra/studio pro spolupráci. A&nbsp;v podzimním čísle téhož časopisu se objevuje další článek. Tentokrát na téma Jak hodnotit grafický design.<br /><br />Několik prací našeho studia se objevuje v&nbsp;ročence Unie grafického designu.<br /><br />Zdeněk poskytuje rozhovor Novinám pro polygrafický průmysl. Odpovídá také hned dvakrát na několik otázek časopisu Typografie. V&nbsp;čísle 6/2012 na téma propagace tiskáren, v&nbsp;čísle 12/2012 na téma typografie napříč médii.<br /><br />Přednášku a&nbsp;26. seminář Unie grafického designu na téma komunikace s&nbsp;klientem vede tentokrát Zdeněk.<br /><br />Zdeněk se účastní konference o&nbsp;brandingu s&nbsp;Marty Neumeierem jako hlavním hostem.<br /><br />Zdeněk je součástí focus-group projektu CENTRES, který se zabývá vzdělávání v&nbsp;kreativních oborech.<br /><br />Poprvé jsme podpořili soutěž Marketér roku 2010. Jeden z&nbsp;výherců získal grafický tablet."
+			description: "Časopis České marketingové společnosti Marketing & komunikace I/2012 otiskuje další Zdeňkův odborný článek s názvem Jak vybrat grafického designéra/studio pro spolupráci. A v podzimním čísle téhož časopisu se objevuje další článek. Tentokrát na téma Jak hodnotit grafický design.<br /><br />Několik prací našeho studia se objevuje v ročence Unie grafického designu.<br /><br />Zdeněk poskytuje rozhovor Novinám pro polygrafický průmysl. Odpovídá také hned dvakrát na několik otázek časopisu Typografie. V čísle 6/2012 na téma propagace tiskáren, v čísle 12/2012 na téma typografie napříč médii.<br /><br />Přednášku a 26. seminář Unie grafického designu na téma komunikace s klientem vede tentokrát Zdeněk.<br /><br />Zdeněk se účastní konference o brandingu s Marty Neumeierem jako hlavním hostem.<br /><br />Zdeněk je součástí focus-group projektu CENTRES, který se zabývá vzděláváním v kreativních oborech.<br /><br />Poprvé jsme podpořili soutěž Marketér roku 2010. Jeden z výherců získal grafický tablet."
 		y2011:
 			title: "2011"
-			description: "Zdeněk se stal členem České marketingové společnosti.<br /><br />Spolu se svým otcem Milanem poskytuje celostránkový rozhovor Mladé Frontě DNES.<br /><br />Zdeňkova práce pro kladenskou bezpečnostní agenturu SBS Services se objevuje na stránkách časopisu Font.<br /><br />Časopis České marketingové společnosti Marketing & Komunikace otiskuje první Zdeňkův článek s názvem Grafický design a grafický designér. Pro portál www.logobox.cz píše článek o dobrém logu.<br /><br />V rámci doprovodného programu veletrhu Svět reklamy v Brně a později také v Praze Zdeněk přednáší o nejčastějších typografických chybách.<br /><br />Zdeněk je členem poroty soutěže na nové destinační logo ČR, kterou vypsala agentura Czech Tourism.<br /><br />Logo a vizuální styl etiket Sommer&vnuk z našeho studia je na shortlistu kreativní soutěže Zlatá pecka 2011.<br /><br />Milan se jako předseda Unie grafického designu účastní rozhlasové debaty na radiu Leonardo"
+			description: "Zdeněk se stal členem České marketingové společnosti.<br /><br />Spolu se svým otcem Milanem poskytuje celostránkový rozhovor Mladé Frontě DNES.<br /><br />Zdeňkova práce pro kladenskou bezpečnostní agenturu SBS Services se objevuje na stránkách časopisu Font.<br /><br />Časopis České marketingové společnosti Marketing & komunikace otiskuje první Zdeňkův článek s názvem Grafický design a grafický designér. Pro portál www.logobox.cz píše článek o dobrém logu.<br /><br />V rámci doprovodného programu veletrhu Svět reklamy v Brně a později také v Praze Zdeněk přednáší o nejčastějších typografických chybách.<br /><br />Zdeněk je členem poroty soutěže na nové destinační logo ČR, kterou vypsala agentura Czech Tourism.<br /><br />Logo a vizuální styl etiket Sommer&vnuk z našeho studia je na shortlistu kreativní soutěže Zlatá pecka 2011.<br /><br />Milan se jako předseda Unie grafického designu účastní rozhlasové debaty na rádiu Leonardo."
 		y2010:
 			title: "2010"
 			description: "Zdeněk zasedal jako člen komise pro výběr webdesignu Fakulty sociálních věd Univerzity Karlovy v Praze.<br /><br />Zdeněk publikuje svůj článek v mapující publikaci SOUP na téma „Design, který má prodávat“."
 		y2009:
 			title: "2009"
-			description: "Zdeněk je členem výběrové komise pro výběr nové korporátní identity politické strany TOP09.<br /><br />Tři Zdeňkovy práce jsou uvedeny v knižní publikaci LOGO 1989–2008, vydané studiem HRaNA.<br /><br />Zdeňka citují Hospodářské noviny a server iPodnikatel.cz.<br /><br />V našem studiu absolvoval čtyřtýdenní stáž vzácný host. Jiří Seger, čechoameričan, designér žijící v&nbsp;New Yorku, působící ve studiu Ideas on Purpose."
+			description: "Zdeněk je členem výběrové komise pro výběr nové korporátní identity politické strany TOP09.<br /><br />Tři Zdeňkovy práce jsou uvedeny v knižní publikaci LOGO 1989–2008, vydané studiem HRaNA.<br /><br />Zdeňka citují Hospodářské noviny a server iPodnikatel.cz.<br /><br />V našem studiu absolvoval čtyřtýdenní stáž vzácný host. Jiří Seger, Čechoameričan, designér žijící v New Yorku, působící ve studiu Ideas on Purpose."
 		y2008:
 			title: "2008"
-			description: "Studio Dost dobrý design je přijato za člena AČRA. V&nbsp;asociaci vydrželo několik let.<br /><br />Získali jsme ocenění Vítěz roku 2008 v kategorii Tisk soutěže AČRA Awards za kampaň DHL „úl“.<br /><br />Naše studio začíná vydávat inzertní časopis Standard. Před propuknutím hospodářské krize stihlo vyjít několik vydání."
+			description: "Studio Dost dobrý design je přijato za člena AČRA. V asociaci vydrželo několik let.<br /><br />Získali jsme ocenění Vítěz roku 2008 v kategorii Tisk soutěže AČRA Awards za kampaň DHL „úl“.<br /><br />Naše studio začíná vydávat inzertní časopis Standard. Před propuknutím hospodářské krize stihlo vyjít několik vydání."
 		y2007:
 			title: "2007"
-			description: "Zdeněk a Milan spolu s&nbsp;dalšími 12 renomovanými studii spoluzakládají Unii grafického designu. Milan od té chvíle téměř deset let zastává funkci předsedy Unie. Posláním Unie je především osvěta a&nbsp;podpora trhu grafického designu.<br /><br />Studio Dost dobrý design se transformuje na společnost s ručením omezeným. Dost dobrý design® je ochrannou známkou.<br /><br />Zdeněk je členem poroty kreativní soutěže iReklama, kterou pořádá Unie vydavatelů, sekce vydavatelů internetových titulů.<br /><br />Na půdě Rakouského kulturního fóra v Praze přednáší Zdeněk referát o zkušenostech s designem mezi malými a středními podniky na mezinárodním workshopu EWDS o podpoře designu."
+			description: "Zdeněk a Milan spolu s dalšími 12 renomovanými studii spoluzakládají Unii grafického designu. Milan od té chvíle téměř deset let zastává funkci předsedy Unie. Posláním Unie je především osvěta a podpora trhu grafického designu.<br /><br />Studio Dost dobrý design se transformuje na společnost s ručením omezeným. Dost dobrý design® je ochrannou známkou.<br /><br />Zdeněk je členem poroty kreativní soutěže iReklama, kterou pořádá Unie vydavatelů, sekce vydavatelů internetových titulů.<br /><br />Na půdě Rakouského kulturního fóra v Praze přednáší Zdeněk referát o zkušenostech s designem mezi malými a středními podniky na mezinárodním workshopu EWDS o podpoře designu."
 		y2006:
 			title: "2006"
 			description: "Po roce působení má studio 5 tváří."
 		y2005:
 			title: "2005"
-			description: "Zdeněk promuje na ČVUT v Praze, FSI, Ústav řízení a ekonomiky podniku. Absolvuje s vyznamenáním. Jeho diplomová práce se zabývá problematikou korporátního designu v prostředí menších a středních firem. Vedoucím diplomové práce je Doc. Ing. Václav Dolanský, překladatel marketingové „bible“ Marketing Management profesora Philipa Kotlera. Hned na to přemění Dost dobrý design na regulerní grafické studio v prvních prostorách v Kladně."
+			description: "Zdeněk promuje na ČVUT v Praze, FSI, Ústav řízení a ekonomiky podniku. Absolvuje s vyznamenáním. Jeho diplomová práce se zabývá problematikou korporátního designu v prostředí menších a středních firem. Vedoucím diplomové práce je Doc. Ing. Václav Dolanský, překladatel marketingové „bible“ Marketing Management profesora Philipa Kotlera. Hned na to přemění Dost dobrý design na regulérní grafické studio v prvních prostorách v Kladně."
 		y2003:
 			title: "2003"
 			description: "Zdeněk začíná vytvářet grafický design jako freelancer. Vzniká název Dost dobrý design."
 content_form:
 	title: "OBSAH+FORMA"
-	description: "Vytváříme obsah a formu. Zároveň. Obsah i forma se tak navzájem ovlivňují stejně jako jsou dohromady ovlivňovány svým kontextem. Když to tak dělat nebudeme, vy dostanete dvě věci, které spolu moc nefungují. Na začátku každého projektu uděláme společný workshop. Přijdeme a pochopíme vše. Jinak bychom ani nemohli pracovat. Nebojte se ale, že si libujeme v papírování. Zajímají nás podstatné souvislosti, stručně. Jdeme na věc metodicky správně, ale za postup jsou body jen na základce. Hlavní je, že se dostavují krááásné výsledky."
+	description: "Vytváříme obsah a formu. Zároveň. Obsah i forma se tak navzájem ovlivňují, stejně jako jsou dohromady ovlivňovány svým kontextem. Když to tak dělat nebudeme, vy dostanete dvě věci, které spolu moc nefungují. Na začátku každého projektu uděláme společný workshop. Přijdeme a pochopíme vše. Jinak bychom ani nemohli pracovat. Nebojte se ale, že si libujeme v papírování. Zajímají nás podstatné souvislosti, stručně. Jdeme na věc metodicky správně, ale za postup jsou body jen na základce. Hlavní je, že se dostavují krááásné výsledky."
 	article:
-		title: "strategie a koncepce, značky a prismata, podklady a data, krativní zadání, titulky a claimy, copy, infografiky, prototypy webů"
+		title: "strategie a koncepce, značky a prizmata, podklady a data, kreativní zadání, titulky a claimy, copy, infografiky, prototypy webů"
 		description: "Návrh grafického designu vytvořený bez pravého obsahu bude nefunkční. Je to dokonale zrádné, protože to může být i atraktivní návrh. Taková šablona ale jen těžko podpoří vaše záměry. Už jen proto, že pravý obsah pak nepasuje do předem připravených kolonek.<br /><br />Ať už pracujeme na koncepci značky nebo na solitérním návrhu, vše potřebuje svoje flow. Nechceme diváka ani zahltit, ani unudit. Chceme ho nadchnout a přesvědčit. Drsně nebo jemně. Vrýt se do paměti. Chceme samé dobré a užitečné věci.<br /><br />Obsah není jen král, je to bůh. Obsah a jeho rozvržení, kdy postupně divákovi odkrýváme jednotlivé jeho části, ani nesmí vznikat dodatečně nebo někde mimo na jiném stole. Vždyť je to ta nejdůležitější věc. Nový způsob designérského myšlení se jmenuje OBSAH+FORMA."
 		points:
 			i1:
 				title: "situace"
-				description: "Provádíme průzkum a&nbsp;analýzu. Spíš se nám tedy líbí slovo rešerše. Zajímá nás, co děláte. Co už teď děláte proto, abyste to dělali více a lépe. Co dělají konkurenti, abyste tolik nedělali, co děláte. Jak se líbí i nelíbí lidem, co pro ně děláte nebo neděláte. A všechny souvislosti. <span>Zákaznické užitky, customer insight. Průzkum trhu. Jobs&Pains. Zajímá nás šiřitel, příjemce vizuálního prostředku i&nbsp;okolní prostředí. Hledáme možné problémy ale především příležitostí. Hledáme ze široka maximum dostupných informací, podle kterých se můžeme v dalších krocích rozhodovat.</span>"
+				description: "Provádíme průzkum a analýzu. Spíš se nám tedy líbí slovo rešerše. Zajímá nás, co děláte. Co už teď děláte proto, abyste to dělali více a lépe. Co dělají konkurenti, abyste tolik nedělali, co děláte. Jak se líbí i nelíbí lidem, co pro ně děláte nebo neděláte. A všechny souvislosti. <span>Zákaznické užitky, customer insight. Průzkum trhu. Jobs&Pains. Zajímá nás šiřitel, příjemce vizuálního prostředku i okolní prostředí. Hledáme možné problémy, ale především příležitosti. Hledáme ze široka maximum dostupných informací, podle kterých se můžeme v dalších krocích rozhodovat.</span>"
 			i2:
 				title: "cíle"
-				description: "Budeme dávkovat emoce nebo naopak racionalitu. Nastavíme směr. Pomůžeme vám s rozhodováním, když si nebudete jistí. A pomůžeme vám´prosadit dobré myšlenky. Uděláme na to třeba workshop. Zajistíme, aby se na nic nezapomnělo. <span>Kreativní brief. Strategie a&nbsp;positioning. Gains. Definice značky, elevator pitch, USP a známe i další takové pojmy. Cílem každého našeho projektu obecně je změnit chování či postoje publika. Budeme se bavit, co je potřeba pro větší úspěch vašeho produktu nebo pro větší podporu vašemu projektu.</span>"
+				description: "Budeme dávkovat emoce nebo naopak racionalitu. Nastavíme směr. Pomůžeme vám s rozhodováním, když si nebudete jistí. A pomůžeme vám prosadit dobré myšlenky. Uděláme na to třeba workshop. Zajistíme, aby se na nic nezapomnělo. <span>Kreativní brief. Strategie a positioning. Gains. Definice značky, elevator pitch, USP a známe i další takové pojmy. Cílem každého našeho projektu obecně je změnit chování či postoje publika. Budeme se bavit, co je potřeba pro větší úspěch vašeho produktu nebo pro větší podporu vašemu projektu.</span>"
 			i3:
 				title: "skica"
-				description: "Necháme vzniknout prvním kreativním návrhům obsahu i jeho formy. Představujte si velkou světlou místnost. A je dobré, když je tam u toho víc lidí. To jsme my. Bez zapnutých počítačů, s tužkou v ruce. Používáme různé kreativní metody. Vznikne první koncepce, skica, prototyp. Rádi si o tom s vámi budeme povídat, dobré nápady ukazujeme průběžně."
+				description: "Vzniknou první kreativní návrhy obsahu i jeho formy. Představujte si velkou světlou místnost. A je dobré, když je tam u toho víc lidí. To jsme my. Bez zapnutých počítačů, s tužkou v ruce. Používáme různé kreativní metody. Vznikne první koncepce, skica, prototyp. Rádi si o tom s vámi budeme povídat, dobré nápady ukazujeme průběžně."
 			i4:
 				title: "iterace"
-				description: "Znovu a znovu, dokud nebude vše skvělé. Tak dlouho budeme dělat postupná vylepšení návrhu a&nbsp;revize předchozích designérských rozhodnutí vyvolaných jinými vylepšeními. Výsledkem bude interně i&nbsp;externě konzistentní návrh, ve kterém již není co přidat, odebrat nebo změnit. Tady spolu obsah a forma svádějí boj o místo."
+				description: "Znovu a znovu, dokud nebude vše skvělé. Tak dlouho budeme dělat postupná vylepšení návrhu a revize předchozích designérských rozhodnutí vyvolaných jinými vylepšeními. Výsledkem bude interně i externě konzistentní návrh, ve kterém již není co přidat, odebrat nebo změnit. Tady spolu obsah a forma svádějí boj o místo."
 			i5:
 				title: "realizace"
-				description: "Předtisková příprava, zadání do tisku, do výroby, do distribuce. Kódování a&nbsp;programování. Realizace aplikace. Tady je prostor pro přesnost, ne pro kreativitu. Ťik ťak. Dobrá práce nás pak vrací zpět na bod jedna."
+				description: "Předtisková příprava, zadání do tisku, do výroby, do distribuce. Kódování a programování. Realizace aplikace. Tady je prostor pro přesnost, ne pro kreativitu. Ťik ťak. Dobrá práce nás pak vrací zpět na bod jedna."
 			appendix: "Paráda, hotovo. Je to dobré."
 			
 jobs:
@@ -624,16 +624,19 @@ jobs:
 	joblist:
 		job_1:
 			title: "Designér"
-			description: "Hledáme vysoce praktického kolegu nebo kolegyni. Měl/a bys mít výtvarné vidění světa, přehled v oboru a zručnou ruku. Vedle toho základní související znalosti z marketingu, obchodu a psychologie. Pracujeme v Adobe produktech."
+			description: "Hledáme vysoce praktického kolegu nebo kolegyni. Měl/a bys mít výtvarné vidění světa, přehled v oboru a zručnou ruku. Vedle toho základní související znalosti z marketingu, obchodu a psychologie. Pracujeme v Adobe produktech. Hledáme trvalou interní spolupráci."
 		job_2:
-			title: "Výtvarník"
-			description: "Hledáme kolegu nebo kolegyni s hlavou v oblacích a s nohama na zemi. Měl/a bys mít přehled a zručnost ve výtvarných technikách. A kromě toho jistou ruku. Externí příležitostná spoupráce."		
-		job_3:
 			title: "Junior designér / DTP"
-			description: "Hledáme kolegu nebo kolegyni s přesným okem a rychlou rukou. A když budeš učenlivý/á, povýšíš. Abychom mohli pracovat v klidu, musí ti to jít pěkně od ruky. Pracujeme v Adobe produktech."
+			description: "Hledáme kolegu nebo kolegyni s přesným okem a rychlou rukou. A když budeš učenlivý/á, povýšíš. Abychom mohli pracovat v klidu, musí ti to jít pěkně od ruky. Pracujeme v Adobe produktech. Hledáme trvalou interní spolupráci."
+		job_3:
+			title: "Výtvarník"
+			description: "Hledáme kolegu nebo kolegyni s hlavou v oblacích a s nohama na zemi. Měl/a bys mít přehled a zručnost ve výtvarných technikách. A kromě toho jistou ruku. Externí příležitostná spolupráce."		
 		job_4:
+			title: "Motion designér"
+			description: "Hledáme kolegu nebo kolegyni pro střih videa a animace. Měl bys umět pracovat v Áftrech, měl bys umět vzít do ruky i kameru, měl bys mít přehled. Technologie navíc jsou vítané. Externí příležitostná spolupráce."		
+		job_5:
 			title: "Programátor"
-			description: "Vyvíjíme aplikaci pro Plzeňský Prazdroj a vlastní redakční systém Comet, na kterém stavíme weby. Používáme technologie jako React, Nette, HTML5, Less a tak."
+			description: "Vyvíjíme aplikaci pro Plzeňský Prazdroj a vlastní redakční systém Comet, na kterém stavíme weby. Používáme technologie jako React, Nette, HTML5, Less a tak. Hledáme externí trvalou spolupráci."
 	
 			
 			
