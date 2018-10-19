@@ -136,7 +136,7 @@ table {
   color: #0b3c42;
 }
 .color-background-1 {
-  background-color: #e9efef;
+  background-color: #ecf3f4;
 }
 .color-text-arcadehry {
   color: #ffffff;
@@ -333,7 +333,7 @@ html {
   font-size: 16px;
 }
 body {
-  background-color: #e9efef;
+  background-color: #ecf3f4;
   padding-bottom: 10rem;
 }
 html,
@@ -1643,7 +1643,7 @@ button.btn {
   margin-top: 1.85rem;
   margin-right: 3.8rem;
   padding: 0.6rem 12rem;
-  background-color: #e9efef;
+  background-color: #ecf3f4;
 }
 .page--contact #map-canvas {
   height: 31.25vw;
