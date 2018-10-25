@@ -480,28 +480,28 @@ video {
   }
 }
 .puzzle-indent--left {
-  padding-left: 0.3125vw;
+  padding-left: 0.623vw;
 }
 .puzzle-indent--right {
-  padding-right: 0.3125vw;
+  padding-right: 0.623vw;
 }
 .puzzle-indent--top {
-  padding-top: 0.3125vw;
+  padding-top: 0.623vw;
 }
 .puzzle-indent--bottom {
-  padding-bottom: 0.3125vw;
+  padding-bottom: 0.623vw;
 }
 .puzzle-indent--left-dbl {
-  padding-left: 0.625vw;
+  padding-left: 1.246vw;
 }
 .puzzle-indent--right-dbl {
-  padding-right: 0.625vw;
+  padding-right: 1.246vw;
 }
 .puzzle-indent--top-dbl {
-  padding-top: 0.625vw;
+  padding-top: 1.246vw;
 }
 .puzzle-indent--bottom-dbl {
-  padding-bottom: 0.625vw;
+  padding-bottom: 1.246vw;
 }
 .container {
   box-sizing: border-box;
@@ -917,12 +917,20 @@ button.btn {
 }
 .slide-wrapper--destro {
   margin-top: 7.8rem;
+  align-items: flex-start;
 }
 .slide-wrapper--destro .slide {
-  height: 31.25vw;
+  height: 100%;
+  align-items: flex-start;
 }
-.slide-wrapper--destro .slide__logo-wrapper img {
-  width: 17.75rem;
+.slide-wrapper--destro .slide a {
+  height: 100%;
+}
+.slide-wrapper--destro .slide img {
+  width: 100%;
+}
+.slide-wrapper--destro .slide__button-wrapper {
+  z-index: 99;
 }
 .slide-wrapper--destro .slide__button-wrapper {
   background-color: rgba(253, 202, 1, 0.65);
@@ -1367,6 +1375,7 @@ button.btn {
   text-align: right;
   padding-right: 11%;
   position: relative;
+  white-space: nowrap;
   z-index: 2;
 }
 .page--case-study .cs-loader__progress-bar .percent {
@@ -1726,6 +1735,7 @@ button.btn {
   position: relative;
   padding-right: 2.5rem;
   color: black;
+  white-space: nowrap;
 }
 .page--lead .lead__form .list:after {
   content: '';
@@ -2519,6 +2529,9 @@ button.btn {
   .container {
     width: 100%;
   }
+  .slide-wrapper--destro .slide--responsive {
+    min-height: unset;
+  }
   .navbar:not(.navbar--opened) {
     position: absolute;
   }
@@ -2570,6 +2583,15 @@ button.btn {
   }
   .page--case-study .case-study__about__link .column--right {
     text-align: right;
+  }
+  .page--case-study .case-study__about__period {
+    width: 100%;
+  }
+  .page--download .btn-wrapper {
+    max-width: 100%;
+  }
+  .page--download .btn-wrapper a.btn {
+    padding: 0 10vw;
   }
   .page--homepage .footer__lead,
   .page--content-form .footer__lead,
@@ -2631,6 +2653,10 @@ button.btn {
   .page--content-form .content-form__points .point {
     padding-left: 2.5vw;
   }
+  section.content-form .content-form__description {
+    column-count: 1 !important;
+    column-gap: 0 !important;
+  }
   .page--case-study .case-study .slide-wrapper--case-study-2 .slide--parallax {
     height: 104.16666667vw;
   }
@@ -2653,5 +2679,13 @@ button.btn {
     right: 1.6vw;
   }
 }
-
-/*# sourceMappingURL=design-2018.css.map */
+@media screen and (max-width: 500px) {
+  .case-study__footer .btn.btn--bigger {
+    margin-left: 10vw;
+    width: 80vw;
+    padding: 0.75rem 0 !important;
+    text-align: center;
+    margin-right: 10vw;
+  }
+}
+/*# sourceMappingURL=./main.css.map */

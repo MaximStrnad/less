@@ -2,7 +2,11 @@
 	.container {
 		width: 100%;
 	}
-
+	.slide-wrapper--destro {
+		.slide--responsive {
+			min-height: unset;
+		}
+	}
 	.navbar:not(.navbar--opened) {
 		position: absolute;
 	}
@@ -81,8 +85,19 @@
 				text-align: right;
 			}
 		}
+		.case-study__about__period { 
+			width: 100%;
+		}
 	}
-
+	.page--download {
+		.btn-wrapper {
+			max-width: 100%;
+			a.btn {
+				padding: 0 10vw;
+				
+			}
+		}
+	}
     .page--homepage .footer__lead,
     .page--content-form .footer__lead,
     .page--about-us .footer__lead,
@@ -151,10 +166,18 @@
 	.page--content-form .content-form__points .point {
 		padding-left: 2.5vw;
 	}
+	section.content-form {
+		.content-form__description {
+			column-count: 1 !important;
+			column-gap: 0 !important;
+		}
+	}
 
 	.page--case-study .case-study .slide-wrapper--case-study-2 .slide--parallax {
 		.heightVW(2000px);
 	}
+	
+
 
 	.page--case-study .case-study .parallax__phone-bg {
 		position: relative;
@@ -176,3 +199,14 @@
 		}
 	}
 }
+@media screen and (max-width: 500px) {
+	.case-study__footer {
+		.btn.btn--bigger {
+			margin-left: 10vw;
+			width: 80vw;
+			padding: 0.75rem 0 !important;
+			text-align: center;
+			margin-right: 10vw;
+		}
+	}
+ }
