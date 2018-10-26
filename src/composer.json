@@ -11,17 +11,17 @@
   "require": {
     "dibi/dibi": "3.0.4",
     "kdyby/translation": "^2.5.0",
-    "latte/latte": "^2.4",
-    "nette/application": "^2.4",
-    "nette/bootstrap": "^2.4",
-    "nette/caching": "^2.5",
+    "latte/latte": "^2.3",
+    "nette/application": "^2.3",
+    "nette/bootstrap": "^2.3",
+    "nette/caching": "^2.3",
     "nette/component-model": "^2.3",
-    "nette/di": "^2.4",
-    "nette/forms": "^2.4",
-    "nette/http": "^2.4",
-    "nette/mail": "^2.4",
-    "nette/neon": "^2.4",
-    "nette/robot-loader": "^2.4",
-    "tracy/tracy": "^2.4"
+    "nette/di": "^2.3",
+    "nette/forms": "^2.3",
+    "nette/http": "^2.3",
+    "nette/mail": "^2.3",
+    "nette/neon": "^2.3",
+    "nette/robot-loader": "^2.3",
+    "tracy/tracy": "^2.3"
   }
 }
