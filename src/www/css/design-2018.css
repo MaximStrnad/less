@@ -1401,9 +1401,9 @@ button.btn {
   padding-bottom: 2.5rem;
 }
 .page--about-us .about-us__items .item {
-  padding-top: 1.0rem;
+  padding-top: 1rem;
   background-color: white;
-  padding-right: 3.0rem;
+  padding-right: 3rem;
 }
 .page--about-us .about-us__items .item__title {
   font-family: 'Rational TW Display ExtraBold', "Sans Serif";
@@ -1667,6 +1667,10 @@ button.btn {
 .page--contact #map-canvas img[src*='map-pointer-white'] {
   max-width: 3.375rem !important;
   height: auto !important;
+}
+.page .mail-container .mail {
+  float: right;
+  position: absolute;
 }
 .page--articles .article__date {
   font-family: 'Rational TW Display Light', "Sans Serif";
@@ -2694,4 +2698,102 @@ button.btn {
     margin-right: 10vw;
   }
 }
-/*# sourceMappingURL=./main.css.map */
+@media (max-width: 414px) and (min-width: 1px) {
+  .footer__lead {
+    background-color: white;
+    text-align: right;
+    padding-top: 3.75rem;
+    padding-right: 3.59375vw;
+    padding-bottom: 8rem;
+  }
+  .footer__lead .btn {
+    margin-bottom: 1rem;
+  }
+  .footer__lead-note {
+    padding-right: 2.375rem;
+    color: #56797d;
+    line-height: 1.25;
+  }
+  .footer__sign {
+    position: relative;
+    top: 10rem;
+  }
+  .footer__sign-info > span,
+  .footer__sign-info > span a {
+    font-family: 'Rational TW Display ExtraBold', "Sans Serif";
+    font-size: 1.45rem;
+  }
+  .footer__sign-motto {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+  }
+  .contact__panel-1 {
+    padding-top: 1.6rem;
+  }
+  .contact__panel-2 {
+    background-color: white;
+    text-align: left !important;
+    padding-right: 7rem;
+    padding-left: 1rem !important;
+    padding-top: 6rem;
+    padding-bottom: 1.75rem;
+  }
+  .contact__panel-2__summary {
+    font-family: 'Rational TW Display ExtraBold', "Sans Serif";
+    font-size: 1.625rem;
+    line-height: 1.2;
+  }
+  .contact__panel-2__summary a {
+    font-family: 'Rational TW Display ExtraBold', "Sans Serif";
+  }
+  .contact__panel-2__summary a.em {
+    text-decoration: underline;
+  }
+  .contact__panel-2__note {
+    font-size: 1rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    line-height: 1.2;
+  }
+  .contact__panel-2__flags img {
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+  }
+  --download .header {
+    min-height: 15rem;
+  }
+  --download .page__description {
+    margin-right: 4rem !important;
+    margin-left: 4rem !important;
+    padding-top: 1rem;
+  }
+  --download .typo-card {
+    padding-bottom: 4.1rem;
+  }
+  --download .typo-card__logo {
+    padding: 3.5rem 0 1rem 0;
+  }
+  --download .btn {
+    padding: 0 10.2rem;
+    font-size: 0;
+  }
+  --download .btn span {
+    font-family: 'Rational TW Display ExtraBold', "Sans Serif";
+    font-size: 1.125rem;
+    display: inline-block;
+    padding-top: 0.9rem;
+    padding-bottom: 0.6rem;
+    padding-left: 0.5rem;
+    vertical-align: top;
+  }
+  .slide-wrapper--content-form {
+    margin-top: 5rem;
+  }
+  .slide-wrapper--content-form .slide {
+    height: 31.25vw;
+    background-color: #cbcbcb;
+  }
+  .slide-wrapper--content-form .slide__logo-wrapper img {
+    width: 32.5rem !important;
+  }
+}

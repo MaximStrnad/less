@@ -210,3 +210,148 @@
 		}
 	}
  }
+
+@media (max-width:414px) and (min-width:1px) {
+  .footer {
+    &__lead {
+      background-color: white;
+      text-align: right;
+      padding-top: 3.75rem;
+      .paddingRightVW(69px);
+      padding-bottom: 8rem;
+
+      .btn {
+        margin-bottom: 1rem;
+      }
+
+      &-note {
+        .paddingRightRem(38px);
+        color: #56797d;
+        line-height: 1.25;
+      }
+    }
+
+    &__sign {
+      position: relative;
+      top: 10rem;
+
+      &-info {
+        > span, > span a {
+          .font-weight-extrabold;
+          font-size: 1.45rem;
+        }
+      }
+
+      &-motto {
+        margin-top: 1rem;
+        margin-bottom: 0.2rem;
+      }
+    }
+  }
+
+  .contact {
+    &__panel {
+      &-1 {
+        padding-top: 1.6rem;
+      }
+
+      &-2 {
+        background-color: white;
+        text-align: left !important;
+        .paddingRightRem(112px);
+        padding-left: 1rem !important;
+        padding-top: 6rem;
+        padding-bottom: 1.75rem;
+
+        &__summary {
+          .font-weight-extrabold;
+          .fontSizeRem(26px);
+          line-height: @font-line-height;
+
+          a {
+            .font-weight-extrabold;
+          }
+
+          a.em {
+            text-decoration: underline;
+          }
+        }
+
+        &__note {
+          .fontSizeRem(16px);
+          padding-top: 0.6rem;
+          padding-bottom: 0.6rem;
+          line-height: @font-line-height;
+        }
+
+        &__flags {
+          img {
+            padding-left: 0.1rem;
+            padding-right: 0.1rem;
+          }
+        }
+      }
+    }
+  }
+
+  &--download {
+    .header {
+      min-height: 15rem;
+    }
+
+    .page__description {
+      margin-right: 4rem !important;
+      margin-left: 4rem !important;
+      padding-top: 1rem;
+    }
+
+    .typo-card {
+      padding-bottom: 4.1rem;
+
+      &__logo {
+        padding: 3.5rem 0 1rem 0;
+      }
+
+      &__title {
+
+      }
+    }
+
+    .btn {
+      padding: 0 10.2rem;
+      font-size: 0;
+
+      &-wrapper {
+
+      }
+
+      span {
+        .font-weight-extrabold;
+        .fontSizeRem(18px);
+        display: inline-block;
+        padding-top: 0.9rem;
+        padding-bottom: 0.6rem;
+        .paddingLeftRem(8px);
+        vertical-align: top;
+      }
+    }
+  }
+
+  .slide-wrapper {
+    &--content-form {
+      margin-top: 5rem;
+
+      .slide {
+        .heightVW(600px);
+        background-color: @color-be-2;
+
+        &__logo-wrapper {
+          img {
+            .widthRem(520px) !important;
+          }
+        }
+      }
+    }
+  }
+
+}
