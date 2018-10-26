@@ -13,7 +13,13 @@
 		&__ceo {
 			.color-text-eyren;
 		}
-
+		.slide-wrapper {
+			&--case-study-1 {
+				.slide {
+					height: 100% !important;
+				}
+			}
+		}
 		.slide-wrapper {
 			&--case-study-2 {
 				.slide {
@@ -80,6 +86,16 @@
 
 		&--eyren-1-right {
 			width: 32.5%;
+		}
+	}
+	@media screen and (max-width: 750px) {
+		.case-study {
+			.slide__note--behind-top {
+				.color-text-eyren !important;
+			  }
+			.slide__note--above-bottom {
+				.color-text-eyren !important;
+			}
 		}
 	}
 }

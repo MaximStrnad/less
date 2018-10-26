@@ -178,7 +178,36 @@
 	}
 	
 
+  .page--partner, .page--fer {
+    .slide-wrapper--case-study-2 {
+      .no-space {
+       .heightVW(2000px/2.2) !important;
+     }
+    }
+  }
+  .page--case-study {
+    .slide-wrapper--case-study-3 {
+      padding-top: 7rem;
+      .slide__note--behind-top {
+        position: absolute;
+        top: unset !important;
+        bottom:102%;
 
+      }
+    }
+    .slide {
+      position: relative;
+    }
+    .slide__note--above-bottom {
+      position: absolute;
+      top: 100%;
+      line-height: 2.2rem;
+    }
+    .case-study__ceo {
+      padding-top: 7.2rem;
+      padding-bottom: 2.4rem;
+    }
+  }
 	.page--case-study .case-study .parallax__phone-bg {
 		position: relative;
 		top: auto;
@@ -236,6 +265,9 @@
       top: 10rem;
 
       &-info {
+        &--dot {
+          display: none;
+        }
         > span, > span a {
           .font-weight-extrabold;
           font-size: 1.45rem;
@@ -249,6 +281,12 @@
     }
   }
 
+  .page--case-study {
+    .case-study__ceo {
+      padding-top: 9.2rem;
+      padding-bottom: 2.4rem;
+    }
+  }
   .contact {
     &__panel {
       &-1 {
@@ -320,10 +358,6 @@
     .btn {
       padding: 0 10.2rem;
       font-size: 0;
-
-      &-wrapper {
-
-      }
 
       span {
         .font-weight-extrabold;
