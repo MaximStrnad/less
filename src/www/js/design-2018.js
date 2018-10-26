@@ -16,7 +16,7 @@ NavBar.prototype.bind = function () {
 			body.animate({scrollTop: arrow.offset().top - 50}, 500);
 		}
 	});
-}
+};
 
 // -----------------------------------------------------------------------------
 // COOKIE BAR
@@ -43,7 +43,7 @@ CookieBar.prototype.bind = function () {
         $.cookies.set('accepted-cookie', 1,cookieSettings);
         return false;
     });
-}
+};
 
 // -----------------------------------------------------------------------------
 // LEAD FORM
@@ -105,7 +105,7 @@ LeadForm.prototype.bind = function () {
             $('.lead form input[name='+name+']').val(key);
         });
     });
-}
+};
 
 // -----------------------------------------------------------------------------
 // EVENT LISTENER
@@ -117,7 +117,7 @@ function EventListener(window) {
 
 EventListener.prototype.add = function (listener, event) {
 	this.listeners.push({type: event, callback: listener});
-}
+};
 
 EventListener.prototype.bind = function () {
 	var self = this;
@@ -125,7 +125,7 @@ EventListener.prototype.bind = function () {
 
 	$(self.window).resize(self.onResize.bind(this));
 	$(self.window).scroll(self.onScroll.bind(this));
-}
+};
 
 EventListener.prototype.onResize = function () {
 	this.listeners.forEach(function(i) {
@@ -133,7 +133,7 @@ EventListener.prototype.onResize = function () {
 			i.callback.run();
 		}
 	});
-}
+};
 
 EventListener.prototype.onScroll = function () {
 	this.listeners.forEach(function(i) {
@@ -141,13 +141,13 @@ EventListener.prototype.onScroll = function () {
 			i.callback.run();
 		}
 	});
-}
+};
 
 EventListener.prototype.run = function () {
 	this.listeners.forEach(function(i) {
 		i.callback.run();
 	});
-}
+};
 
 // -----------------------------------------------------------------------------
 // PORTFOLIO
@@ -180,7 +180,7 @@ Portfolio.prototype.load = function (thisVisible) {
 		}
 	});
 	thisVisible.animate({opacity: 1}, 250);
-}
+};
 
 // -----------------------------------------------------------------------------
 // CASE STUDY LOADER
@@ -213,7 +213,7 @@ CaseStudyLoader.prototype.run = function () {
 			percentEl.text(0);
 		}
 	}
-}
+};
 
 // -----------------------------------------------------------------------------
 // CASE STUDY PARALLAX
@@ -233,7 +233,7 @@ CaseStudyParallax.prototype.run = function () {
             $(this).css("background-position", "center 0px");
         }
     });
-}
+};
 
 // -----------------------------------------------------------------------------
 // PROTEIN LOGO
@@ -248,14 +248,18 @@ ProteinLogo.prototype.run = function () {
 
 	if(self.position) {
 		if(self.position > top) {
-			$('.header__main-logo').fadeIn(400);
+			setTimeout(function () {
+                $('.header__main-logo').fadeIn(400);
+            }, 700);
+
+            //$('.header__main-logo').fadeIn(400);
 		} else {
 			$('.header__main-logo').fadeOut(200);
 		}
 	}
 
 	self.position = top;
-}
+};
 
 // -----------------------------------------------------------------------------
 // FONT REM MANAGER
@@ -273,7 +277,7 @@ FontRemManager.prototype.run = function () {
 	}
 
 	$('html').css('font-size', +size+'px');
-}
+};
 
 // -----------------------------------------------------------------------------
 // MAIN
